@@ -1,0 +1,9 @@
+/.vscode/* 
+__pycache__
+training_log.json
+Model/checkpoints
+Model/data/features
+Model/data/esm
+Model/data/struct_norm.npz
+Model/data/pdbs
+.venv

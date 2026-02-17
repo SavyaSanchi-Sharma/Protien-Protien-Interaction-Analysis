@@ -1,0 +1,2146 @@
+[START] ESM embedding validation
+
+[TESTING FASTA] Test_315.fa
+
+[CHECK] 4YOCA | L=882
+  ✔ OK | emb=(882, 2560) | 4yoc_A.pt
+
+[CHECK] 5WMMA | L=870
+  ✔ OK | emb=(870, 2560) | 5wmm_A.pt
+
+[CHECK] 5E6UA | L=583
+  ✔ OK | emb=(583, 2560) | 5e6u_A.pt
+
+[CHECK] 4QJ3B | L=756
+  ✔ OK | emb=(756, 2560) | 4qj3_B.pt
+
+[CHECK] 4CGYA | L=619
+  ✔ OK | emb=(619, 2560) | 4cgy_A.pt
+
+[CHECK] 5K04A | L=732
+  ✔ OK | emb=(732, 2560) | 5k04_A.pt
+
+[CHECK] 4L79A | L=734
+  ✔ OK | emb=(734, 2560) | 4l79_A.pt
+
+[CHECK] 6C90A | L=694
+  ✔ OK | emb=(694, 2560) | 6c90_A.pt
+
+[CHECK] 4MH0E | L=627
+  ✔ OK | emb=(627, 2560) | 4mh0_E.pt
+
+[CHECK] 6X07A | L=613
+  ✔ OK | emb=(613, 2560) | 6x07_A.pt
+
+[CHECK] 4CI6B | L=576
+  ✔ OK | emb=(576, 2560) | 4ci6_B.pt
+
+[CHECK] 6I8GA | L=618
+  ✔ OK | emb=(618, 2560) | 6i8g_A.pt
+
+[CHECK] 4CJ0A | L=534
+  ✔ OK | emb=(534, 2560) | 4cj0_A.pt
+
+[CHECK] 6OQ7A | L=541
+  ✔ OK | emb=(541, 2560) | 6oq7_A.pt
+
+[CHECK] 4YOCC | L=529
+  ✔ OK | emb=(529, 2560) | 4yoc_C.pt
+
+[CHECK] 6L4OA | L=429
+  ✔ OK | emb=(429, 2560) | 6l4o_A.pt
+
+[CHECK] 5IMTA | L=460
+  ✔ OK | emb=(460, 2560) | 5imt_A.pt
+
+[CHECK] 5C46E | L=469
+  ✔ OK | emb=(469, 2560) | 5c46_E.pt
+
+[CHECK] 6C0BA | L=506
+  ✔ OK | emb=(506, 2560) | 6c0b_A.pt
+
+[CHECK] 6E8EA | L=468
+  ✔ OK | emb=(468, 2560) | 6e8e_A.pt
+
+[CHECK] 5XBFA | L=467
+  ✔ OK | emb=(467, 2560) | 5xbf_A.pt
+
+[CHECK] 4US0S | L=454
+  ✔ OK | emb=(454, 2560) | 4us0_S.pt
+
+[CHECK] 4TX3B | L=457
+  ✔ OK | emb=(457, 2560) | 4tx3_B.pt
+
+[CHECK] 5CM8A | L=419
+  ✔ OK | emb=(419, 2560) | 5cm8_A.pt
+
+[CHECK] 4UAFB | L=425
+  ✔ OK | emb=(425, 2560) | 4uaf_B.pt
+
+[CHECK] 5CECA | L=401
+  ✔ OK | emb=(401, 2560) | 5cec_A.pt
+
+[CHECK] 5KP7A | L=410
+  ✔ OK | emb=(410, 2560) | 5kp7_A.pt
+
+[CHECK] 6AW3B | L=351
+  ✔ OK | emb=(351, 2560) | 6aw3_B.pt
+
+[CHECK] 4ZGYA | L=383
+  ✔ OK | emb=(383, 2560) | 4zgy_A.pt
+
+[CHECK] 6FCVB | L=365
+  ✔ OK | emb=(365, 2560) | 6fcv_B.pt
+
+[CHECK] 4TX3A | L=373
+  ✔ OK | emb=(373, 2560) | 4tx3_A.pt
+
+[CHECK] 7BXFA | L=369
+  ✔ OK | emb=(369, 2560) | 7bxf_A.pt
+
+[CHECK] 4QAMA | L=364
+  ✔ OK | emb=(364, 2560) | 4qam_A.pt
+
+[CHECK] 4N80A | L=399
+  ✔ OK | emb=(399, 2560) | 4n80_A.pt
+
+[CHECK] 4HT3B | L=393
+  ✔ OK | emb=(393, 2560) | 4ht3_B.pt
+
+[CHECK] 6L1YA | L=341
+  ✔ OK | emb=(341, 2560) | 6l1y_A.pt
+
+[CHECK] 5WXKA | L=375
+  ✔ OK | emb=(375, 2560) | 5wxk_A.pt
+
+[CHECK] 4YC7B | L=291
+  ✔ OK | emb=(291, 2560) | 4yc7_B.pt
+
+[CHECK] 6I4EA | L=351
+  ✔ OK | emb=(351, 2560) | 6i4e_A.pt
+
+[CHECK] 4XGAA | L=347
+  ✔ OK | emb=(347, 2560) | 4xga_A.pt
+
+[CHECK] 5MU7A | L=371
+  ✔ OK | emb=(371, 2560) | 5mu7_A.pt
+
+[CHECK] 6KP3A | L=357
+  ✔ OK | emb=(357, 2560) | 6kp3_A.pt
+
+[CHECK] 5CXBB | L=352
+  ✔ OK | emb=(352, 2560) | 5cxb_B.pt
+
+[CHECK] 6X90B | L=344
+  ✔ OK | emb=(344, 2560) | 6x90_B.pt
+
+[CHECK] 6L59B | L=331
+  ✔ OK | emb=(331, 2560) | 6l59_B.pt
+
+[CHECK] 5XVEA | L=331
+  ✔ OK | emb=(331, 2560) | 5xve_A.pt
+
+[CHECK] 5KYCB | L=340
+  ✔ OK | emb=(340, 2560) | 5kyc_B.pt
+
+[CHECK] 6RLLB | L=303
+  ✔ OK | emb=(303, 2560) | 6rll_B.pt
+
+[CHECK] 6EI1A | L=335
+  ✔ OK | emb=(335, 2560) | 6ei1_A.pt
+
+[CHECK] 6JZYA | L=342
+  ✔ OK | emb=(342, 2560) | 6jzy_A.pt
+
+[CHECK] 6ZMDB | L=332
+  ✔ OK | emb=(332, 2560) | 6zmd_B.pt
+
+[CHECK] 5CZDA | L=301
+  ✔ OK | emb=(301, 2560) | 5czd_A.pt
+
+[CHECK] 4ZGNA | L=279
+  ✔ OK | emb=(279, 2560) | 4zgn_A.pt
+
+[CHECK] 6FV0A | L=270
+  ✔ OK | emb=(270, 2560) | 6fv0_A.pt
+
+[CHECK] 4X33B | L=325
+  ✔ OK | emb=(325, 2560) | 4x33_B.pt
+
+[CHECK] 6CH3A | L=324
+  ✔ OK | emb=(324, 2560) | 6ch3_A.pt
+
+[CHECK] 6KIPB | L=272
+  ✔ OK | emb=(272, 2560) | 6kip_B.pt
+
+[CHECK] 6W2LA | L=328
+  ✔ OK | emb=(328, 2560) | 6w2l_A.pt
+
+[CHECK] 4M0WA | L=317
+  ✔ OK | emb=(317, 2560) | 4m0w_A.pt
+
+[CHECK] 4BMPA | L=290
+  ✔ OK | emb=(290, 2560) | 4bmp_A.pt
+
+[CHECK] 6G4JA | L=273
+  ✔ OK | emb=(273, 2560) | 6g4j_A.pt
+
+[CHECK] 5BZ0A | L=248
+  ✔ OK | emb=(248, 2560) | 5bz0_A.pt
+
+[CHECK] 4XLGA | L=260
+  ✔ OK | emb=(260, 2560) | 4xlg_A.pt
+
+[CHECK] 5FFNA | L=311
+  ✔ OK | emb=(311, 2560) | 5ffn_A.pt
+
+[CHECK] 5MAWD | L=260
+  ✔ OK | emb=(260, 2560) | 5maw_D.pt
+
+[CHECK] 6U3WB | L=291
+  ✔ OK | emb=(291, 2560) | 6u3w_B.pt
+
+[CHECK] 4RCAA | L=300
+  ✔ OK | emb=(300, 2560) | 4rca_A.pt
+
+[CHECK] 5L2WB | L=270
+  ✔ OK | emb=(270, 2560) | 5l2w_B.pt
+
+[CHECK] 6ACIA | L=304
+  ✔ OK | emb=(304, 2560) | 6aci_A.pt
+
+[CHECK] 6KIPA | L=293
+  ✔ OK | emb=(293, 2560) | 6kip_A.pt
+
+[CHECK] 5YNMA | L=290
+  ✔ OK | emb=(290, 2560) | 5ynm_A.pt
+
+[CHECK] 6U3WA | L=303
+  ✔ OK | emb=(303, 2560) | 6u3w_A.pt
+
+[CHECK] 5IL2B | L=284
+  ✔ OK | emb=(284, 2560) | 5il2_B.pt
+
+[CHECK] 6GHOB | L=274
+  ✔ OK | emb=(274, 2560) | 6gho_B.pt
+
+[CHECK] 6RTWA | L=277
+  ✔ OK | emb=(277, 2560) | 6rtw_A.pt
+
+[CHECK] 6LKIA | L=294
+  ✔ OK | emb=(294, 2560) | 6lki_A.pt
+
+[CHECK] 5H65A | L=289
+  ✔ OK | emb=(289, 2560) | 5h65_A.pt
+
+[CHECK] 5U8CA | L=284
+  ✔ OK | emb=(284, 2560) | 5u8c_A.pt
+
+[CHECK] 4X6RB | L=290
+  ✔ OK | emb=(290, 2560) | 4x6r_B.pt
+
+[CHECK] 5JQSA | L=251
+  ✔ OK | emb=(251, 2560) | 5jqs_A.pt
+
+[CHECK] 5VXMA | L=243
+  ✔ OK | emb=(243, 2560) | 5vxm_A.pt
+
+[CHECK] 5XLYA | L=267
+  ✔ OK | emb=(267, 2560) | 5xly_A.pt
+
+[CHECK] 5ZWLG | L=254
+  ✔ OK | emb=(254, 2560) | 5zwl_G.pt
+
+[CHECK] 6QTAA | L=258
+  ✔ OK | emb=(258, 2560) | 6qta_A.pt
+
+[CHECK] 6VCLA | L=275
+  ✔ OK | emb=(275, 2560) | 6vcl_A.pt
+
+[CHECK] 6Y4LA | L=271
+  ✔ OK | emb=(271, 2560) | 6y4l_A.pt
+
+[CHECK] 5OE7A | L=266
+  ✔ OK | emb=(266, 2560) | 5oe7_A.pt
+
+[CHECK] 4WEMA | L=248
+  ✔ OK | emb=(248, 2560) | 4wem_A.pt
+
+[CHECK] 4HT3A | L=268
+  ✔ OK | emb=(268, 2560) | 4ht3_A.pt
+
+[CHECK] 4RHZA | L=259
+  ✔ OK | emb=(259, 2560) | 4rhz_A.pt
+
+[CHECK] 6INEA | L=247
+  ✔ OK | emb=(247, 2560) | 6ine_A.pt
+
+[CHECK] 6IRDB | L=254
+  ✔ OK | emb=(254, 2560) | 6ird_B.pt
+
+[CHECK] 6DFLA | L=241
+  ✔ OK | emb=(241, 2560) | 6dfl_A.pt
+
+[CHECK] 5TVQA | L=253
+  ✔ OK | emb=(253, 2560) | 5tvq_A.pt
+
+[CHECK] 4TTHA | L=244
+  ✔ OK | emb=(244, 2560) | 4tth_A.pt
+
+[CHECK] 6JZYB | L=218
+  ✔ OK | emb=(218, 2560) | 6jzy_B.pt
+
+[CHECK] 6SWTA | L=228
+  ✔ OK | emb=(228, 2560) | 6swt_A.pt
+
+[CHECK] 6WCWA | L=247
+  ✔ OK | emb=(247, 2560) | 6wcw_A.pt
+
+[CHECK] 6K9PB | L=241
+  ✔ OK | emb=(241, 2560) | 6k9p_B.pt
+
+[CHECK] 6M3IB | L=234
+  ✔ OK | emb=(234, 2560) | 6m3i_B.pt
+
+[CHECK] 5E8CA | L=238
+  ✔ OK | emb=(238, 2560) | 5e8c_A.pt
+
+[CHECK] 5JWOA | L=217
+  ✔ OK | emb=(217, 2560) | 5jwo_A.pt
+
+[CHECK] 4XGAB | L=174
+  ✔ OK | emb=(174, 2560) | 4xga_B.pt
+
+[CHECK] 5NCMA | L=183
+  ✔ OK | emb=(183, 2560) | 5ncm_A.pt
+
+[CHECK] 4YK8B | L=194
+  ✔ OK | emb=(194, 2560) | 4yk8_B.pt
+
+[CHECK] 6HULA | L=241
+  ✔ OK | emb=(241, 2560) | 6hul_A.pt
+
+[CHECK] 6THLA | L=219
+  ✔ OK | emb=(219, 2560) | 6thl_A.pt
+
+[CHECK] 5F4EA | L=233
+  ✔ OK | emb=(233, 2560) | 5f4e_A.pt
+
+[CHECK] 6RMNB | L=222
+  ✔ OK | emb=(222, 2560) | 6rmn_B.pt
+
+[CHECK] 6SDVB | L=214
+  ✔ OK | emb=(214, 2560) | 6sdv_B.pt
+
+[CHECK] 4YN0B | L=202
+  ✔ OK | emb=(202, 2560) | 4yn0_B.pt
+
+[CHECK] 4CRWA | L=226
+  ✔ OK | emb=(226, 2560) | 4crw_A.pt
+
+[CHECK] 4YXCB | L=167
+  ✔ OK | emb=(167, 2560) | 4yxc_B.pt
+
+[CHECK] 6ISCA | L=219
+  ✔ OK | emb=(219, 2560) | 6isc_A.pt
+
+[CHECK] 6IMFA | L=214
+  ✔ OK | emb=(214, 2560) | 6imf_A.pt
+
+[CHECK] 5DQSA | L=210
+  ✔ OK | emb=(210, 2560) | 5dqs_A.pt
+
+[CHECK] 5GPYA | L=177
+  ✔ OK | emb=(177, 2560) | 5gpy_A.pt
+
+[CHECK] 5JP1A | L=199
+  ✔ OK | emb=(199, 2560) | 5jp1_A.pt
+
+[CHECK] 4CGYB | L=205
+  ✔ OK | emb=(205, 2560) | 4cgy_B.pt
+
+[CHECK] 4BVXA | L=203
+  ✔ OK | emb=(203, 2560) | 4bvx_A.pt
+
+[CHECK] 4C2AA | L=202
+  ✔ OK | emb=(202, 2560) | 4c2a_A.pt
+
+[CHECK] 4WZ3B | L=183
+  ✔ OK | emb=(183, 2560) | 4wz3_B.pt
+
+[CHECK] 5F4EB | L=209
+  ✔ OK | emb=(209, 2560) | 5f4e_B.pt
+
+[CHECK] 6H2UA | L=202
+  ✔ OK | emb=(202, 2560) | 6h2u_A.pt
+
+[CHECK] 6W2LB | L=195
+  ✔ OK | emb=(195, 2560) | 6w2l_B.pt
+
+[CHECK] 5EE5A | L=201
+  ✔ OK | emb=(201, 2560) | 5ee5_A.pt
+
+[CHECK] 5FR1B | L=165
+  ✔ OK | emb=(165, 2560) | 5fr1_B.pt
+
+[CHECK] 6MM8D | L=206
+  ✔ OK | emb=(206, 2560) | 6mm8_D.pt
+
+[CHECK] 5C2JA | L=201
+  ✔ OK | emb=(201, 2560) | 5c2j_A.pt
+
+[CHECK] 5EO9B | L=205
+  ✔ OK | emb=(205, 2560) | 5eo9_B.pt
+
+[CHECK] 5CM2Z | L=184
+  ✔ OK | emb=(184, 2560) | 5cm2_Z.pt
+
+[CHECK] 6IF2A | L=195
+  ✔ OK | emb=(195, 2560) | 6if2_A.pt
+
+[CHECK] 4QAMB | L=180
+  ✔ OK | emb=(180, 2560) | 4qam_B.pt
+
+[CHECK] 4QLPB | L=199
+  ✔ OK | emb=(199, 2560) | 4qlp_B.pt
+
+[CHECK] 6L4PA | L=195
+  ✔ OK | emb=(195, 2560) | 6l4p_A.pt
+
+[CHECK] 5C50A | L=198
+  ✔ OK | emb=(198, 2560) | 5c50_A.pt
+
+[CHECK] 6G8RB | L=164
+  ✔ OK | emb=(164, 2560) | 6g8r_B.pt
+
+[CHECK] 4ZFRA | L=185
+  ✔ OK | emb=(185, 2560) | 4zfr_A.pt
+
+[CHECK] 5OECA | L=187
+  ✔ OK | emb=(187, 2560) | 5oec_A.pt
+
+[CHECK] 4U5YA | L=165
+  ✔ OK | emb=(165, 2560) | 4u5y_A.pt
+
+[CHECK] 5C50B | L=185
+  ✔ OK | emb=(185, 2560) | 5c50_B.pt
+
+[CHECK] 6PNPA | L=193
+  ✔ OK | emb=(193, 2560) | 6pnp_A.pt
+
+[CHECK] 4KDLA | L=174
+  ✔ OK | emb=(174, 2560) | 4kdl_A.pt
+
+[CHECK] 5CHLB | L=176
+  ✔ OK | emb=(176, 2560) | 5chl_B.pt
+
+[CHECK] 6NDUA | L=170
+  ✔ OK | emb=(170, 2560) | 6ndu_A.pt
+
+[CHECK] 6WTGA | L=169
+  ✔ OK | emb=(169, 2560) | 6wtg_A.pt
+
+[CHECK] 4WKZB | L=184
+  ✔ OK | emb=(184, 2560) | 4wkz_B.pt
+
+[CHECK] 4YN0A | L=168
+  ✔ OK | emb=(168, 2560) | 4yn0_A.pt
+
+[CHECK] 5B64A | L=180
+  ✔ OK | emb=(180, 2560) | 5b64_A.pt
+
+[CHECK] 6LBUA | L=185
+  ✔ OK | emb=(185, 2560) | 6lbu_A.pt
+
+[CHECK] 6PGVA | L=152
+  ✔ OK | emb=(152, 2560) | 6pgv_A.pt
+
+[CHECK] 4WW7B | L=172
+  ✔ OK | emb=(172, 2560) | 4ww7_B.pt
+
+[CHECK] 4YK8A | L=162
+  ✔ OK | emb=(162, 2560) | 4yk8_A.pt
+
+[CHECK] 4ZQUB | L=174
+  ✔ OK | emb=(174, 2560) | 4zqu_B.pt
+
+[CHECK] 6THLB | L=150
+  ✔ OK | emb=(150, 2560) | 6thl_B.pt
+
+[CHECK] 5K22A | L=156
+  ✔ OK | emb=(156, 2560) | 5k22_A.pt
+
+[CHECK] 4P3YB | L=181
+  ✔ OK | emb=(181, 2560) | 4p3y_B.pt
+
+[CHECK] 7CN7A | L=178
+  ✔ OK | emb=(178, 2560) | 7cn7_A.pt
+
+[CHECK] 4QXAB | L=147
+  ✔ OK | emb=(147, 2560) | 4qxa_B.pt
+
+[CHECK] 5O33B | L=179
+  ✔ OK | emb=(179, 2560) | 5o33_B.pt
+
+[CHECK] 6W9SA | L=178
+  ✔ OK | emb=(178, 2560) | 6w9s_A.pt
+
+[CHECK] 6INEB | L=159
+  ✔ OK | emb=(159, 2560) | 6ine_B.pt
+
+[CHECK] 6L1YC | L=177
+  ✔ OK | emb=(177, 2560) | 6l1y_C.pt
+
+[CHECK] 4QLPA | L=175
+  ✔ OK | emb=(175, 2560) | 4qlp_A.pt
+
+[CHECK] 5D5NA | L=162
+  ✔ OK | emb=(162, 2560) | 5d5n_A.pt
+
+[CHECK] 5OENB | L=171
+  ✔ OK | emb=(171, 2560) | 5oen_B.pt
+
+[CHECK] 5W59A | L=146
+  ✔ OK | emb=(146, 2560) | 5w59_A.pt
+
+[CHECK] 5V5HA | L=163
+  ✔ OK | emb=(163, 2560) | 5v5h_A.pt
+
+[CHECK] 6IF3A | L=159
+  ✔ OK | emb=(159, 2560) | 6if3_A.pt
+
+[CHECK] 5DMRA | L=139
+  ✔ OK | emb=(139, 2560) | 5dmr_A.pt
+
+[CHECK] 4BVXB | L=170
+  ✔ OK | emb=(170, 2560) | 4bvx_B.pt
+
+[CHECK] 5E8CB | L=168
+  ✔ OK | emb=(168, 2560) | 5e8c_B.pt
+
+[CHECK] 5OENA | L=165
+  ✔ OK | emb=(165, 2560) | 5oen_A.pt
+
+[CHECK] 6LKIB | L=170
+  ✔ OK | emb=(170, 2560) | 6lki_B.pt
+
+[CHECK] 6MBAA | L=130
+  ✔ OK | emb=(130, 2560) | 6mba_A.pt
+
+[CHECK] 6MAVA | L=161
+  ✔ OK | emb=(161, 2560) | 6mav_A.pt
+
+[CHECK] 6PNPB | L=132
+  ✔ OK | emb=(132, 2560) | 6pnp_B.pt
+
+[CHECK] 6ZDTB | L=166
+  ✔ OK | emb=(166, 2560) | 6zdt_B.pt
+
+[CHECK] 7AZBA | L=160
+  ✔ OK | emb=(160, 2560) | 7azb_A.pt
+
+[CHECK] 6FFAA | L=156
+  ✔ OK | emb=(156, 2560) | 6ffa_A.pt
+
+[CHECK] 3WSOB | L=139
+  ✔ OK | emb=(139, 2560) | 3wso_B.pt
+
+[CHECK] 6HLVA | L=127
+  ✔ OK | emb=(127, 2560) | 6hlv_A.pt
+
+[CHECK] 5JQPB | L=131
+  ✔ OK | emb=(131, 2560) | 5jqp_B.pt
+
+[CHECK] 4ZV0A | L=137
+  ✔ OK | emb=(137, 2560) | 4zv0_A.pt
+
+[CHECK] 6VCLB | L=160
+  ✔ OK | emb=(160, 2560) | 6vcl_B.pt
+
+[CHECK] 4ONMB | L=149
+  ✔ OK | emb=(149, 2560) | 4onm_B.pt
+
+[CHECK] 4RLJA | L=144
+  ✔ OK | emb=(144, 2560) | 4rlj_A.pt
+
+[CHECK] 4XAXB | L=158
+  ✔ OK | emb=(158, 2560) | 4xax_B.pt
+
+[CHECK] 6UX8A | L=152
+  ✔ OK | emb=(152, 2560) | 6ux8_A.pt
+
+[CHECK] 5K22B | L=149
+  ✔ OK | emb=(149, 2560) | 5k22_B.pt
+
+[CHECK] 5E0QB | L=152
+  ✔ OK | emb=(152, 2560) | 5e0q_B.pt
+
+[CHECK] 5SZHA | L=143
+  ✔ OK | emb=(143, 2560) | 5szh_A.pt
+
+[CHECK] 4UYQA | L=143
+  ✔ OK | emb=(143, 2560) | 4uyq_A.pt
+
+[CHECK] 4W6XA | L=142
+  ✔ OK | emb=(142, 2560) | 4w6x_A.pt
+
+[CHECK] 5DMBA | L=140
+  ✔ OK | emb=(140, 2560) | 5dmb_A.pt
+
+[CHECK] 5M2OA | L=137
+  ✔ OK | emb=(137, 2560) | 5m2o_A.pt
+
+[CHECK] 5V03R | L=145
+  ✔ OK | emb=(145, 2560) | 5v03_R.pt
+
+[CHECK] 6DEXA | L=130
+  ✔ OK | emb=(130, 2560) | 6dex_A.pt
+
+[CHECK] 6G4JB | L=122
+  ✔ OK | emb=(122, 2560) | 6g4j_B.pt
+
+[CHECK] 4RLJB | L=147
+  ✔ OK | emb=(147, 2560) | 4rlj_B.pt
+
+[CHECK] 6BCBA | L=145
+  ✔ OK | emb=(145, 2560) | 6bcb_A.pt
+
+[CHECK] 5C2UA | L=116
+  ✔ OK | emb=(116, 2560) | 5c2u_A.pt
+
+[CHECK] 6ZIEA | L=123
+  ✔ OK | emb=(123, 2560) | 6zie_A.pt
+
+[CHECK] 4Y2OB | L=142
+  ✔ OK | emb=(142, 2560) | 4y2o_B.pt
+
+[CHECK] 5VGBA | L=140
+  ✔ OK | emb=(140, 2560) | 5vgb_A.pt
+
+[CHECK] 5NRMA | L=140
+  ✔ OK | emb=(140, 2560) | 5nrm_A.pt
+
+[CHECK] 6LBUB | L=135
+  ✔ OK | emb=(135, 2560) | 6lbu_B.pt
+
+[CHECK] 5YNMB | L=120
+  ✔ OK | emb=(120, 2560) | 5ynm_B.pt
+
+[CHECK] 5ZWLE | L=138
+  ✔ OK | emb=(138, 2560) | 5zwl_E.pt
+
+[CHECK] 6KMQB | L=116
+  ✔ OK | emb=(116, 2560) | 6kmq_B.pt
+
+[CHECK] 4U5YD | L=115
+  ✔ OK | emb=(115, 2560) | 4u5y_D.pt
+
+[CHECK] 4ZGYB | L=125
+  ✔ OK | emb=(125, 2560) | 4zgy_B.pt
+
+[CHECK] 5F22B | L=115
+  ✔ OK | emb=(115, 2560) | 5f22_B.pt
+
+[CHECK] 3X37B | L=130
+  ✔ OK | emb=(130, 2560) | 3x37_B.pt
+
+[CHECK] 5D1MB | L=110
+  ✔ OK | emb=(110, 2560) | 5d1m_B.pt
+
+[CHECK] 5IWBA | L=109
+  ✔ OK | emb=(109, 2560) | 5iwb_A.pt
+
+[CHECK] 5MAWE | L=112
+  ✔ OK | emb=(112, 2560) | 5maw_E.pt
+
+[CHECK] 5XLYB | L=121
+  ✔ OK | emb=(121, 2560) | 5xly_B.pt
+
+[CHECK] 5IWBB | L=117
+  ✔ OK | emb=(117, 2560) | 5iwb_B.pt
+
+[CHECK] 5LDAA | L=130
+  ✔ OK | emb=(130, 2560) | 5lda_A.pt
+
+[CHECK] 6MIBB | L=124
+  ✔ OK | emb=(124, 2560) | 6mib_B.pt
+
+[CHECK] 4CMMA | L=117
+  ✔ OK | emb=(117, 2560) | 4cmm_A.pt
+
+[CHECK] 4CMMB | L=119
+  ✔ OK | emb=(119, 2560) | 4cmm_B.pt
+
+[CHECK] 5IMMA | L=120
+  ✔ OK | emb=(120, 2560) | 5imm_A.pt
+
+[CHECK] 4RHZB | L=125
+  ✔ OK | emb=(125, 2560) | 4rhz_B.pt
+
+[CHECK] 5B64B | L=116
+  ✔ OK | emb=(116, 2560) | 5b64_B.pt
+
+[CHECK] 4N80B | L=122
+  ✔ OK | emb=(122, 2560) | 4n80_B.pt
+
+[CHECK] 5XBFB | L=119
+  ✔ OK | emb=(119, 2560) | 5xbf_B.pt
+
+[CHECK] 4ZQUA | L=124
+  ✔ OK | emb=(124, 2560) | 4zqu_A.pt
+
+[CHECK] 3X37A | L=113
+  ✔ OK | emb=(113, 2560) | 3x37_A.pt
+
+[CHECK] 4QJFB | L=122
+  ✔ OK | emb=(122, 2560) | 4qjf_B.pt
+
+[CHECK] 5WP3B | L=100
+  ✔ OK | emb=(100, 2560) | 5wp3_B.pt
+
+[CHECK] 5ZZAP | L=119
+  ✔ OK | emb=(119, 2560) | 5zza_P.pt
+
+[CHECK] 6SM5A | L=106
+  ✔ OK | emb=(106, 2560) | 6sm5_A.pt
+
+[CHECK] 4BMPB | L=117
+  ✔ OK | emb=(117, 2560) | 4bmp_B.pt
+
+[CHECK] 6H1FB | L=102
+  ✔ OK | emb=(102, 2560) | 6h1f_B.pt
+
+[CHECK] 6KP3B | L=112
+  ✔ OK | emb=(112, 2560) | 6kp3_B.pt
+
+[CHECK] 6H2UB | L=118
+  ✔ OK | emb=(118, 2560) | 6h2u_B.pt
+
+[CHECK] 6KMQA | L=91
+  ✔ OK | emb=(91, 2560) | 6kmq_A.pt
+
+[CHECK] 5J26A | L=114
+  ✔ OK | emb=(114, 2560) | 5j26_A.pt
+
+[CHECK] 5L8LB | L=109
+  ✔ OK | emb=(109, 2560) | 5l8l_B.pt
+
+[CHECK] 6C7YB | L=117
+  ✔ OK | emb=(117, 2560) | 6c7y_B.pt
+
+[CHECK] 6OD1B | L=106
+  ✔ OK | emb=(106, 2560) | 6od1_B.pt
+
+[CHECK] 3WDGB | L=110
+  ✔ OK | emb=(110, 2560) | 3wdg_B.pt
+
+[CHECK] 4RS1A | L=105
+  ✔ OK | emb=(105, 2560) | 4rs1_A.pt
+
+[CHECK] 5JNOA | L=97
+  ✔ OK | emb=(97, 2560) | 5jno_A.pt
+
+[CHECK] 5KNHI | L=97
+  ✔ OK | emb=(97, 2560) | 5knh_I.pt
+
+[CHECK] 6R6MA | L=110
+  ✔ OK | emb=(110, 2560) | 6r6m_A.pt
+
+[CHECK] 6AW3A | L=108
+  ✔ OK | emb=(108, 2560) | 6aw3_A.pt
+
+[CHECK] 5GPYB | L=101
+  ✔ OK | emb=(101, 2560) | 5gpy_B.pt
+
+[CHECK] 6QTAB | L=101
+  ✔ OK | emb=(101, 2560) | 6qta_B.pt
+
+[CHECK] 7BXFC | L=104
+  ✔ OK | emb=(104, 2560) | 7bxf_C.pt
+
+[CHECK] 4PW9B | L=83
+  ✔ OK | emb=(83, 2560) | 4pw9_B.pt
+
+[CHECK] 5FQ2B | L=100
+  ✔ OK | emb=(100, 2560) | 5fq2_B.pt
+
+[CHECK] 5NCMB | L=90
+  ✔ OK | emb=(90, 2560) | 5ncm_B.pt
+
+[CHECK] 4C4KT | L=97
+  ✔ OK | emb=(97, 2560) | 4c4k_T.pt
+
+[CHECK] 5V03B | L=86
+  ✔ OK | emb=(86, 2560) | 5v03_B.pt
+
+[CHECK] 6R6MB | L=100
+  ✔ OK | emb=(100, 2560) | 6r6m_B.pt
+
+[CHECK] 5JWOB | L=88
+  ✔ OK | emb=(88, 2560) | 5jwo_B.pt
+
+[CHECK] 7CD8A | L=99
+  ✔ OK | emb=(99, 2560) | 7cd8_A.pt
+
+[CHECK] 4Y5OA | L=78
+  ✔ OK | emb=(78, 2560) | 4y5o_A.pt
+
+[CHECK] 7BU5A | L=84
+  ✔ OK | emb=(84, 2560) | 7bu5_A.pt
+
+[CHECK] 5E95B | L=92
+  ✔ OK | emb=(92, 2560) | 5e95_B.pt
+
+[CHECK] 6IXXI | L=97
+  ✔ OK | emb=(97, 2560) | 6ixx_I.pt
+
+[CHECK] 5M2OB | L=74
+  ✔ OK | emb=(74, 2560) | 5m2o_B.pt
+
+[CHECK] 6O6EE | L=75
+  ✔ OK | emb=(75, 2560) | 6o6e_E.pt
+
+[CHECK] 6WH1A | L=95
+  ✔ OK | emb=(95, 2560) | 6wh1_A.pt
+
+[CHECK] 4ZV0B | L=94
+  ✔ OK | emb=(94, 2560) | 4zv0_B.pt
+
+[CHECK] 5KEVA | L=90
+  ✔ OK | emb=(90, 2560) | 5kev_A.pt
+
+[CHECK] 6FUBB | L=93
+  ✔ OK | emb=(93, 2560) | 6fub_B.pt
+
+[CHECK] 6NDUB | L=84
+  ✔ OK | emb=(84, 2560) | 6ndu_B.pt
+
+[CHECK] 6ACIH | L=87
+  ✔ OK | emb=(87, 2560) | 6aci_H.pt
+
+[CHECK] 6SWTB | L=88
+  ✔ OK | emb=(88, 2560) | 6swt_B.pt
+
+[CHECK] 4MRTC | L=77
+  ✔ OK | emb=(77, 2560) | 4mrt_C.pt
+
+[CHECK] 4YIIA | L=72
+  ✔ OK | emb=(72, 2560) | 4yii_A.pt
+
+[CHECK] 5F22A | L=79
+  ✔ OK | emb=(79, 2560) | 5f22_A.pt
+
+[CHECK] 4UAFE | L=72
+  ✔ OK | emb=(72, 2560) | 4uaf_E.pt
+
+[CHECK] 5SVHA | L=85
+  ✔ OK | emb=(85, 2560) | 5svh_A.pt
+
+[CHECK] 5VGBB | L=85
+  ✔ OK | emb=(85, 2560) | 5vgb_B.pt
+
+[CHECK] 4UDMA | L=84
+  ✔ OK | emb=(84, 2560) | 4udm_A.pt
+
+[CHECK] 5B5WU | L=64
+  ✔ OK | emb=(64, 2560) | 5b5w_U.pt
+
+[CHECK] 5CZDB | L=77
+  ✔ OK | emb=(77, 2560) | 5czd_B.pt
+
+[CHECK] 6ODDA | L=85
+  ✔ OK | emb=(85, 2560) | 6odd_A.pt
+
+[CHECK] 4K12B | L=82
+  ✔ OK | emb=(82, 2560) | 4k12_B.pt
+
+[CHECK] 5DMBD | L=72
+  ✔ OK | emb=(72, 2560) | 5dmb_D.pt
+
+[CHECK] 5XEDA | L=82
+  ✔ OK | emb=(82, 2560) | 5xed_A.pt
+
+[CHECK] 4CJ0B | L=60
+  ✔ OK | emb=(60, 2560) | 4cj0_B.pt
+
+[CHECK] 6EA3A | L=70
+  ✔ OK | emb=(70, 2560) | 6ea3_A.pt
+
+[CHECK] 6FC0B | L=77
+  ✔ OK | emb=(77, 2560) | 6fc0_B.pt
+
+[CHECK] 6FUBA | L=81
+  ✔ OK | emb=(81, 2560) | 6fub_A.pt
+
+[CHECK] 7D2SB | L=70
+  ✔ OK | emb=(70, 2560) | 7d2s_B.pt
+
+[CHECK] 4XLGB | L=67
+  ✔ OK | emb=(67, 2560) | 4xlg_B.pt
+
+[CHECK] 4ZRLB | L=64
+  ✔ OK | emb=(64, 2560) | 4zrl_B.pt
+
+[CHECK] 5IMTD | L=77
+  ✔ OK | emb=(77, 2560) | 5imt_D.pt
+
+[CHECK] 7CN7C | L=75
+  ✔ OK | emb=(75, 2560) | 7cn7_C.pt
+
+[CHECK] 5CHLA | L=68
+  ✔ OK | emb=(68, 2560) | 5chl_A.pt
+
+[CHECK] 6ODDB | L=74
+  ✔ OK | emb=(74, 2560) | 6odd_B.pt
+
+[CHECK] 6TRIB | L=69
+  ✔ OK | emb=(69, 2560) | 6tri_B.pt
+
+[CHECK] 4YH8B | L=55
+  ✔ OK | emb=(55, 2560) | 4yh8_B.pt
+
+[CHECK] 5J4SB | L=60
+  ✔ OK | emb=(60, 2560) | 5j4s_B.pt
+
+[CHECK] 5ABUB | L=58
+  ✔ OK | emb=(58, 2560) | 5abu_B.pt
+
+[CHECK] 5WXKB | L=66
+  ✔ OK | emb=(66, 2560) | 5wxk_B.pt
+
+[CHECK] 6BN1B | L=70
+  ✔ OK | emb=(70, 2560) | 6bn1_B.pt
+
+[CHECK] 6GR8B | L=64
+  ✔ OK | emb=(64, 2560) | 6gr8_B.pt
+
+[CHECK] 5LDAB | L=57
+  ✔ OK | emb=(57, 2560) | 5lda_B.pt
+
+[CHECK] 5EU0B | L=55
+  ✔ OK | emb=(55, 2560) | 5eu0_B.pt
+
+[CHECK] 6KBRC | L=55
+  ✔ OK | emb=(55, 2560) | 6kbr_C.pt
+
+[CHECK] 4K12A | L=64
+  ✔ OK | emb=(64, 2560) | 4k12_A.pt
+
+[CHECK] 4X33A | L=60
+  ✔ OK | emb=(60, 2560) | 4x33_A.pt
+
+[CHECK] 7BU5B | L=49
+  ✔ OK | emb=(49, 2560) | 7bu5_B.pt
+
+[CHECK] 5AIEA | L=54
+  ✔ OK | emb=(54, 2560) | 5aie_A.pt
+
+[CHECK] 5JNOB | L=57
+  ✔ OK | emb=(57, 2560) | 5jno_B.pt
+
+[CHECK] 6BN1A | L=54
+  ✔ OK | emb=(54, 2560) | 6bn1_A.pt
+
+[CHECK] 5H65B | L=53
+  ✔ OK | emb=(53, 2560) | 5h65_B.pt
+
+[CHECK] 6FC3B | L=46
+  ✔ OK | emb=(46, 2560) | 6fc3_B.pt
+
+[RESULT] 315/315 passed
+
+[TESTING FASTA] Test_60.fa
+
+[CHECK] 2v9tA | L=107
+  ✔ OK | emb=(107, 2560) | 2v9t_A.pt
+
+[CHECK] 4h3kB | L=189
+  ✔ OK | emb=(189, 2560) | 4h3k_B.pt
+
+[CHECK] 3uvjA | L=191
+  ✔ OK | emb=(191, 2560) | 3uvj_A.pt
+
+[CHECK] 4emjB | L=106
+  ✔ OK | emb=(106, 2560) | 4emj_B.pt
+
+[CHECK] 4je3B | L=77
+  ✔ OK | emb=(77, 2560) | 4je3_B.pt
+
+[CHECK] 3cf4A | L=766
+  ✔ OK | emb=(766, 2560) | 3cf4_A.pt
+
+[CHECK] 4g6tA | L=128
+  ✔ OK | emb=(128, 2560) | 4g6t_A.pt
+
+[CHECK] 4nqwB | L=73
+  ✔ OK | emb=(73, 2560) | 4nqw_B.pt
+
+[CHECK] 3tu3A | L=119
+  ✔ OK | emb=(119, 2560) | 3tu3_A.pt
+
+[CHECK] 1e96B | L=185
+  ✔ OK | emb=(185, 2560) | 1e96_B.pt
+
+[CHECK] 1v74A | L=107
+  ✔ OK | emb=(107, 2560) | 1v74_A.pt
+
+[CHECK] 3mcbA | L=54
+  ✔ OK | emb=(54, 2560) | 3mcb_A.pt
+
+[CHECK] 1qa9A | L=102
+  ✔ OK | emb=(102, 2560) | 1qa9_A.pt
+
+[CHECK] 2qklA | L=121
+  ✔ OK | emb=(121, 2560) | 2qkl_A.pt
+
+[CHECK] 3zheB | L=390
+  ✔ OK | emb=(390, 2560) | 3zhe_B.pt
+
+[CHECK] 1t6bY | L=170
+  ✔ OK | emb=(170, 2560) | 1t6b_Y.pt
+
+[CHECK] 3f6qA | L=169
+  ✔ OK | emb=(169, 2560) | 3f6q_A.pt
+
+[CHECK] 4m70H | L=112
+  ✔ OK | emb=(112, 2560) | 4m70_H.pt
+
+[CHECK] 2apoB | L=52
+  ✔ OK | emb=(52, 2560) | 2apo_B.pt
+
+[CHECK] 3s97C | L=197
+  ✔ OK | emb=(197, 2560) | 3s97_C.pt
+
+[CHECK] 1qa9B | L=95
+  ✔ OK | emb=(95, 2560) | 1qa9_B.pt
+
+[CHECK] 2y9wA | L=391
+  ✔ OK | emb=(391, 2560) | 2y9w_A.pt
+
+[CHECK] 3fjuA | L=307
+  ✔ OK | emb=(307, 2560) | 3fju_A.pt
+
+[CHECK] 1gl4A | L=273
+  ✔ OK | emb=(273, 2560) | 1gl4_A.pt
+
+[CHECK] 1ay7A | L=96
+  ✔ OK | emb=(96, 2560) | 1ay7_A.pt
+
+[CHECK] 2c0lA | L=292
+  ✔ OK | emb=(292, 2560) | 2c0l_A.pt
+
+[CHECK] 1wpxA | L=421
+  ✔ OK | emb=(421, 2560) | 1wpx_A.pt
+
+[CHECK] 3vz9D | L=60
+  ✔ OK | emb=(60, 2560) | 3vz9_D.pt
+
+[CHECK] 4hluA | L=265
+  ✔ OK | emb=(265, 2560) | 4hlu_A.pt
+
+[CHECK] 1h32B | L=135
+  ✔ OK | emb=(135, 2560) | 1h32_B.pt
+
+[CHECK] 4e6nB | L=218
+  ✔ OK | emb=(218, 2560) | 4e6n_B.pt
+
+[CHECK] 2c0lB | L=122
+  ✔ OK | emb=(122, 2560) | 2c0l_B.pt
+
+[CHECK] 2fhzB | L=93
+  ✔ OK | emb=(93, 2560) | 2fhz_B.pt
+
+[CHECK] 2ehbA | L=182
+  ✔ OK | emb=(182, 2560) | 2ehb_A.pt
+
+[CHECK] 2g2uA | L=265
+  ✔ OK | emb=(265, 2560) | 2g2u_A.pt
+
+[CHECK] 3cbjA | L=258
+  ✔ OK | emb=(258, 2560) | 3cbj_A.pt
+
+[CHECK] 1glaG | L=489
+  ✔ OK | emb=(489, 2560) | 1gla_G.pt
+
+[CHECK] 3shgA | L=198
+  ✔ OK | emb=(198, 2560) | 3shg_A.pt
+
+[CHECK] 1ggpA | L=234
+  ✔ OK | emb=(234, 2560) | 1ggp_A.pt
+
+[CHECK] 4joiA | L=141
+  ✔ OK | emb=(141, 2560) | 4joi_A.pt
+
+[CHECK] 1ta3A | L=274
+  ✔ OK | emb=(274, 2560) | 1ta3_A.pt
+
+[CHECK] 2b42A | L=364
+  ✔ OK | emb=(364, 2560) | 2b42_A.pt
+
+[CHECK] 4kt3A | L=138
+  ✔ OK | emb=(138, 2560) | 4kt3_A.pt
+
+[CHECK] 3q87A | L=122
+  ✔ OK | emb=(122, 2560) | 3q87_A.pt
+
+[CHECK] 1jmoA | L=425
+  ✔ OK | emb=(425, 2560) | 1jmo_A.pt
+
+[CHECK] 3ocdB | L=180
+  ✔ OK | emb=(180, 2560) | 3ocd_B.pt
+
+[CHECK] 2d74A | L=403
+  ✔ OK | emb=(403, 2560) | 2d74_A.pt
+
+[CHECK] 4cdgA | L=625
+  ✔ OK | emb=(625, 2560) | 4cdg_A.pt
+
+[CHECK] 1b6cB | L=326
+  ✔ OK | emb=(326, 2560) | 1b6c_B.pt
+
+[CHECK] 2dvwA | L=229
+  ✔ OK | emb=(229, 2560) | 2dvw_A.pt
+
+[CHECK] 2ot3A | L=253
+  ✔ OK | emb=(253, 2560) | 2ot3_A.pt
+
+[CHECK] 2yc2A | L=132
+  ✔ OK | emb=(132, 2560) | 2yc2_A.pt
+
+[CHECK] 2v4zB | L=122
+  ✔ OK | emb=(122, 2560) | 2v4z_B.pt
+
+[CHECK] 1ewyC | L=98
+  ✔ OK | emb=(98, 2560) | 1ewy_C.pt
+
+[CHECK] 7ceiB | L=127
+  ✔ OK | emb=(127, 2560) | 7cei_B.pt
+
+[CHECK] 1r8sE | L=187
+  ✔ OK | emb=(187, 2560) | 1r8s_E.pt
+
+[CHECK] 3fmoA | L=421
+  ✔ OK | emb=(421, 2560) | 3fmo_A.pt
+
+[CHECK] 3o3mB | L=373
+  ✔ OK | emb=(373, 2560) | 3o3m_B.pt
+
+[CHECK] 3cqcA | L=247
+  ✔ OK | emb=(247, 2560) | 3cqc_A.pt
+
+[CHECK] 4kbmB | L=148
+  ✔ OK | emb=(148, 2560) | 4kbm_B.pt
+
+[RESULT] 60/60 passed
+
+[TESTING FASTA] Train_335.fa
+
+[CHECK] 1f60B | L=90
+  ✔ OK | emb=(90, 2560) | 1f60_B.pt
+
+[CHECK] 4iu2B | L=237
+  ✔ OK | emb=(237, 2560) | 4iu2_B.pt
+
+[CHECK] 3f6qB | L=72
+  ✔ OK | emb=(72, 2560) | 3f6q_B.pt
+
+[CHECK] 4bi8A | L=94
+  ✔ OK | emb=(94, 2560) | 4bi8_A.pt
+
+[CHECK] 2o3bA | L=241
+  ✔ OK | emb=(241, 2560) | 2o3b_A.pt
+
+[CHECK] 3h4sE | L=96
+  ✔ OK | emb=(96, 2560) | 3h4s_E.pt
+
+[CHECK] 1mahA | L=533
+  ✔ OK | emb=(533, 2560) | 1mah_A.pt
+
+[CHECK] 3p8bA | L=60
+  ✔ OK | emb=(60, 2560) | 3p8b_A.pt
+
+[CHECK] 4kt6A | L=254
+  ✔ OK | emb=(254, 2560) | 4kt6_A.pt
+
+[CHECK] 2r25A | L=166
+  ✔ OK | emb=(166, 2560) | 2r25_A.pt
+
+[CHECK] 2qc1B | L=212
+  ✔ OK | emb=(212, 2560) | 2qc1_B.pt
+
+[CHECK] 2d5rA | L=252
+  ✔ OK | emb=(252, 2560) | 2d5r_A.pt
+
+[CHECK] 1pq1A | L=147
+  ✔ OK | emb=(147, 2560) | 1pq1_A.pt
+
+[CHECK] 3w0lA | L=426
+  ✔ OK | emb=(426, 2560) | 3w0l_A.pt
+
+[CHECK] 3mcbB | L=58
+  ✔ OK | emb=(58, 2560) | 3mcb_B.pt
+
+[CHECK] 3vpjA | L=146
+  ✔ OK | emb=(146, 2560) | 3vpj_A.pt
+
+[CHECK] 1nw9A | L=91
+  ✔ OK | emb=(91, 2560) | 1nw9_A.pt
+
+[CHECK] 3zeuD | L=230
+  ✔ OK | emb=(230, 2560) | 3zeu_D.pt
+
+[CHECK] 3nybB | L=64
+  ✔ OK | emb=(64, 2560) | 3nyb_B.pt
+
+[CHECK] 3fqdA | L=667
+  ✔ OK | emb=(667, 2560) | 3fqd_A.pt
+
+[CHECK] 3mj7B | L=189
+  ✔ OK | emb=(189, 2560) | 3mj7_B.pt
+
+[CHECK] 7ceiA | L=87
+  ✔ OK | emb=(87, 2560) | 7cei_A.pt
+
+[CHECK] 1kshA | L=164
+  ✔ OK | emb=(164, 2560) | 1ksh_A.pt
+
+[CHECK] 4kt6B | L=161
+  ✔ OK | emb=(161, 2560) | 4kt6_B.pt
+
+[CHECK] 1dfjE | L=124
+  ✔ OK | emb=(124, 2560) | 1dfj_E.pt
+
+[CHECK] 1euvB | L=79
+  ✔ OK | emb=(79, 2560) | 1euv_B.pt
+
+[CHECK] 2o2vA | L=92
+  ✔ OK | emb=(92, 2560) | 2o2v_A.pt
+
+[CHECK] 2fcwB | L=78
+  ✔ OK | emb=(78, 2560) | 2fcw_B.pt
+
+[CHECK] 2dvwB | L=73
+  ✔ OK | emb=(73, 2560) | 2dvw_B.pt
+
+[CHECK] 3o3mA | L=399
+  ✔ OK | emb=(399, 2560) | 3o3m_A.pt
+
+[CHECK] 1gcqC | L=69
+  ✔ OK | emb=(69, 2560) | 1gcq_C.pt
+
+[CHECK] 1xg2A | L=317
+  ✔ OK | emb=(317, 2560) | 1xg2_A.pt
+
+[CHECK] 4g7xA | L=92
+  ✔ OK | emb=(92, 2560) | 4g7x_A.pt
+
+[CHECK] 3fiiA | L=403
+  ✔ OK | emb=(403, 2560) | 3fii_A.pt
+
+[CHECK] 4bjjB | L=85
+  ✔ OK | emb=(85, 2560) | 4bjj_B.pt
+
+[CHECK] 4e4wA | L=261
+  ✔ OK | emb=(261, 2560) | 4e4w_A.pt
+
+[CHECK] 2qklB | L=90
+  ✔ OK | emb=(90, 2560) | 2qkl_B.pt
+
+[CHECK] 2v1yA | L=88
+  ✔ OK | emb=(88, 2560) | 2v1y_A.pt
+
+[CHECK] 1acbI | L=63
+  ✔ OK | emb=(63, 2560) | 1acb_I.pt
+
+[CHECK] 1jtdB | L=273
+  ✔ OK | emb=(273, 2560) | 1jtd_B.pt
+
+[CHECK] 3dlqI | L=131
+  ✔ OK | emb=(131, 2560) | 3dlq_I.pt
+
+[CHECK] 3fmoB | L=232
+  ✔ OK | emb=(232, 2560) | 3fmo_B.pt
+
+[CHECK] 2o3bB | L=135
+  ✔ OK | emb=(135, 2560) | 2o3b_B.pt
+
+[CHECK] 1ewyA | L=303
+  ✔ OK | emb=(303, 2560) | 1ewy_A.pt
+
+[CHECK] 2mtaA | L=105
+  ✔ OK | emb=(105, 2560) | 2mta_A.pt
+
+[CHECK] 4bh6D | L=305
+  ✔ OK | emb=(305, 2560) | 4bh6_D.pt
+
+[CHECK] 2omzB | L=105
+  ✔ OK | emb=(105, 2560) | 2omz_B.pt
+
+[CHECK] 2qc1A | L=74
+  ✔ OK | emb=(74, 2560) | 2qc1_A.pt
+
+[CHECK] 3w2wA | L=618
+  ✔ OK | emb=(618, 2560) | 3w2w_A.pt
+
+[CHECK] 4etpB | L=287
+  ✔ OK | emb=(287, 2560) | 4etp_B.pt
+
+[CHECK] 2a9kB | L=207
+  ✔ OK | emb=(207, 2560) | 2a9k_B.pt
+
+[CHECK] 4a5uB | L=80
+  ✔ OK | emb=(80, 2560) | 4a5u_B.pt
+
+[CHECK] 1pxvA | L=183
+  ✔ OK | emb=(183, 2560) | 1pxv_A.pt
+
+[CHECK] 3bp6A | L=112
+  ✔ OK | emb=(112, 2560) | 3bp6_A.pt
+
+[CHECK] 4m69A | L=284
+  ✔ OK | emb=(284, 2560) | 4m69_A.pt
+
+[CHECK] 3d7vA | L=144
+  ✔ OK | emb=(144, 2560) | 3d7v_A.pt
+
+[CHECK] 3uvjB | L=196
+  ✔ OK | emb=(196, 2560) | 3uvj_B.pt
+
+[CHECK] 1v74B | L=87
+  ✔ OK | emb=(87, 2560) | 1v74_B.pt
+
+[CHECK] 3f1sB | L=259
+  ✔ OK | emb=(259, 2560) | 3f1s_B.pt
+
+[CHECK] 4dfcB | L=121
+  ✔ OK | emb=(121, 2560) | 4dfc_B.pt
+
+[CHECK] 3mdbC | L=365
+  ✔ OK | emb=(365, 2560) | 3mdb_C.pt
+
+[CHECK] 3aqbB | L=321
+  ✔ OK | emb=(321, 2560) | 3aqb_B.pt
+
+[CHECK] 1hx1B | L=112
+  ✔ OK | emb=(112, 2560) | 1hx1_B.pt
+
+[CHECK] 3w2wB | L=308
+  ✔ OK | emb=(308, 2560) | 3w2w_B.pt
+
+[CHECK] 1kklH | L=86
+  ✔ OK | emb=(86, 2560) | 1kkl_H.pt
+
+[CHECK] 4iu2A | L=205
+  ✔ OK | emb=(205, 2560) | 4iu2_A.pt
+
+[CHECK] 3w0lB | L=598
+  ✔ OK | emb=(598, 2560) | 3w0l_B.pt
+
+[CHECK] 4bjjA | L=106
+  ✔ OK | emb=(106, 2560) | 4bjj_A.pt
+
+[CHECK] 1z3eB | L=67
+  ✔ OK | emb=(67, 2560) | 1z3e_B.pt
+
+[CHECK] 1u0sY | L=118
+  ✔ OK | emb=(118, 2560) | 1u0s_Y.pt
+
+[CHECK] 1yvbI | L=111
+  ✔ OK | emb=(111, 2560) | 1yvb_I.pt
+
+[CHECK] 3mmyA | L=354
+  ✔ OK | emb=(354, 2560) | 3mmy_A.pt
+
+[CHECK] 1ktzB | L=106
+  ✔ OK | emb=(106, 2560) | 1ktz_B.pt
+
+[CHECK] 3axjB | L=235
+  ✔ OK | emb=(235, 2560) | 3axj_B.pt
+
+[CHECK] 1ta3B | L=301
+  ✔ OK | emb=(301, 2560) | 1ta3_B.pt
+
+[CHECK] 3bp6B | L=186
+  ✔ OK | emb=(186, 2560) | 3bp6_B.pt
+
+[CHECK] 1nrjA | L=147
+  ✔ OK | emb=(147, 2560) | 1nrj_A.pt
+
+[CHECK] 3onaB | L=66
+  ✔ OK | emb=(66, 2560) | 3ona_B.pt
+
+[CHECK] 3og6A | L=143
+  ✔ OK | emb=(143, 2560) | 3og6_A.pt
+
+[CHECK] 3q9nA | L=138
+  ✔ OK | emb=(138, 2560) | 3q9n_A.pt
+
+[CHECK] 2vohA | L=155
+  ✔ OK | emb=(155, 2560) | 2voh_A.pt
+
+[CHECK] 2ajfE | L=174
+  ✔ OK | emb=(174, 2560) | 2ajf_E.pt
+
+[CHECK] 3zyiA | L=395
+  ✔ OK | emb=(395, 2560) | 3zyi_A.pt
+
+[CHECK] 2hqsA | L=412
+  ✔ OK | emb=(412, 2560) | 2hqs_A.pt
+
+[CHECK] 1jmtA | L=98
+  ✔ OK | emb=(98, 2560) | 1jmt_A.pt
+
+[CHECK] 4eukB | L=152
+  ✔ OK | emb=(152, 2560) | 4euk_B.pt
+
+[CHECK] 1n2cA | L=478
+  ✔ OK | emb=(478, 2560) | 1n2c_A.pt
+
+[CHECK] 3d4uB | L=74
+  ✔ OK | emb=(74, 2560) | 3d4u_B.pt
+
+[CHECK] 4bh6L | L=51
+  ✔ OK | emb=(51, 2560) | 4bh6_L.pt
+
+[CHECK] 4hffB | L=99
+  ✔ OK | emb=(99, 2560) | 4hff_B.pt
+
+[CHECK] 2cg5A | L=266
+  ✔ OK | emb=(266, 2560) | 2cg5_A.pt
+
+[CHECK] 3ourA | L=394
+  ✔ OK | emb=(394, 2560) | 3our_A.pt
+
+[CHECK] 2hrkB | L=121
+  ✔ OK | emb=(121, 2560) | 2hrk_B.pt
+
+[CHECK] 2apoA | L=304
+  ✔ OK | emb=(304, 2560) | 2apo_A.pt
+
+[CHECK] 4hluD | L=245
+  ✔ OK | emb=(245, 2560) | 4hlu_D.pt
+
+[CHECK] 1kshB | L=141
+  ✔ OK | emb=(141, 2560) | 1ksh_B.pt
+
+[CHECK] 1b6cA | L=107
+  ✔ OK | emb=(107, 2560) | 1b6c_A.pt
+
+[CHECK] 2o2vB | L=82
+  ✔ OK | emb=(82, 2560) | 2o2v_B.pt
+
+[CHECK] 1k5dB | L=146
+  ✔ OK | emb=(146, 2560) | 1k5d_B.pt
+
+[CHECK] 1k5dC | L=344
+  ✔ OK | emb=(344, 2560) | 1k5d_C.pt
+
+[CHECK] 1fc2C | L=44
+  ✔ OK | emb=(44, 2560) | 1fc2_C.pt
+
+[CHECK] 1n2cE | L=274
+  ✔ OK | emb=(274, 2560) | 1n2c_E.pt
+
+[CHECK] 3zeuE | L=337
+  ✔ OK | emb=(337, 2560) | 3zeu_E.pt
+
+[CHECK] 3di3B | L=193
+  ✔ OK | emb=(193, 2560) | 3di3_B.pt
+
+[CHECK] 4je3A | L=244
+  ✔ OK | emb=(244, 2560) | 4je3_A.pt
+
+[CHECK] 2b59A | L=166
+  ✔ OK | emb=(166, 2560) | 2b59_A.pt
+
+[CHECK] 2j3rA | L=158
+  ✔ OK | emb=(158, 2560) | 2j3r_A.pt
+
+[CHECK] 4fouC | L=95
+  ✔ OK | emb=(95, 2560) | 4fou_C.pt
+
+[CHECK] 2b59B | L=156
+  ✔ OK | emb=(156, 2560) | 2b59_B.pt
+
+[CHECK] 4kbmA | L=386
+  ✔ OK | emb=(386, 2560) | 4kbm_A.pt
+
+[CHECK] 2oznB | L=131
+  ✔ OK | emb=(131, 2560) | 2ozn_B.pt
+
+[CHECK] 1t6bX | L=676
+  ✔ OK | emb=(676, 2560) | 1t6b_X.pt
+
+[CHECK] 4awxA | L=252
+  ✔ OK | emb=(252, 2560) | 4awx_A.pt
+
+[CHECK] 1ib1A | L=227
+  ✔ OK | emb=(227, 2560) | 1ib1_A.pt
+
+[CHECK] 1eerA | L=166
+  ✔ OK | emb=(166, 2560) | 1eer_A.pt
+
+[CHECK] 3ckiA | L=256
+  ✔ OK | emb=(256, 2560) | 3cki_A.pt
+
+[CHECK] 3mdbA | L=98
+  ✔ OK | emb=(98, 2560) | 3mdb_A.pt
+
+[CHECK] 4apxA | L=208
+  ✔ OK | emb=(208, 2560) | 4apx_A.pt
+
+[CHECK] 2qxvA | L=352
+  ✔ OK | emb=(352, 2560) | 2qxv_A.pt
+
+[CHECK] 2d5rB | L=116
+  ✔ OK | emb=(116, 2560) | 2d5r_B.pt
+
+[CHECK] 2v8sE | L=137
+  ✔ OK | emb=(137, 2560) | 2v8s_E.pt
+
+[CHECK] 1mahF | L=61
+  ✔ OK | emb=(61, 2560) | 1mah_F.pt
+
+[CHECK] 2v1yB | L=166
+  ✔ OK | emb=(166, 2560) | 2v1y_B.pt
+
+[CHECK] 3tgxB | L=115
+  ✔ OK | emb=(115, 2560) | 3tgx_B.pt
+
+[CHECK] 1e6eA | L=457
+  ✔ OK | emb=(457, 2560) | 1e6e_A.pt
+
+[CHECK] 2v8sV | L=93
+  ✔ OK | emb=(93, 2560) | 2v8s_V.pt
+
+[CHECK] 2d74B | L=137
+  ✔ OK | emb=(137, 2560) | 2d74_B.pt
+
+[CHECK] 2wusA | L=335
+  ✔ OK | emb=(335, 2560) | 2wus_A.pt
+
+[CHECK] 1efnB | L=104
+  ✔ OK | emb=(104, 2560) | 1efn_B.pt
+
+[CHECK] 3cf4G | L=169
+  ✔ OK | emb=(169, 2560) | 3cf4_G.pt
+
+[CHECK] 3gniA | L=335
+  ✔ OK | emb=(335, 2560) | 3gni_A.pt
+
+[CHECK] 3anwB | L=162
+  ✔ OK | emb=(162, 2560) | 3anw_B.pt
+
+[CHECK] 4hffA | L=152
+  ✔ OK | emb=(152, 2560) | 4hff_A.pt
+
+[CHECK] 1k74A | L=232
+  ✔ OK | emb=(232, 2560) | 1k74_A.pt
+
+[CHECK] 2o8vB | L=108
+  ✔ OK | emb=(108, 2560) | 2o8v_B.pt
+
+[CHECK] 3m7fB | L=135
+  ✔ OK | emb=(135, 2560) | 3m7f_B.pt
+
+[CHECK] 3ayhB | L=183
+  ✔ OK | emb=(183, 2560) | 3ayh_B.pt
+
+[CHECK] 3mmyB | L=51
+  ✔ OK | emb=(51, 2560) | 3mmy_B.pt
+
+[CHECK] 1k74D | L=272
+  ✔ OK | emb=(272, 2560) | 1k74_D.pt
+
+[CHECK] 1e4kC | L=172
+  ✔ OK | emb=(172, 2560) | 1e4k_C.pt
+
+[CHECK] 1rlbE | L=174
+  ✔ OK | emb=(174, 2560) | 1rlb_E.pt
+
+[CHECK] 2c5kT | L=89
+  ✔ OK | emb=(89, 2560) | 2c5k_T.pt
+
+[CHECK] 1ktzA | L=82
+  ✔ OK | emb=(82, 2560) | 1ktz_A.pt
+
+[CHECK] 2yajA | L=869
+  ✔ OK | emb=(869, 2560) | 2yaj_A.pt
+
+[CHECK] 3vz9B | L=103
+  ✔ OK | emb=(103, 2560) | 3vz9_B.pt
+
+[CHECK] 1nrjB | L=191
+  ✔ OK | emb=(191, 2560) | 1nrj_B.pt
+
+[CHECK] 3b08B | L=58
+  ✔ OK | emb=(58, 2560) | 3b08_B.pt
+
+[CHECK] 3aqbA | L=135
+  ✔ OK | emb=(135, 2560) | 3aqb_A.pt
+
+[CHECK] 4fq0B | L=182
+  ✔ OK | emb=(182, 2560) | 4fq0_B.pt
+
+[CHECK] 4fq0C | L=80
+  ✔ OK | emb=(80, 2560) | 4fq0_C.pt
+
+[CHECK] 3gniB | L=304
+  ✔ OK | emb=(304, 2560) | 3gni_B.pt
+
+[CHECK] 3mj7A | L=229
+  ✔ OK | emb=(229, 2560) | 3mj7_A.pt
+
+[CHECK] 3vu9A | L=215
+  ✔ OK | emb=(215, 2560) | 3vu9_A.pt
+
+[CHECK] 4joiD | L=118
+  ✔ OK | emb=(118, 2560) | 4joi_D.pt
+
+[CHECK] 2z0eB | L=118
+  ✔ OK | emb=(118, 2560) | 2z0e_B.pt
+
+[CHECK] 3c5tA | L=104
+  ✔ OK | emb=(104, 2560) | 3c5t_A.pt
+
+[CHECK] 4fouA | L=262
+  ✔ OK | emb=(262, 2560) | 4fou_A.pt
+
+[CHECK] 3zheA | L=399
+  ✔ OK | emb=(399, 2560) | 3zhe_A.pt
+
+[CHECK] 2dohX | L=165
+  ✔ OK | emb=(165, 2560) | 2doh_X.pt
+
+[CHECK] 1jiwP | L=470
+  ✔ OK | emb=(470, 2560) | 1jiw_P.pt
+
+[CHECK] 3d48R | L=195
+  ✔ OK | emb=(195, 2560) | 3d48_R.pt
+
+[CHECK] 2p7vA | L=151
+  ✔ OK | emb=(151, 2560) | 2p7v_A.pt
+
+[CHECK] 2hqsH | L=108
+  ✔ OK | emb=(108, 2560) | 2hqs_H.pt
+
+[CHECK] 4eukA | L=136
+  ✔ OK | emb=(136, 2560) | 4euk_A.pt
+
+[CHECK] 4f6uB | L=267
+  ✔ OK | emb=(267, 2560) | 4f6u_B.pt
+
+[CHECK] 2j3rB | L=157
+  ✔ OK | emb=(157, 2560) | 2j3r_B.pt
+
+[CHECK] 1efnA | L=57
+  ✔ OK | emb=(57, 2560) | 1efn_A.pt
+
+[CHECK] 4hopA | L=87
+  ✔ OK | emb=(87, 2560) | 4hop_A.pt
+
+[CHECK] 1z0jB | L=51
+  ✔ OK | emb=(51, 2560) | 1z0j_B.pt
+
+[CHECK] 4eqaC | L=150
+  ✔ OK | emb=(150, 2560) | 4eqa_C.pt
+
+[CHECK] 2yclB | L=309
+  ✔ OK | emb=(309, 2560) | 2ycl_B.pt
+
+[CHECK] 3tu3B | L=526
+  ✔ OK | emb=(526, 2560) | 3tu3_B.pt
+
+[CHECK] 2cg5B | L=71
+  ✔ OK | emb=(71, 2560) | 2cg5_B.pt
+
+[CHECK] 3pv6A | L=214
+  ✔ OK | emb=(214, 2560) | 3pv6_A.pt
+
+[CHECK] 4gedB | L=102
+  ✔ OK | emb=(102, 2560) | 4ged_B.pt
+
+[CHECK] 3bs5B | L=74
+  ✔ OK | emb=(74, 2560) | 3bs5_B.pt
+
+[CHECK] 1e6eB | L=113
+  ✔ OK | emb=(113, 2560) | 1e6e_B.pt
+
+[CHECK] 1gl4B | L=89
+  ✔ OK | emb=(89, 2560) | 1gl4_B.pt
+
+[CHECK] 1tnrA | L=144
+  ✔ OK | emb=(144, 2560) | 1tnr_A.pt
+
+[CHECK] 3cx8B | L=193
+  ✔ OK | emb=(193, 2560) | 3cx8_B.pt
+
+[CHECK] 2o8vA | L=229
+  ✔ OK | emb=(229, 2560) | 2o8v_A.pt
+
+[CHECK] 3p8bB | L=147
+  ✔ OK | emb=(147, 2560) | 3p8b_B.pt
+
+[CHECK] 3zkqA | L=376
+  ✔ OK | emb=(376, 2560) | 3zkq_A.pt
+
+[CHECK] 3zr4B | L=201
+  ✔ OK | emb=(201, 2560) | 3zr4_B.pt
+
+[CHECK] 4h3kA | L=317
+  ✔ OK | emb=(317, 2560) | 4h3k_A.pt
+
+[CHECK] 2wd5A | L=177
+  ✔ OK | emb=(177, 2560) | 2wd5_A.pt
+
+[CHECK] 1eerB | L=213
+  ✔ OK | emb=(213, 2560) | 1eer_B.pt
+
+[CHECK] 3dgpA | L=62
+  ✔ OK | emb=(62, 2560) | 3dgp_A.pt
+
+[CHECK] 4gn4B | L=108
+  ✔ OK | emb=(108, 2560) | 4gn4_B.pt
+
+[CHECK] 4awxB | L=63
+  ✔ OK | emb=(63, 2560) | 4awx_B.pt
+
+[CHECK] 3begB | L=86
+  ✔ OK | emb=(86, 2560) | 3beg_B.pt
+
+[CHECK] 3dlqR | L=201
+  ✔ OK | emb=(201, 2560) | 3dlq_R.pt
+
+[CHECK] 1f60A | L=440
+  ✔ OK | emb=(440, 2560) | 1f60_A.pt
+
+[CHECK] 1pxvC | L=111
+  ✔ OK | emb=(111, 2560) | 1pxv_C.pt
+
+[CHECK] 1tnrR | L=139
+  ✔ OK | emb=(139, 2560) | 1tnr_R.pt
+
+[CHECK] 1svdM | L=108
+  ✔ OK | emb=(108, 2560) | 1svd_M.pt
+
+[CHECK] 3fqdB | L=321
+  ✔ OK | emb=(321, 2560) | 3fqd_B.pt
+
+[CHECK] 2fp4A | L=304
+  ✔ OK | emb=(304, 2560) | 2fp4_A.pt
+
+[CHECK] 3m7fA | L=107
+  ✔ OK | emb=(107, 2560) | 3m7f_A.pt
+
+[CHECK] 2yc2D | L=148
+  ✔ OK | emb=(148, 2560) | 2yc2_D.pt
+
+[CHECK] 1dfjI | L=456
+  ✔ OK | emb=(456, 2560) | 1dfj_I.pt
+
+[CHECK] 2h0dB | L=100
+  ✔ OK | emb=(100, 2560) | 2h0d_B.pt
+
+[CHECK] 2wd5B | L=191
+  ✔ OK | emb=(191, 2560) | 2wd5_B.pt
+
+[CHECK] 2ajfA | L=597
+  ✔ OK | emb=(597, 2560) | 2ajf_A.pt
+
+[CHECK] 4apxB | L=238
+  ✔ OK | emb=(238, 2560) | 4apx_B.pt
+
+[CHECK] 3bs5A | L=83
+  ✔ OK | emb=(83, 2560) | 3bs5_A.pt
+
+[CHECK] 2z0eA | L=315
+  ✔ OK | emb=(315, 2560) | 2z0e_A.pt
+
+[CHECK] 3anwA | L=171
+  ✔ OK | emb=(171, 2560) | 3anw_A.pt
+
+[CHECK] 3vu9B | L=191
+  ✔ OK | emb=(191, 2560) | 3vu9_B.pt
+
+[CHECK] 4a5uA | L=148
+  ✔ OK | emb=(148, 2560) | 4a5u_A.pt
+
+[CHECK] 5wy5A | L=236
+  ✔ OK | emb=(236, 2560) | 5wy5_A.pt
+
+[CHECK] 1itbB | L=310
+  ✔ OK | emb=(310, 2560) | 1itb_B.pt
+
+[CHECK] 4etpA | L=379
+  ✔ OK | emb=(379, 2560) | 4etp_A.pt
+
+[CHECK] 3onaA | L=158
+  ✔ OK | emb=(158, 2560) | 3ona_A.pt
+
+[CHECK] 1c1yB | L=77
+  ✔ OK | emb=(77, 2560) | 1c1y_B.pt
+
+[CHECK] 1jiwI | L=105
+  ✔ OK | emb=(105, 2560) | 1jiw_I.pt
+
+[CHECK] 1z5yE | L=136
+  ✔ OK | emb=(136, 2560) | 1z5y_E.pt
+
+[CHECK] 2h0dA | L=97
+  ✔ OK | emb=(97, 2560) | 2h0d_A.pt
+
+[CHECK] 3og6B | L=200
+  ✔ OK | emb=(200, 2560) | 3og6_B.pt
+
+[CHECK] 1h32A | L=260
+  ✔ OK | emb=(260, 2560) | 1h32_A.pt
+
+[CHECK] 1kklC | L=168
+  ✔ OK | emb=(168, 2560) | 1kkl_C.pt
+
+[CHECK] 1ka9F | L=251
+  ✔ OK | emb=(251, 2560) | 1ka9_F.pt
+
+[CHECK] 1ghqA | L=307
+  ✔ OK | emb=(307, 2560) | 1ghq_A.pt
+
+[CHECK] 2xqrA | L=537
+  ✔ OK | emb=(537, 2560) | 2xqr_A.pt
+
+[CHECK] 2y9wC | L=136
+  ✔ OK | emb=(136, 2560) | 2y9w_C.pt
+
+[CHECK] 1hx1A | L=377
+  ✔ OK | emb=(377, 2560) | 1hx1_A.pt
+
+[CHECK] 1n2cB | L=522
+  ✔ OK | emb=(522, 2560) | 1n2c_B.pt
+
+[CHECK] 1te1B | L=190
+  ✔ OK | emb=(190, 2560) | 1te1_B.pt
+
+[CHECK] 4kt3B | L=127
+  ✔ OK | emb=(127, 2560) | 4kt3_B.pt
+
+[CHECK] 2p7vB | L=68
+  ✔ OK | emb=(68, 2560) | 2p7v_B.pt
+
+[CHECK] 3axjA | L=222
+  ✔ OK | emb=(222, 2560) | 3axj_A.pt
+
+[CHECK] 2ehbD | L=126
+  ✔ OK | emb=(126, 2560) | 2ehb_D.pt
+
+[CHECK] 1k5dA | L=206
+  ✔ OK | emb=(206, 2560) | 1k5d_A.pt
+
+[CHECK] 1udiE | L=227
+  ✔ OK | emb=(227, 2560) | 1udi_E.pt
+
+[CHECK] 1xg2B | L=151
+  ✔ OK | emb=(151, 2560) | 1xg2_B.pt
+
+[CHECK] 1wpxB | L=204
+  ✔ OK | emb=(204, 2560) | 1wpx_B.pt
+
+[CHECK] 3h4sA | L=359
+  ✔ OK | emb=(359, 2560) | 3h4s_A.pt
+
+[CHECK] 3pv6B | L=112
+  ✔ OK | emb=(112, 2560) | 3pv6_B.pt
+
+[CHECK] 1wkwA | L=191
+  ✔ OK | emb=(191, 2560) | 1wkw_A.pt
+
+[CHECK] 3zyiB | L=303
+  ✔ OK | emb=(303, 2560) | 3zyi_B.pt
+
+[CHECK] 1tdqA | L=271
+  ✔ OK | emb=(271, 2560) | 1tdq_A.pt
+
+[CHECK] 1jmoH | L=259
+  ✔ OK | emb=(259, 2560) | 1jmo_H.pt
+
+[CHECK] 2yclA | L=443
+  ✔ OK | emb=(443, 2560) | 2ycl_A.pt
+
+[CHECK] 1nw9B | L=238
+  ✔ OK | emb=(238, 2560) | 1nw9_B.pt
+
+[CHECK] 4f6uA | L=334
+  ✔ OK | emb=(334, 2560) | 4f6u_A.pt
+
+[CHECK] 3tgxA | L=208
+  ✔ OK | emb=(208, 2560) | 3tgx_A.pt
+
+[CHECK] 1euvA | L=221
+  ✔ OK | emb=(221, 2560) | 1euv_A.pt
+
+[CHECK] 2yajB | L=86
+  ✔ OK | emb=(86, 2560) | 2yaj_B.pt
+
+[CHECK] 1z5yD | L=118
+  ✔ OK | emb=(118, 2560) | 1z5y_D.pt
+
+[CHECK] 3d48P | L=165
+  ✔ OK | emb=(165, 2560) | 3d48_P.pt
+
+[CHECK] 1xqsA | L=264
+  ✔ OK | emb=(264, 2560) | 1xqs_A.pt
+
+[CHECK] 1f34A | L=325
+  ✔ OK | emb=(325, 2560) | 1f34_A.pt
+
+[CHECK] 1ghqB | L=129
+  ✔ OK | emb=(129, 2560) | 1ghq_B.pt
+
+[CHECK] 2g77A | L=331
+  ✔ OK | emb=(331, 2560) | 2g77_A.pt
+
+[CHECK] 3q87B | L=164
+  ✔ OK | emb=(164, 2560) | 3q87_B.pt
+
+[CHECK] 3ckiB | L=121
+  ✔ OK | emb=(121, 2560) | 3cki_B.pt
+
+[CHECK] 3mp7B | L=54
+  ✔ OK | emb=(54, 2560) | 3mp7_B.pt
+
+[CHECK] 3ph0C | L=53
+  ✔ OK | emb=(53, 2560) | 3ph0_C.pt
+
+[CHECK] 2c9xB | L=81
+  ✔ OK | emb=(81, 2560) | 2c9x_B.pt
+
+[CHECK] 4g7xB | L=102
+  ✔ OK | emb=(102, 2560) | 4g7x_B.pt
+
+[CHECK] 1jmoL | L=47
+  ✔ OK | emb=(47, 2560) | 1jmo_L.pt
+
+[CHECK] 3shgB | L=61
+  ✔ OK | emb=(61, 2560) | 3shg_B.pt
+
+[CHECK] 4gn4A | L=129
+  ✔ OK | emb=(129, 2560) | 4gn4_A.pt
+
+[CHECK] 2g2uB | L=165
+  ✔ OK | emb=(165, 2560) | 2g2u_B.pt
+
+[CHECK] 1u0sA | L=86
+  ✔ OK | emb=(86, 2560) | 1u0s_A.pt
+
+[CHECK] 1udiI | L=83
+  ✔ OK | emb=(83, 2560) | 1udi_I.pt
+
+[CHECK] 3cqcB | L=186
+  ✔ OK | emb=(186, 2560) | 3cqc_B.pt
+
+[CHECK] 1rlbA | L=123
+  ✔ OK | emb=(123, 2560) | 1rlb_A.pt
+
+[CHECK] 3cbjB | L=109
+  ✔ OK | emb=(109, 2560) | 3cbj_B.pt
+
+[CHECK] 3ayhA | L=134
+  ✔ OK | emb=(134, 2560) | 3ayh_A.pt
+
+[CHECK] 4gedA | L=268
+  ✔ OK | emb=(268, 2560) | 4ged_A.pt
+
+[CHECK] 3ph0A | L=60
+  ✔ OK | emb=(60, 2560) | 3ph0_A.pt
+
+[CHECK] 5wy5B | L=189
+  ✔ OK | emb=(189, 2560) | 5wy5_B.pt
+
+[CHECK] 2mtaL | L=124
+  ✔ OK | emb=(124, 2560) | 2mta_L.pt
+
+[CHECK] 2fp4B | L=393
+  ✔ OK | emb=(393, 2560) | 2fp4_B.pt
+
+[CHECK] 2omzA | L=466
+  ✔ OK | emb=(466, 2560) | 2omz_A.pt
+
+[CHECK] 2v6xA | L=80
+  ✔ OK | emb=(80, 2560) | 2v6x_A.pt
+
+[CHECK] 4dfcA | L=85
+  ✔ OK | emb=(85, 2560) | 4dfc_A.pt
+
+[CHECK] 1ggpB | L=254
+  ✔ OK | emb=(254, 2560) | 1ggp_B.pt
+
+[CHECK] 1ay7B | L=89
+  ✔ OK | emb=(89, 2560) | 1ay7_B.pt
+
+[CHECK] 1kacA | L=185
+  ✔ OK | emb=(185, 2560) | 1kac_A.pt
+
+[CHECK] 2c9xA | L=373
+  ✔ OK | emb=(373, 2560) | 2c9x_A.pt
+
+[CHECK] 3czuB | L=130
+  ✔ OK | emb=(130, 2560) | 3czu_B.pt
+
+[CHECK] 2hrkA | L=177
+  ✔ OK | emb=(177, 2560) | 2hrk_A.pt
+
+[CHECK] 1ib1E | L=178
+  ✔ OK | emb=(178, 2560) | 1ib1_E.pt
+
+[CHECK] 2rd7C | L=159
+  ✔ OK | emb=(159, 2560) | 2rd7_C.pt
+
+[CHECK] 4e4wB | L=213
+  ✔ OK | emb=(213, 2560) | 4e4w_B.pt
+
+[CHECK] 1e4kA | L=216
+  ✔ OK | emb=(216, 2560) | 1e4k_A.pt
+
+[CHECK] 1zbxB | L=120
+  ✔ OK | emb=(120, 2560) | 1zbx_B.pt
+
+[CHECK] 3viqB | L=85
+  ✔ OK | emb=(85, 2560) | 3viq_B.pt
+
+[CHECK] 3r07C | L=88
+  ✔ OK | emb=(88, 2560) | 3r07_C.pt
+
+[CHECK] 4nqwA | L=148
+  ✔ OK | emb=(148, 2560) | 4nqw_A.pt
+
+[CHECK] 3begA | L=348
+  ✔ OK | emb=(348, 2560) | 3beg_A.pt
+
+[CHECK] 2rd7A | L=328
+  ✔ OK | emb=(328, 2560) | 2rd7_A.pt
+
+[CHECK] 1zbdB | L=119
+  ✔ OK | emb=(119, 2560) | 1zbd_B.pt
+
+[CHECK] 3mp7A | L=387
+  ✔ OK | emb=(387, 2560) | 3mp7_A.pt
+
+[CHECK] 3b08A | L=151
+  ✔ OK | emb=(151, 2560) | 3b08_A.pt
+
+[CHECK] 1f34B | L=138
+  ✔ OK | emb=(138, 2560) | 1f34_B.pt
+
+[CHECK] 2wusR | L=87
+  ✔ OK | emb=(87, 2560) | 2wus_R.pt
+
+[CHECK] 4bi8B | L=163
+  ✔ OK | emb=(163, 2560) | 4bi8_B.pt
+
+[CHECK] 3czuA | L=175
+  ✔ OK | emb=(175, 2560) | 3czu_A.pt
+
+[CHECK] 1ak4D | L=145
+  ✔ OK | emb=(145, 2560) | 1ak4_D.pt
+
+[CHECK] 3r07A | L=255
+  ✔ OK | emb=(255, 2560) | 3r07_A.pt
+
+[CHECK] 2mtaH | L=373
+  ✔ OK | emb=(373, 2560) | 2mta_H.pt
+
+[CHECK] 4hopB | L=120
+  ✔ OK | emb=(120, 2560) | 4hop_B.pt
+
+[CHECK] 2oznA | L=133
+  ✔ OK | emb=(133, 2560) | 2ozn_A.pt
+
+[CHECK] 1zbxA | L=197
+  ✔ OK | emb=(197, 2560) | 1zbx_A.pt
+
+[CHECK] 3viqA | L=122
+  ✔ OK | emb=(122, 2560) | 3viq_A.pt
+
+[CHECK] 1glaF | L=161
+  ✔ OK | emb=(161, 2560) | 1gla_F.pt
+
+[CHECK] 4cdgC | L=122
+  ✔ OK | emb=(122, 2560) | 4cdg_C.pt
+
+[CHECK] 1mg9A | L=84
+  ✔ OK | emb=(84, 2560) | 1mg9_A.pt
+
+[CHECK] 3dgpB | L=63
+  ✔ OK | emb=(63, 2560) | 3dgp_B.pt
+
+[CHECK] 4emjA | L=406
+  ✔ OK | emb=(406, 2560) | 4emj_A.pt
+
+[CHECK] 1ml0A | L=371
+  ✔ OK | emb=(371, 2560) | 1ml0_A.pt
+
+[CHECK] 1gcqB | L=57
+  ✔ OK | emb=(57, 2560) | 1gcq_B.pt
+
+[CHECK] 1z3eA | L=119
+  ✔ OK | emb=(119, 2560) | 1z3e_A.pt
+
+[CHECK] 1mg9B | L=143
+  ✔ OK | emb=(143, 2560) | 1mg9_B.pt
+
+[CHECK] 2fhzA | L=106
+  ✔ OK | emb=(106, 2560) | 2fhz_A.pt
+
+[CHECK] 2fcwA | L=106
+  ✔ OK | emb=(106, 2560) | 2fcw_A.pt
+
+[CHECK] 1tdqB | L=126
+  ✔ OK | emb=(126, 2560) | 1tdq_B.pt
+
+[CHECK] 3vrdB | L=398
+  ✔ OK | emb=(398, 2560) | 3vrd_B.pt
+
+[CHECK] 3di3A | L=118
+  ✔ OK | emb=(118, 2560) | 3di3_A.pt
+
+[CHECK] 3cpjG | L=438
+  ✔ OK | emb=(438, 2560) | 3cpj_G.pt
+
+[CHECK] 3fjuB | L=65
+  ✔ OK | emb=(65, 2560) | 3fju_B.pt
+
+[CHECK] 1svdA | L=445
+  ✔ OK | emb=(445, 2560) | 1svd_A.pt
+
+[CHECK] 4g6tB | L=71
+  ✔ OK | emb=(71, 2560) | 4g6t_B.pt
+
+[CHECK] 3vrdA | L=174
+  ✔ OK | emb=(174, 2560) | 3vrd_A.pt
+
+[CHECK] 3s97A | L=266
+  ✔ OK | emb=(266, 2560) | 3s97_A.pt
+
+[CHECK] 1itbA | L=153
+  ✔ OK | emb=(153, 2560) | 1itb_A.pt
+
+[CHECK] 1ak4A | L=165
+  ✔ OK | emb=(165, 2560) | 1ak4_A.pt
+
+[CHECK] 3bh7B | L=314
+  ✔ OK | emb=(314, 2560) | 3bh7_B.pt
+
+[CHECK] 3cx8A | L=319
+  ✔ OK | emb=(319, 2560) | 3cx8_A.pt
+
+[CHECK] 4e6nA | L=407
+  ✔ OK | emb=(407, 2560) | 4e6n_A.pt
+
+[CHECK] 4m70B | L=91
+  ✔ OK | emb=(91, 2560) | 4m70_B.pt
+
+[CHECK] 3nybA | L=323
+  ✔ OK | emb=(323, 2560) | 3nyb_A.pt
+
+[RESULT] 335/335 passed
+
+==============================
+[FINAL] ALL ESM EMBEDDINGS VALID ✅

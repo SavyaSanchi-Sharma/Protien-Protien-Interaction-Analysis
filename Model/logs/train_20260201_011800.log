@@ -1,0 +1,21 @@
+[2026-02-01 01:33:41] ================================================================================
+[2026-02-01 01:33:41] Starting Training Pipeline
+[2026-02-01 01:33:41] Device: cuda | Epochs: 100 | LR: 0.0001 | Batch Size: 1
+[2026-02-01 01:33:41] Loss: Numerically Stable Focal Loss (log_softmax + log1p)
+[2026-02-01 01:33:41] ================================================================================
+[2026-02-01 01:33:41] Checking normalization statistics...
+[2026-02-01 01:33:41] [NORM] Computing normalization from TRAIN: data/structural/Train_335_15D.csv...
+Traceback (most recent call last):
+  File "/home/iiitdwd/ppi/Model/train.py", line 385, in <module>
+    main()
+  File "/home/iiitdwd/ppi/Model/train.py", line 193, in main
+    ensure_normalization(TRAIN_CSV, NORM_PATH)
+  File "/home/iiitdwd/ppi/Model/train.py", line 52, in ensure_normalization
+    scalar_mean = df[SCALAR_COLS].mean().values
+  File "/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/pandas/core/frame.py", line 4119, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6264, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['HSE_up', 'HSE_down'] not in index"

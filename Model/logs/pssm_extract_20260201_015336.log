@@ -1,0 +1,4 @@
+[OK] PSI-BLAST found: psiblast
+
+[ERROR] BLAST database not found: /home/iiitdwd/ppi/Model/blast_db/uniref50/uniref50
+Download UniRef50 and run makeblastdb

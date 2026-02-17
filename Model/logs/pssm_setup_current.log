@@ -1,0 +1,40 @@
+============================================
+PSSM Setup Started: Monday 02 February 2026 10:43:04 AM IST
+============================================
+Log file: /home/iiitdwd/ppi/Model/logs/pssm_setup_current.log
+
+[1/7] Checking prerequisites...
+
+Available disk space: 361GB
+[✓] Disk space OK
+
+[✓] PSI-BLAST already installed
+psiblast: 2.12.0+
+ Package: blast 2.12.0, build Mar  8 2022 16:19:08
+
+[2/7] Downloading UniRef50 database...
+
+[✓] uniref50.fasta already exists, skipping download
+
+[3/7] Uncompressing database...
+
+[✓] uniref50.fasta already exists (5.0G)
+
+[4/7] Formatting database for BLAST...
+
+Starting makeblastdb: Monday 02 February 2026 10:43:04 AM IST
+
+
+Building a new DB, current time: 02/02/2026 10:43:04
+New DB name:   /home/iiitdwd/ppi/Model/blast_db/uniref50/uniref50
+New DB title:  uniref50.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 4000000000B
+Adding sequences from FASTA; added 60315044 sequences in 2134.88 seconds.
+
+
+[✓] Database formatting complete: Monday 02 February 2026 11:23:15 AM IST
+
+[5/7] Verifying BLAST database...
+[ERROR] BLAST database validation failed!

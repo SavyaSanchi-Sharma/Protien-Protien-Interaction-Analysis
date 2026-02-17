@@ -1,0 +1,5087 @@
+
+================================================================================
+[START] Processing: data/fasta/Train_335.fa
+================================================================================
+
+[INFO] Total proteins to process: 335
+
+
+[1/335] >1f60B
+[DEBUG] Using cached: 1F60.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 90 residues
+[DEBUG] Extracted features: (90, 16)
+[SUCCESS] Added 90 residues
+
+[2/335] >4iu2B
+[DEBUG] Using cached: 4IU2.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 238 residues
+[DEBUG] Extracted features: (238, 16)
+[SUCCESS] Added 237 residues
+
+[3/335] >3f6qB
+[DEBUG] Using cached: 3F6Q.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 72 residues
+[DEBUG] Extracted features: (72, 16)
+[SUCCESS] Added 72 residues
+
+[4/335] >4bi8A
+[DEBUG] Using cached: 4BI8.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 94 residues
+[DEBUG] Extracted features: (94, 16)
+[SUCCESS] Added 94 residues
+
+[5/335] >2o3bA
+[DEBUG] Using cached: 2O3B.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 241 residues
+[DEBUG] Extracted features: (241, 16)
+[SUCCESS] Added 241 residues
+
+[6/335] >3h4sE
+[DEBUG] Using cached: 3H4S.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 96 residues
+[DEBUG] Extracted features: (96, 16)
+[SUCCESS] Added 96 residues
+
+[7/335] >1mahA
+[DEBUG] Using cached: 1MAH.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 533 residues
+[DEBUG] Extracted features: (533, 16)
+[SUCCESS] Added 533 residues
+
+[8/335] >3p8bA
+[DEBUG] Using cached: 3P8B.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 60 residues
+[DEBUG] Extracted features: (60, 16)
+[SUCCESS] Added 60 residues
+
+[9/335] >4kt6A
+[DEBUG] Using cached: 4KT6.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 254 residues
+[DEBUG] Extracted features: (254, 16)
+[SUCCESS] Added 254 residues
+
+[10/335] >2r25A
+[DEBUG] Using cached: 2R25.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 166 residues
+[DEBUG] Extracted features: (166, 16)
+[SUCCESS] Added 166 residues
+
+[11/335] >2qc1B
+[DEBUG] Using cached: 2QC1.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 211 residues
+[DEBUG] Extracted features: (211, 16)
+[SUCCESS] Added 211 residues
+
+[12/335] >2d5rA
+[DEBUG] Using cached: 2D5R.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 252 residues
+[DEBUG] Extracted features: (252, 16)
+[SUCCESS] Added 252 residues
+
+[13/335] >1pq1A
+[DEBUG] Using cached: 1PQ1.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 147 residues
+[DEBUG] Extracted features: (147, 16)
+[SUCCESS] Added 147 residues
+
+[14/335] >3w0lA
+[DEBUG] Using cached: 3W0L.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 426 residues
+[DEBUG] Extracted features: (426, 16)
+[SUCCESS] Added 426 residues
+
+[15/335] >3mcbB
+[DEBUG] Using cached: 3MCB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 58 residues
+[DEBUG] Extracted features: (58, 16)
+[SUCCESS] Added 58 residues
+
+[16/335] >3vpjA
+[DEBUG] Using cached: 3VPJ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 146 residues
+[DEBUG] Extracted features: (146, 16)
+[SUCCESS] Added 146 residues
+
+[17/335] >1nw9A
+[DEBUG] Using cached: 1NW9.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 91 residues
+[DEBUG] Extracted features: (91, 16)
+[SUCCESS] Added 91 residues
+
+[18/335] >3zeuD
+[DEBUG] Using cached: 3ZEU.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 235 residues
+[DEBUG] Extracted features: (235, 16)
+[SUCCESS] Added 230 residues
+
+[19/335] >3nybB
+[DEBUG] Using cached: 3NYB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 64 residues
+[DEBUG] Extracted features: (64, 16)
+[SUCCESS] Added 64 residues
+
+[20/335] >3fqdA
+[DEBUG] Using cached: 3FQD.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 682 residues
+[DEBUG] Extracted features: (682, 16)
+[SUCCESS] Added 667 residues
+
+[21/335] >3mj7B
+[DEBUG] Using cached: 3MJ7.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 189 residues
+[DEBUG] Extracted features: (189, 16)
+[SUCCESS] Added 189 residues
+
+[22/335] >7ceiA
+[DEBUG] Using cached: 7CEI.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 87 residues
+[DEBUG] Extracted features: (87, 16)
+[SUCCESS] Added 87 residues
+
+[23/335] >1kshA
+[DEBUG] Using cached: 1KSH.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 165 residues
+[DEBUG] Extracted features: (165, 16)
+[SUCCESS] Added 164 residues
+
+[24/335] >4kt6B
+[DEBUG] Using cached: 4KT6.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 161 residues
+[DEBUG] Extracted features: (161, 16)
+[SUCCESS] Added 161 residues
+
+[25/335] >1dfjE
+[DEBUG] Using cached: 1DFJ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 124 residues
+[DEBUG] Extracted features: (124, 16)
+[SUCCESS] Added 124 residues
+
+[26/335] >1euvB
+[DEBUG] Using cached: 1EUV.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 79 residues
+[DEBUG] Extracted features: (79, 16)
+[SUCCESS] Added 79 residues
+
+[27/335] >2o2vA
+[DEBUG] Using cached: 2O2V.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 92 residues
+[DEBUG] Extracted features: (92, 16)
+[SUCCESS] Added 92 residues
+
+[28/335] >2fcwB
+[DEBUG] Using cached: 2FCW.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 78 residues
+[DEBUG] Extracted features: (78, 16)
+[SUCCESS] Added 78 residues
+
+[29/335] >2dvwB
+[DEBUG] Using cached: 2DVW.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 73 residues
+[DEBUG] Extracted features: (73, 16)
+[SUCCESS] Added 73 residues
+
+[30/335] >3o3mA
+[DEBUG] Using cached: 3O3M.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 399 residues
+[DEBUG] Extracted features: (399, 16)
+[SUCCESS] Added 399 residues
+
+[31/335] >1gcqC
+[DEBUG] Using cached: 1GCQ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 69 residues
+[DEBUG] Extracted features: (69, 16)
+[SUCCESS] Added 69 residues
+
+[32/335] >1xg2A
+[DEBUG] Using cached: 1XG2.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 317 residues
+[DEBUG] Extracted features: (317, 16)
+[SUCCESS] Added 317 residues
+
+[33/335] >4g7xA
+[DEBUG] Using cached: 4G7X.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 92 residues
+[DEBUG] Extracted features: (92, 16)
+[SUCCESS] Added 92 residues
+
+[34/335] >3fiiA
+[DEBUG] Using cached: 3FII.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 403 residues
+[DEBUG] Extracted features: (403, 16)
+[SUCCESS] Added 403 residues
+
+[35/335] >4bjjB
+[DEBUG] Using cached: 4BJJ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 85 residues
+[DEBUG] Extracted features: (85, 16)
+[SUCCESS] Added 85 residues
+
+[36/335] >4e4wA
+[DEBUG] Using cached: 4E4W.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 261 residues
+[DEBUG] Extracted features: (261, 16)
+[SUCCESS] Added 261 residues
+
+[37/335] >2qklB
+[DEBUG] Using cached: 2QKL.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 90 residues
+[DEBUG] Extracted features: (90, 16)
+[SUCCESS] Added 90 residues
+
+[38/335] >2v1yA
+[DEBUG] Using cached: 2V1Y.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 90 residues
+[DEBUG] Extracted features: (90, 16)
+[SUCCESS] Added 88 residues
+
+[39/335] >1acbI
+[DEBUG] Using cached: 1ACB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 63 residues
+[DEBUG] Extracted features: (63, 16)
+[SUCCESS] Added 63 residues
+
+[40/335] >1jtdB
+[DEBUG] Using cached: 1JTD.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 273 residues
+[DEBUG] Extracted features: (273, 16)
+[SUCCESS] Added 273 residues
+
+[41/335] >3dlqI
+[DEBUG] Using cached: 3DLQ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 131 residues
+[DEBUG] Extracted features: (131, 16)
+[SUCCESS] Added 131 residues
+
+[42/335] >3fmoB
+[DEBUG] Using cached: 3FMO.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 232 residues
+[DEBUG] Extracted features: (232, 16)
+[SUCCESS] Added 232 residues
+
+[43/335] >2o3bB
+[DEBUG] Using cached: 2O3B.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 135 residues
+[DEBUG] Extracted features: (135, 16)
+[SUCCESS] Added 135 residues
+
+[44/335] >1ewyA
+[DEBUG] Using cached: 1EWY.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 303 residues
+[DEBUG] Extracted features: (303, 16)
+[SUCCESS] Added 303 residues
+
+[45/335] >2mtaA
+[DEBUG] Using cached: 2MTA.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 105 residues
+[DEBUG] Extracted features: (105, 16)
+[SUCCESS] Added 105 residues
+
+[46/335] >4bh6D
+[DEBUG] Using cached: 4BH6.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 305 residues
+[DEBUG] Extracted features: (305, 16)
+[SUCCESS] Added 305 residues
+
+[47/335] >2omzB
+[DEBUG] Using cached: 2OMZ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 104 residues
+[DEBUG] Extracted features: (104, 16)
+[SUCCESS] Added 104 residues
+
+[48/335] >2qc1A
+[DEBUG] Using cached: 2QC1.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 74 residues
+[DEBUG] Extracted features: (74, 16)
+[SUCCESS] Added 74 residues
+
+[49/335] >3w2wA
+[DEBUG] Using cached: 3W2W.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 618 residues
+[DEBUG] Extracted features: (618, 16)
+[SUCCESS] Added 618 residues
+
+[50/335] >4etpB
+[DEBUG] Using cached: 4ETP.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 287 residues
+[DEBUG] Extracted features: (287, 16)
+[SUCCESS] Added 287 residues
+
+[51/335] >2a9kB
+[DEBUG] Using cached: 2A9K.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 207 residues
+[DEBUG] Extracted features: (207, 16)
+[SUCCESS] Added 207 residues
+
+[52/335] >4a5uB
+[DEBUG] Using cached: 4A5U.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 80 residues
+[DEBUG] Extracted features: (80, 16)
+[SUCCESS] Added 80 residues
+
+[53/335] >1pxvA
+[DEBUG] Using cached: 1PXV.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 183 residues
+[DEBUG] Extracted features: (183, 16)
+[SUCCESS] Added 183 residues
+
+[54/335] >3bp6A
+[DEBUG] Using cached: 3BP6.pdb
+/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/Bio/PDB/DSSP.py:199: UserWarning: Resulting mmCIF file is not valid!
+Invalid mmCIF file use --verbose option to see errors
+mkdssp: ./src/Structure.cpp:836: mmcif::Residue::Residue(const mmcif::Structure&, const string&, const string&, int, const string&): Assertion `mCompoundID != "HOH"' failed.
+
+  warnings.warn(err)
+[ERROR] DSSP failed: DSSP failed to produce an output
+[SKIP] Feature extraction failed
+
+[55/335] >4m69A
+[DEBUG] Using cached: 4M69.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 287 residues
+[DEBUG] Extracted features: (287, 16)
+[SUCCESS] Added 284 residues
+
+[56/335] >3d7vA
+[DEBUG] Using cached: 3D7V.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 144 residues
+[DEBUG] Extracted features: (144, 16)
+[SUCCESS] Added 144 residues
+
+[57/335] >3uvjB
+[DEBUG] Using cached: 3UVJ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 196 residues
+[DEBUG] Extracted features: (196, 16)
+[SUCCESS] Added 196 residues
+
+[58/335] >1v74B
+[DEBUG] Using cached: 1V74.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 87 residues
+[DEBUG] Extracted features: (87, 16)
+[SUCCESS] Added 87 residues
+
+[59/335] >3f1sB
+[DEBUG] Using cached: 3F1S.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 259 residues
+[DEBUG] Extracted features: (259, 16)
+[SUCCESS] Added 259 residues
+
+[60/335] >4dfcB
+[DEBUG] Using cached: 4DFC.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 121 residues
+[DEBUG] Extracted features: (121, 16)
+[SUCCESS] Added 121 residues
+
+[61/335] >3mdbC
+[DEBUG] Using cached: 3MDB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 365 residues
+[DEBUG] Extracted features: (365, 16)
+[SUCCESS] Added 365 residues
+
+[62/335] >3aqbB
+[DEBUG] Using cached: 3AQB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 321 residues
+[DEBUG] Extracted features: (321, 16)
+[SUCCESS] Added 321 residues
+
+[63/335] >1hx1B
+[DEBUG] Using cached: 1HX1.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 112 residues
+[DEBUG] Extracted features: (112, 16)
+[SUCCESS] Added 112 residues
+
+[64/335] >3w2wB
+[DEBUG] Using cached: 3W2W.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 308 residues
+[DEBUG] Extracted features: (308, 16)
+[SUCCESS] Added 308 residues
+
+[65/335] >1kklH
+[DEBUG] Using cached: 1KKL.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 86 residues
+[DEBUG] Extracted features: (86, 16)
+[SUCCESS] Added 86 residues
+
+[66/335] >4iu2A
+[DEBUG] Using cached: 4IU2.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 209 residues
+[DEBUG] Extracted features: (209, 16)
+[SUCCESS] Added 205 residues
+
+[67/335] >3w0lB
+[DEBUG] Using cached: 3W0L.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 598 residues
+[DEBUG] Extracted features: (598, 16)
+[SUCCESS] Added 598 residues
+
+[68/335] >4bjjA
+[DEBUG] Using cached: 4BJJ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 106 residues
+[DEBUG] Extracted features: (106, 16)
+[SUCCESS] Added 106 residues
+
+[69/335] >1z3eB
+[DEBUG] Using cached: 1Z3E.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 67 residues
+[DEBUG] Extracted features: (67, 16)
+[SUCCESS] Added 67 residues
+
+[70/335] >1u0sY
+[DEBUG] Using cached: 1U0S.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 118 residues
+[DEBUG] Extracted features: (118, 16)
+[SUCCESS] Added 118 residues
+
+[71/335] >1yvbI
+[DEBUG] Using cached: 1YVB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 111 residues
+[DEBUG] Extracted features: (111, 16)
+[SUCCESS] Added 111 residues
+
+[72/335] >3mmyA
+[DEBUG] Using cached: 3MMY.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 354 residues
+[DEBUG] Extracted features: (354, 16)
+[SUCCESS] Added 354 residues
+
+[73/335] >1ktzB
+[DEBUG] Using cached: 1KTZ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 106 residues
+[DEBUG] Extracted features: (106, 16)
+[SUCCESS] Added 106 residues
+
+[74/335] >3axjB
+[DEBUG] Using cached: 3AXJ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 240 residues
+[DEBUG] Extracted features: (240, 16)
+[SUCCESS] Added 235 residues
+
+[75/335] >1ta3B
+[DEBUG] Using cached: 1TA3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 301 residues
+[DEBUG] Extracted features: (301, 16)
+[SUCCESS] Added 301 residues
+
+[76/335] >3bp6B
+[DEBUG] Using cached: 3BP6.pdb
+/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/Bio/PDB/DSSP.py:199: UserWarning: Resulting mmCIF file is not valid!
+Invalid mmCIF file use --verbose option to see errors
+mkdssp: ./src/Structure.cpp:836: mmcif::Residue::Residue(const mmcif::Structure&, const string&, const string&, int, const string&): Assertion `mCompoundID != "HOH"' failed.
+
+  warnings.warn(err)
+[ERROR] DSSP failed: DSSP failed to produce an output
+[SKIP] Feature extraction failed
+
+[77/335] >1nrjA
+[DEBUG] Using cached: 1NRJ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 147 residues
+[DEBUG] Extracted features: (147, 16)
+[SUCCESS] Added 147 residues
+
+[78/335] >3onaB
+[DEBUG] Using cached: 3ONA.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 66 residues
+[DEBUG] Extracted features: (66, 16)
+[SUCCESS] Added 66 residues
+
+[79/335] >3og6A
+[DEBUG] Using cached: 3OG6.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 143 residues
+[DEBUG] Extracted features: (143, 16)
+[SUCCESS] Added 143 residues
+
+[80/335] >3q9nA
+[DEBUG] Using cached: 3Q9N.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 138 residues
+[DEBUG] Extracted features: (138, 16)
+[SUCCESS] Added 138 residues
+
+[81/335] >2vohA
+[DEBUG] Using cached: 2VOH.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 155 residues
+[DEBUG] Extracted features: (155, 16)
+[SUCCESS] Added 155 residues
+
+[82/335] >2ajfE
+[DEBUG] Using cached: 2AJF.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 174 residues
+[DEBUG] Extracted features: (174, 16)
+[SUCCESS] Added 174 residues
+
+[83/335] >3zyiA
+[DEBUG] Using cached: 3ZYI.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 395 residues
+[DEBUG] Extracted features: (395, 16)
+[SUCCESS] Added 395 residues
+
+[84/335] >2hqsA
+[DEBUG] Using cached: 2HQS.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 412 residues
+[DEBUG] Extracted features: (412, 16)
+[SUCCESS] Added 412 residues
+
+[85/335] >1jmtA
+[DEBUG] Using cached: 1JMT.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 98 residues
+[DEBUG] Extracted features: (98, 16)
+[SUCCESS] Added 98 residues
+
+[86/335] >4eukB
+[DEBUG] Using cached: 4EUK.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 152 residues
+[DEBUG] Extracted features: (152, 16)
+[SUCCESS] Added 152 residues
+
+[87/335] >1n2cA
+[DEBUG] Using cached: 1N2C.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 478 residues
+[DEBUG] Extracted features: (478, 16)
+[SUCCESS] Added 478 residues
+
+[88/335] >3d4uB
+[DEBUG] Using cached: 3D4U.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 74 residues
+[DEBUG] Extracted features: (74, 16)
+[SUCCESS] Added 74 residues
+
+[89/335] >4bh6L
+[DEBUG] Using cached: 4BH6.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 52 residues
+[DEBUG] Extracted features: (52, 16)
+[SUCCESS] Added 51 residues
+
+[90/335] >4hffB
+[DEBUG] Using cached: 4HFF.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 100 residues
+[DEBUG] Extracted features: (100, 16)
+[SUCCESS] Added 99 residues
+
+[91/335] >2cg5A
+[DEBUG] Using cached: 2CG5.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 266 residues
+[DEBUG] Extracted features: (266, 16)
+[SUCCESS] Added 266 residues
+
+[92/335] >3ourA
+[DEBUG] Using cached: 3OUR.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 394 residues
+[DEBUG] Extracted features: (394, 16)
+[SUCCESS] Added 394 residues
+
+[93/335] >2hrkB
+[DEBUG] Using cached: 2HRK.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 121 residues
+[DEBUG] Extracted features: (121, 16)
+[SUCCESS] Added 121 residues
+
+[94/335] >2apoA
+[DEBUG] Using cached: 2APO.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 304 residues
+[DEBUG] Extracted features: (304, 16)
+[SUCCESS] Added 304 residues
+
+[95/335] >4hluD
+[DEBUG] Using cached: 4HLU.pdb
+/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/Bio/PDB/DSSP.py:199: UserWarning: Unknown or untrusted program in REMARK 3, trying all parsers to see if there is a match
+
+  warnings.warn(err)
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 245 residues
+[DEBUG] Extracted features: (245, 16)
+[SUCCESS] Added 245 residues
+
+[96/335] >1kshB
+[DEBUG] Using cached: 1KSH.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 142 residues
+[DEBUG] Extracted features: (142, 16)
+[SUCCESS] Added 141 residues
+
+[97/335] >1b6cA
+[DEBUG] Using cached: 1B6C.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 107 residues
+[DEBUG] Extracted features: (107, 16)
+[SUCCESS] Added 107 residues
+
+[98/335] >2o2vB
+[DEBUG] Using cached: 2O2V.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 82 residues
+[DEBUG] Extracted features: (82, 16)
+[SUCCESS] Added 82 residues
+
+[99/335] >1k5dB
+[DEBUG] Using cached: 1K5D.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 146 residues
+[DEBUG] Extracted features: (146, 16)
+[SUCCESS] Added 146 residues
+
+[100/335] >1k5dC
+[DEBUG] Using cached: 1K5D.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 344 residues
+[DEBUG] Extracted features: (344, 16)
+[SUCCESS] Added 344 residues
+
+[101/335] >1fc2C
+[DEBUG] Using cached: 1FC2.pdb
+/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/Bio/PDB/DSSP.py:199: UserWarning: Unknown or untrusted program in REMARK 3, trying all parsers to see if there is a match
+
+  warnings.warn(err)
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 43 residues
+[DEBUG] Extracted features: (43, 16)
+[SUCCESS] Added 43 residues
+
+[102/335] >1n2cE
+[DEBUG] Using cached: 1N2C.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 274 residues
+[DEBUG] Extracted features: (274, 16)
+[SUCCESS] Added 274 residues
+
+[103/335] >3zeuE
+[DEBUG] Using cached: 3ZEU.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 337 residues
+[DEBUG] Extracted features: (337, 16)
+[SUCCESS] Added 337 residues
+
+[104/335] >3di3B
+[DEBUG] Using cached: 3DI3.pdb
+/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/Bio/PDB/DSSP.py:199: UserWarning: Unknown or untrusted program in REMARK 3, trying all parsers to see if there is a match
+
+  warnings.warn(err)
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 193 residues
+[DEBUG] Extracted features: (193, 16)
+[SUCCESS] Added 193 residues
+
+[105/335] >4je3A
+[DEBUG] Using cached: 4JE3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 244 residues
+[DEBUG] Extracted features: (244, 16)
+[SUCCESS] Added 244 residues
+
+[106/335] >2b59A
+[DEBUG] Using cached: 2B59.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 166 residues
+[DEBUG] Extracted features: (166, 16)
+[SUCCESS] Added 166 residues
+
+[107/335] >2j3rA
+[DEBUG] Using cached: 2J3R.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 158 residues
+[DEBUG] Extracted features: (158, 16)
+[SUCCESS] Added 158 residues
+
+[108/335] >4fouC
+[DEBUG] Using cached: 4FOU.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 95 residues
+[DEBUG] Extracted features: (95, 16)
+[SUCCESS] Added 95 residues
+
+[109/335] >2b59B
+[DEBUG] Using cached: 2B59.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 156 residues
+[DEBUG] Extracted features: (156, 16)
+[SUCCESS] Added 156 residues
+
+[110/335] >4kbmA
+[DEBUG] Using cached: 4KBM.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 386 residues
+[DEBUG] Extracted features: (386, 16)
+[SUCCESS] Added 386 residues
+
+[111/335] >2oznB
+[DEBUG] Using cached: 2OZN.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 131 residues
+[DEBUG] Extracted features: (131, 16)
+[SUCCESS] Added 131 residues
+
+[112/335] >1t6bX
+[DEBUG] Using cached: 1T6B.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 676 residues
+[DEBUG] Extracted features: (676, 16)
+[SUCCESS] Added 676 residues
+
+[113/335] >4awxA
+[DEBUG] Using cached: 4AWX.pdb
+/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/Bio/PDB/DSSP.py:199: UserWarning: Unknown or untrusted program in REMARK 3, trying all parsers to see if there is a match
+
+  warnings.warn(err)
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 252 residues
+[DEBUG] Extracted features: (252, 16)
+[SUCCESS] Added 252 residues
+
+[114/335] >1ib1A
+[DEBUG] Using cached: 1IB1.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 227 residues
+[DEBUG] Extracted features: (227, 16)
+[SUCCESS] Added 227 residues
+
+[115/335] >1eerA
+[DEBUG] Using cached: 1EER.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 166 residues
+[DEBUG] Extracted features: (166, 16)
+[SUCCESS] Added 166 residues
+
+[116/335] >3ckiA
+[DEBUG] Using cached: 3CKI.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 256 residues
+[DEBUG] Extracted features: (256, 16)
+[SUCCESS] Added 256 residues
+
+[117/335] >3mdbA
+[DEBUG] Using cached: 3MDB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 98 residues
+[DEBUG] Extracted features: (98, 16)
+[SUCCESS] Added 98 residues
+
+[118/335] >4apxA
+[DEBUG] Using cached: 4APX.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 208 residues
+[DEBUG] Extracted features: (208, 16)
+[SUCCESS] Added 208 residues
+
+[119/335] >2qxvA
+[DEBUG] Using cached: 2QXV.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 352 residues
+[DEBUG] Extracted features: (352, 16)
+[SUCCESS] Added 352 residues
+
+[120/335] >2d5rB
+[DEBUG] Using cached: 2D5R.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 116 residues
+[DEBUG] Extracted features: (116, 16)
+[SUCCESS] Added 116 residues
+
+[121/335] >2v8sE
+[DEBUG] Using cached: 2V8S.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 137 residues
+[DEBUG] Extracted features: (137, 16)
+[SUCCESS] Added 137 residues
+
+[122/335] >1mahF
+[DEBUG] Using cached: 1MAH.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 61 residues
+[DEBUG] Extracted features: (61, 16)
+[SUCCESS] Added 61 residues
+
+[123/335] >2v1yB
+[DEBUG] Using cached: 2V1Y.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 170 residues
+[DEBUG] Extracted features: (170, 16)
+[SUCCESS] Added 166 residues
+
+[124/335] >3tgxB
+[DEBUG] Using cached: 3TGX.pdb
+/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/Bio/PDB/DSSP.py:199: UserWarning: Unknown or untrusted program in REMARK 3, trying all parsers to see if there is a match
+
+  warnings.warn(err)
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 115 residues
+[DEBUG] Extracted features: (115, 16)
+[SUCCESS] Added 115 residues
+
+[125/335] >1e6eA
+[DEBUG] Using cached: 1E6E.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 457 residues
+[DEBUG] Extracted features: (457, 16)
+[SUCCESS] Added 457 residues
+
+[126/335] >2v8sV
+[DEBUG] Using cached: 2V8S.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 93 residues
+[DEBUG] Extracted features: (93, 16)
+[SUCCESS] Added 93 residues
+
+[127/335] >2d74B
+[DEBUG] Using cached: 2D74.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 137 residues
+[DEBUG] Extracted features: (137, 16)
+[SUCCESS] Added 137 residues
+
+[128/335] >2wusA
+[DEBUG] Using cached: 2WUS.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 335 residues
+[DEBUG] Extracted features: (335, 16)
+[SUCCESS] Added 335 residues
+
+[129/335] >1efnB
+[DEBUG] Using cached: 1EFN.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 104 residues
+[DEBUG] Extracted features: (104, 16)
+[SUCCESS] Added 104 residues
+
+[130/335] >3cf4G
+[DEBUG] Using cached: 3CF4.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 169 residues
+[DEBUG] Extracted features: (169, 16)
+[SUCCESS] Added 169 residues
+
+[131/335] >3gniA
+[DEBUG] Using cached: 3GNI.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 335 residues
+[DEBUG] Extracted features: (335, 16)
+[SUCCESS] Added 335 residues
+
+[132/335] >3anwB
+[DEBUG] Using cached: 3ANW.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 162 residues
+[DEBUG] Extracted features: (162, 16)
+[SUCCESS] Added 162 residues
+
+[133/335] >4hffA
+[DEBUG] Using cached: 4HFF.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 155 residues
+[DEBUG] Extracted features: (155, 16)
+[SUCCESS] Added 152 residues
+
+[134/335] >1k74A
+[DEBUG] Using cached: 1K74.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 232 residues
+[DEBUG] Extracted features: (232, 16)
+[SUCCESS] Added 232 residues
+
+[135/335] >2o8vB
+[DEBUG] Using cached: 2O8V.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 108 residues
+[DEBUG] Extracted features: (108, 16)
+[SUCCESS] Added 108 residues
+
+[136/335] >3m7fB
+[DEBUG] Using cached: 3M7F.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 135 residues
+[DEBUG] Extracted features: (135, 16)
+[SUCCESS] Added 135 residues
+
+[137/335] >3ayhB
+[DEBUG] Using cached: 3AYH.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 183 residues
+[DEBUG] Extracted features: (183, 16)
+[SUCCESS] Added 183 residues
+
+[138/335] >3mmyB
+[DEBUG] Using cached: 3MMY.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 51 residues
+[DEBUG] Extracted features: (51, 16)
+[SUCCESS] Added 51 residues
+
+[139/335] >1k74D
+[DEBUG] Using cached: 1K74.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 272 residues
+[DEBUG] Extracted features: (272, 16)
+[SUCCESS] Added 272 residues
+
+[140/335] >1e4kC
+[DEBUG] Using cached: 1E4K.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 172 residues
+[DEBUG] Extracted features: (172, 16)
+[SUCCESS] Added 172 residues
+
+[141/335] >1rlbE
+[DEBUG] Using cached: 1RLB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 174 residues
+[DEBUG] Extracted features: (174, 16)
+[SUCCESS] Added 174 residues
+
+[142/335] >2c5kT
+[DEBUG] Using cached: 2C5K.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 89 residues
+[DEBUG] Extracted features: (89, 16)
+[SUCCESS] Added 89 residues
+
+[143/335] >1ktzA
+[DEBUG] Using cached: 1KTZ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 82 residues
+[DEBUG] Extracted features: (82, 16)
+[SUCCESS] Added 82 residues
+
+[144/335] >2yajA
+[DEBUG] Using cached: 2YAJ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 869 residues
+[DEBUG] Extracted features: (869, 16)
+[SUCCESS] Added 869 residues
+
+[145/335] >3vz9B
+[DEBUG] Using cached: 3VZ9.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 103 residues
+[DEBUG] Extracted features: (103, 16)
+[SUCCESS] Added 103 residues
+
+[146/335] >1nrjB
+[DEBUG] Using cached: 1NRJ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 191 residues
+[DEBUG] Extracted features: (191, 16)
+[SUCCESS] Added 191 residues
+
+[147/335] >3b08B
+[DEBUG] Using cached: 3B08.pdb
+/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/Bio/PDB/DSSP.py:199: UserWarning: Unknown or untrusted program in REMARK 3, trying all parsers to see if there is a match
+
+  warnings.warn(err)
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 58 residues
+[DEBUG] Extracted features: (58, 16)
+[SUCCESS] Added 58 residues
+
+[148/335] >3aqbA
+[DEBUG] Using cached: 3AQB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 135 residues
+[DEBUG] Extracted features: (135, 16)
+[SUCCESS] Added 135 residues
+
+[149/335] >4fq0B
+[DEBUG] Using cached: 4FQ0.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 182 residues
+[DEBUG] Extracted features: (182, 16)
+[SUCCESS] Added 182 residues
+
+[150/335] >4fq0C
+[DEBUG] Using cached: 4FQ0.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 80 residues
+[DEBUG] Extracted features: (80, 16)
+[SUCCESS] Added 80 residues
+
+[151/335] >3gniB
+[DEBUG] Using cached: 3GNI.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 304 residues
+[DEBUG] Extracted features: (304, 16)
+[SUCCESS] Added 304 residues
+
+[152/335] >3mj7A
+[DEBUG] Using cached: 3MJ7.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 229 residues
+[DEBUG] Extracted features: (229, 16)
+[SUCCESS] Added 229 residues
+
+[153/335] >3vu9A
+[DEBUG] Using cached: 3VU9.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 215 residues
+[DEBUG] Extracted features: (215, 16)
+[SUCCESS] Added 215 residues
+
+[154/335] >4joiD
+[DEBUG] Using cached: 4JOI.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 118 residues
+[DEBUG] Extracted features: (118, 16)
+[SUCCESS] Added 118 residues
+
+[155/335] >2z0eB
+[DEBUG] Using cached: 2Z0E.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 118 residues
+[DEBUG] Extracted features: (118, 16)
+[SUCCESS] Added 118 residues
+
+[156/335] >3c5tA
+[DEBUG] Using cached: 3C5T.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 104 residues
+[DEBUG] Extracted features: (104, 16)
+[SUCCESS] Added 104 residues
+
+[157/335] >4fouA
+[DEBUG] Using cached: 4FOU.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 262 residues
+[DEBUG] Extracted features: (262, 16)
+[SUCCESS] Added 262 residues
+
+[158/335] >3zheA
+[DEBUG] Using cached: 3ZHE.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 399 residues
+[DEBUG] Extracted features: (399, 16)
+[SUCCESS] Added 399 residues
+
+[159/335] >2dohX
+[DEBUG] Using cached: 2DOH.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 165 residues
+[DEBUG] Extracted features: (165, 16)
+[SUCCESS] Added 165 residues
+
+[160/335] >1jiwP
+[DEBUG] Using cached: 1JIW.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 470 residues
+[DEBUG] Extracted features: (470, 16)
+[SUCCESS] Added 470 residues
+
+[161/335] >3d48R
+[DEBUG] Using cached: 3D48.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 195 residues
+[DEBUG] Extracted features: (195, 16)
+[SUCCESS] Added 195 residues
+
+[162/335] >2p7vA
+[DEBUG] Using cached: 2P7V.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 151 residues
+[DEBUG] Extracted features: (151, 16)
+[SUCCESS] Added 151 residues
+
+[163/335] >2hqsH
+[DEBUG] Using cached: 2HQS.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 108 residues
+[DEBUG] Extracted features: (108, 16)
+[SUCCESS] Added 108 residues
+
+[164/335] >4eukA
+[DEBUG] Using cached: 4EUK.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 136 residues
+[DEBUG] Extracted features: (136, 16)
+[SUCCESS] Added 136 residues
+
+[165/335] >4f6uB
+[DEBUG] Using cached: 4F6U.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 267 residues
+[DEBUG] Extracted features: (267, 16)
+[SUCCESS] Added 267 residues
+
+[166/335] >2j3rB
+[DEBUG] Using cached: 2J3R.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 157 residues
+[DEBUG] Extracted features: (157, 16)
+[SUCCESS] Added 157 residues
+
+[167/335] >1efnA
+[DEBUG] Using cached: 1EFN.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 57 residues
+[DEBUG] Extracted features: (57, 16)
+[SUCCESS] Added 57 residues
+
+[168/335] >4hopA
+[DEBUG] Using cached: 4HOP.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 87 residues
+[DEBUG] Extracted features: (87, 16)
+[SUCCESS] Added 87 residues
+
+[169/335] >1z0jB
+[DEBUG] Using cached: 1Z0J.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 51 residues
+[DEBUG] Extracted features: (51, 16)
+[SUCCESS] Added 51 residues
+
+[170/335] >4eqaC
+[DEBUG] Using cached: 4EQA.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 150 residues
+[DEBUG] Extracted features: (150, 16)
+[SUCCESS] Added 150 residues
+
+[171/335] >2yclB
+[DEBUG] Using cached: 2YCL.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 309 residues
+[DEBUG] Extracted features: (309, 16)
+[SUCCESS] Added 309 residues
+
+[172/335] >3tu3B
+[DEBUG] Using cached: 3TU3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 526 residues
+[DEBUG] Extracted features: (526, 16)
+[SUCCESS] Added 526 residues
+
+[173/335] >2cg5B
+[DEBUG] Using cached: 2CG5.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 71 residues
+[DEBUG] Extracted features: (71, 16)
+[SUCCESS] Added 71 residues
+
+[174/335] >3pv6A
+[DEBUG] Using cached: 3PV6.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 214 residues
+[DEBUG] Extracted features: (214, 16)
+[SUCCESS] Added 214 residues
+
+[175/335] >4gedB
+[DEBUG] Using cached: 4GED.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 102 residues
+[DEBUG] Extracted features: (102, 16)
+[SUCCESS] Added 102 residues
+
+[176/335] >3bs5B
+[DEBUG] Using cached: 3BS5.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 75 residues
+[DEBUG] Extracted features: (75, 16)
+[SUCCESS] Added 74 residues
+
+[177/335] >1e6eB
+[DEBUG] Using cached: 1E6E.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 113 residues
+[DEBUG] Extracted features: (113, 16)
+[SUCCESS] Added 113 residues
+
+[178/335] >1gl4B
+[DEBUG] Using cached: 1GL4.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 89 residues
+[DEBUG] Extracted features: (89, 16)
+[SUCCESS] Added 89 residues
+
+[179/335] >1tnrA
+[DEBUG] Using cached: 1TNR.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 144 residues
+[DEBUG] Extracted features: (144, 16)
+[SUCCESS] Added 144 residues
+
+[180/335] >3cx8B
+[DEBUG] Using cached: 3CX8.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 193 residues
+[DEBUG] Extracted features: (193, 16)
+[SUCCESS] Added 193 residues
+
+[181/335] >2o8vA
+[DEBUG] Using cached: 2O8V.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 229 residues
+[DEBUG] Extracted features: (229, 16)
+[SUCCESS] Added 229 residues
+
+[182/335] >3p8bB
+[DEBUG] Using cached: 3P8B.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 147 residues
+[DEBUG] Extracted features: (147, 16)
+[SUCCESS] Added 147 residues
+
+[183/335] >3zkqA
+[DEBUG] Using cached: 3ZKQ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 376 residues
+[DEBUG] Extracted features: (376, 16)
+[SUCCESS] Added 376 residues
+
+[184/335] >3zr4B
+[DEBUG] Using cached: 3ZR4.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 201 residues
+[DEBUG] Extracted features: (201, 16)
+[SUCCESS] Added 201 residues
+
+[185/335] >4h3kA
+[DEBUG] Using cached: 4H3K.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 317 residues
+[DEBUG] Extracted features: (317, 16)
+[SUCCESS] Added 317 residues
+
+[186/335] >2wd5A
+[DEBUG] Using cached: 2WD5.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 177 residues
+[DEBUG] Extracted features: (177, 16)
+[SUCCESS] Added 177 residues
+
+[187/335] >1eerB
+[DEBUG] Using cached: 1EER.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 213 residues
+[DEBUG] Extracted features: (213, 16)
+[SUCCESS] Added 213 residues
+
+[188/335] >3dgpA
+[DEBUG] Using cached: 3DGP.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 62 residues
+[DEBUG] Extracted features: (62, 16)
+[SUCCESS] Added 62 residues
+
+[189/335] >4gn4B
+[DEBUG] Using cached: 4GN4.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 108 residues
+[DEBUG] Extracted features: (108, 16)
+[SUCCESS] Added 108 residues
+
+[190/335] >4awxB
+[DEBUG] Using cached: 4AWX.pdb
+/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/Bio/PDB/DSSP.py:199: UserWarning: Unknown or untrusted program in REMARK 3, trying all parsers to see if there is a match
+
+  warnings.warn(err)
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 63 residues
+[DEBUG] Extracted features: (63, 16)
+[SUCCESS] Added 63 residues
+
+[191/335] >3begB
+[DEBUG] Using cached: 3BEG.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 86 residues
+[DEBUG] Extracted features: (86, 16)
+[SUCCESS] Added 86 residues
+
+[192/335] >3dlqR
+[DEBUG] Using cached: 3DLQ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 201 residues
+[DEBUG] Extracted features: (201, 16)
+[SUCCESS] Added 201 residues
+
+[193/335] >1f60A
+[DEBUG] Using cached: 1F60.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 440 residues
+[DEBUG] Extracted features: (440, 16)
+[SUCCESS] Added 440 residues
+
+[194/335] >1pxvC
+[DEBUG] Using cached: 1PXV.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 111 residues
+[DEBUG] Extracted features: (111, 16)
+[SUCCESS] Added 111 residues
+
+[195/335] >1tnrR
+[DEBUG] Using cached: 1TNR.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 139 residues
+[DEBUG] Extracted features: (139, 16)
+[SUCCESS] Added 139 residues
+
+[196/335] >1svdM
+[DEBUG] Using cached: 1SVD.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 108 residues
+[DEBUG] Extracted features: (108, 16)
+[SUCCESS] Added 108 residues
+
+[197/335] >3fqdB
+[DEBUG] Using cached: 3FQD.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 332 residues
+[DEBUG] Extracted features: (332, 16)
+[SUCCESS] Added 321 residues
+
+[198/335] >2fp4A
+[DEBUG] Using cached: 2FP4.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 305 residues
+[DEBUG] Extracted features: (305, 16)
+[SUCCESS] Added 304 residues
+
+[199/335] >3m7fA
+[DEBUG] Using cached: 3M7F.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 107 residues
+[DEBUG] Extracted features: (107, 16)
+[SUCCESS] Added 107 residues
+
+[200/335] >2yc2D
+[DEBUG] Using cached: 2YC2.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 148 residues
+[DEBUG] Extracted features: (148, 16)
+[SUCCESS] Added 148 residues
+
+[201/335] >1dfjI
+[DEBUG] Using cached: 1DFJ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 456 residues
+[DEBUG] Extracted features: (456, 16)
+[SUCCESS] Added 456 residues
+
+[202/335] >2h0dB
+[DEBUG] Using cached: 2H0D.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 100 residues
+[DEBUG] Extracted features: (100, 16)
+[SUCCESS] Added 100 residues
+
+[203/335] >2wd5B
+[DEBUG] Using cached: 2WD5.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 191 residues
+[DEBUG] Extracted features: (191, 16)
+[SUCCESS] Added 191 residues
+
+[204/335] >2ajfA
+[DEBUG] Using cached: 2AJF.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 597 residues
+[DEBUG] Extracted features: (597, 16)
+[SUCCESS] Added 597 residues
+
+[205/335] >4apxB
+[DEBUG] Using cached: 4APX.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 238 residues
+[DEBUG] Extracted features: (238, 16)
+[SUCCESS] Added 238 residues
+
+[206/335] >3bs5A
+[DEBUG] Using cached: 3BS5.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 86 residues
+[DEBUG] Extracted features: (86, 16)
+[SUCCESS] Added 83 residues
+
+[207/335] >2z0eA
+[DEBUG] Using cached: 2Z0E.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 315 residues
+[DEBUG] Extracted features: (315, 16)
+[SUCCESS] Added 315 residues
+
+[208/335] >3anwA
+[DEBUG] Using cached: 3ANW.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 171 residues
+[DEBUG] Extracted features: (171, 16)
+[SUCCESS] Added 171 residues
+
+[209/335] >3vu9B
+[DEBUG] Using cached: 3VU9.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 191 residues
+[DEBUG] Extracted features: (191, 16)
+[SUCCESS] Added 191 residues
+
+[210/335] >4a5uA
+[DEBUG] Using cached: 4A5U.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 148 residues
+[DEBUG] Extracted features: (148, 16)
+[SUCCESS] Added 148 residues
+
+[211/335] >5wy5A
+[DEBUG] Using cached: 5WY5.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 236 residues
+[DEBUG] Extracted features: (236, 16)
+[SUCCESS] Added 236 residues
+
+[212/335] >1itbB
+[DEBUG] Using cached: 1ITB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 310 residues
+[DEBUG] Extracted features: (310, 16)
+[SUCCESS] Added 310 residues
+
+[213/335] >4etpA
+[DEBUG] Using cached: 4ETP.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 379 residues
+[DEBUG] Extracted features: (379, 16)
+[SUCCESS] Added 379 residues
+
+[214/335] >3onaA
+[DEBUG] Using cached: 3ONA.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 158 residues
+[DEBUG] Extracted features: (158, 16)
+[SUCCESS] Added 158 residues
+
+[215/335] >1c1yB
+[DEBUG] Using cached: 1C1Y.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 77 residues
+[DEBUG] Extracted features: (77, 16)
+[SUCCESS] Added 77 residues
+
+[216/335] >1jiwI
+[DEBUG] Using cached: 1JIW.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 105 residues
+[DEBUG] Extracted features: (105, 16)
+[SUCCESS] Added 105 residues
+
+[217/335] >1z5yE
+[DEBUG] Using cached: 1Z5Y.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 136 residues
+[DEBUG] Extracted features: (136, 16)
+[SUCCESS] Added 136 residues
+
+[218/335] >2h0dA
+[DEBUG] Using cached: 2H0D.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 97 residues
+[DEBUG] Extracted features: (97, 16)
+[SUCCESS] Added 97 residues
+
+[219/335] >3og6B
+[DEBUG] Using cached: 3OG6.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 200 residues
+[DEBUG] Extracted features: (200, 16)
+[SUCCESS] Added 200 residues
+
+[220/335] >1h32A
+[DEBUG] Using cached: 1H32.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 261 residues
+[DEBUG] Extracted features: (261, 16)
+[SUCCESS] Added 260 residues
+
+[221/335] >1kklC
+[DEBUG] Using cached: 1KKL.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 168 residues
+[DEBUG] Extracted features: (168, 16)
+[SUCCESS] Added 168 residues
+
+[222/335] >1ka9F
+[DEBUG] Using cached: 1KA9.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 251 residues
+[DEBUG] Extracted features: (251, 16)
+[SUCCESS] Added 251 residues
+
+[223/335] >1ghqA
+[DEBUG] Using cached: 1GHQ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 307 residues
+[DEBUG] Extracted features: (307, 16)
+[SUCCESS] Added 307 residues
+
+[224/335] >2xqrA
+[DEBUG] Using cached: 2XQR.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 537 residues
+[DEBUG] Extracted features: (537, 16)
+[SUCCESS] Added 537 residues
+
+[225/335] >2y9wC
+[DEBUG] Using cached: 2Y9W.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 136 residues
+[DEBUG] Extracted features: (136, 16)
+[SUCCESS] Added 136 residues
+
+[226/335] >1hx1A
+[DEBUG] Using cached: 1HX1.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 377 residues
+[DEBUG] Extracted features: (377, 16)
+[SUCCESS] Added 377 residues
+
+[227/335] >1n2cB
+[DEBUG] Using cached: 1N2C.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 522 residues
+[DEBUG] Extracted features: (522, 16)
+[SUCCESS] Added 522 residues
+
+[228/335] >1te1B
+[DEBUG] Using cached: 1TE1.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 190 residues
+[DEBUG] Extracted features: (190, 16)
+[SUCCESS] Added 190 residues
+
+[229/335] >4kt3B
+[DEBUG] Using cached: 4KT3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 128 residues
+[DEBUG] Extracted features: (128, 16)
+[SUCCESS] Added 127 residues
+
+[230/335] >2p7vB
+[DEBUG] Using cached: 2P7V.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 68 residues
+[DEBUG] Extracted features: (68, 16)
+[SUCCESS] Added 68 residues
+
+[231/335] >3axjA
+[DEBUG] Using cached: 3AXJ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 225 residues
+[DEBUG] Extracted features: (225, 16)
+[SUCCESS] Added 222 residues
+
+[232/335] >2ehbD
+[DEBUG] Using cached: 2EHB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 126 residues
+[DEBUG] Extracted features: (126, 16)
+[SUCCESS] Added 126 residues
+
+[233/335] >1k5dA
+[DEBUG] Using cached: 1K5D.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 206 residues
+[DEBUG] Extracted features: (206, 16)
+[SUCCESS] Added 206 residues
+
+[234/335] >1udiE
+[DEBUG] Using cached: 1UDI.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 227 residues
+[DEBUG] Extracted features: (227, 16)
+[SUCCESS] Added 227 residues
+
+[235/335] >1xg2B
+[DEBUG] Using cached: 1XG2.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 151 residues
+[DEBUG] Extracted features: (151, 16)
+[SUCCESS] Added 151 residues
+
+[236/335] >1wpxB
+[DEBUG] Using cached: 1WPX.pdb
+/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/Bio/PDB/DSSP.py:199: UserWarning: Unknown or untrusted program in REMARK 3, trying all parsers to see if there is a match
+
+  warnings.warn(err)
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 204 residues
+[DEBUG] Extracted features: (204, 16)
+[SUCCESS] Added 204 residues
+
+[237/335] >3h4sA
+[DEBUG] Using cached: 3H4S.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 359 residues
+[DEBUG] Extracted features: (359, 16)
+[SUCCESS] Added 359 residues
+
+[238/335] >3pv6B
+[DEBUG] Using cached: 3PV6.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 112 residues
+[DEBUG] Extracted features: (112, 16)
+[SUCCESS] Added 112 residues
+
+[239/335] >1wkwA
+[DEBUG] Using cached: 1WKW.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 190 residues
+[DEBUG] Extracted features: (190, 16)
+[SUCCESS] Added 190 residues
+
+[240/335] >3zyiB
+[DEBUG] Using cached: 3ZYI.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 303 residues
+[DEBUG] Extracted features: (303, 16)
+[SUCCESS] Added 303 residues
+
+[241/335] >1tdqA
+[DEBUG] Using cached: 1TDQ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 271 residues
+[DEBUG] Extracted features: (271, 16)
+[SUCCESS] Added 271 residues
+
+[242/335] >1jmoH
+[DEBUG] Using cached: 1JMO.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 259 residues
+[DEBUG] Extracted features: (259, 16)
+[SUCCESS] Added 259 residues
+
+[243/335] >2yclA
+[DEBUG] Using cached: 2YCL.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 442 residues
+[DEBUG] Extracted features: (442, 16)
+[SUCCESS] Added 442 residues
+
+[244/335] >1nw9B
+[DEBUG] Using cached: 1NW9.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 238 residues
+[DEBUG] Extracted features: (238, 16)
+[SUCCESS] Added 238 residues
+
+[245/335] >4f6uA
+[DEBUG] Using cached: 4F6U.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 334 residues
+[DEBUG] Extracted features: (334, 16)
+[SUCCESS] Added 334 residues
+
+[246/335] >3tgxA
+[DEBUG] Using cached: 3TGX.pdb
+/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/Bio/PDB/DSSP.py:199: UserWarning: Unknown or untrusted program in REMARK 3, trying all parsers to see if there is a match
+
+  warnings.warn(err)
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 208 residues
+[DEBUG] Extracted features: (208, 16)
+[SUCCESS] Added 208 residues
+
+[247/335] >1euvA
+[DEBUG] Using cached: 1EUV.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 221 residues
+[DEBUG] Extracted features: (221, 16)
+[SUCCESS] Added 221 residues
+
+[248/335] >2yajB
+[DEBUG] Using cached: 2YAJ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 86 residues
+[DEBUG] Extracted features: (86, 16)
+[SUCCESS] Added 86 residues
+
+[249/335] >1z5yD
+[DEBUG] Using cached: 1Z5Y.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 118 residues
+[DEBUG] Extracted features: (118, 16)
+[SUCCESS] Added 118 residues
+
+[250/335] >3d48P
+[DEBUG] Using cached: 3D48.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 165 residues
+[DEBUG] Extracted features: (165, 16)
+[SUCCESS] Added 165 residues
+
+[251/335] >1xqsA
+[DEBUG] Using cached: 1XQS.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 264 residues
+[DEBUG] Extracted features: (264, 16)
+[SUCCESS] Added 264 residues
+
+[252/335] >1f34A
+[DEBUG] Using cached: 1F34.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 326 residues
+[DEBUG] Extracted features: (326, 16)
+[SUCCESS] Added 325 residues
+
+[253/335] >1ghqB
+[DEBUG] Using cached: 1GHQ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 129 residues
+[DEBUG] Extracted features: (129, 16)
+[SUCCESS] Added 129 residues
+
+[254/335] >2g77A
+[DEBUG] Using cached: 2G77.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 331 residues
+[DEBUG] Extracted features: (331, 16)
+[SUCCESS] Added 331 residues
+
+[255/335] >3q87B
+[DEBUG] Using cached: 3Q87.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 165 residues
+[DEBUG] Extracted features: (165, 16)
+[SUCCESS] Added 164 residues
+
+[256/335] >3ckiB
+[DEBUG] Using cached: 3CKI.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 121 residues
+[DEBUG] Extracted features: (121, 16)
+[SUCCESS] Added 121 residues
+
+[257/335] >3mp7B
+[DEBUG] Using cached: 3MP7.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 54 residues
+[DEBUG] Extracted features: (54, 16)
+[SUCCESS] Added 54 residues
+
+[258/335] >3ph0C
+[DEBUG] Using cached: 3PH0.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 53 residues
+[DEBUG] Extracted features: (53, 16)
+[SUCCESS] Added 53 residues
+
+[259/335] >2c9xB
+[DEBUG] Using cached: 2C9X.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 81 residues
+[DEBUG] Extracted features: (81, 16)
+[SUCCESS] Added 81 residues
+
+[260/335] >4g7xB
+[DEBUG] Using cached: 4G7X.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 102 residues
+[DEBUG] Extracted features: (102, 16)
+[SUCCESS] Added 102 residues
+
+[261/335] >1jmoL
+[DEBUG] Using cached: 1JMO.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 47 residues
+[DEBUG] Extracted features: (47, 16)
+[SUCCESS] Added 47 residues
+
+[262/335] >3shgB
+[DEBUG] Using cached: 3SHG.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 61 residues
+[DEBUG] Extracted features: (61, 16)
+[SUCCESS] Added 61 residues
+
+[263/335] >4gn4A
+[DEBUG] Using cached: 4GN4.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 129 residues
+[DEBUG] Extracted features: (129, 16)
+[SUCCESS] Added 129 residues
+
+[264/335] >2g2uB
+[DEBUG] Using cached: 2G2U.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 165 residues
+[DEBUG] Extracted features: (165, 16)
+[SUCCESS] Added 165 residues
+
+[265/335] >1u0sA
+[DEBUG] Using cached: 1U0S.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 86 residues
+[DEBUG] Extracted features: (86, 16)
+[SUCCESS] Added 86 residues
+
+[266/335] >1udiI
+[DEBUG] Using cached: 1UDI.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 83 residues
+[DEBUG] Extracted features: (83, 16)
+[SUCCESS] Added 83 residues
+
+[267/335] >3cqcB
+[DEBUG] Using cached: 3CQC.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 186 residues
+[DEBUG] Extracted features: (186, 16)
+[SUCCESS] Added 186 residues
+
+[268/335] >1rlbA
+[DEBUG] Using cached: 1RLB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 123 residues
+[DEBUG] Extracted features: (123, 16)
+[SUCCESS] Added 123 residues
+
+[269/335] >3cbjB
+[DEBUG] Using cached: 3CBJ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 109 residues
+[DEBUG] Extracted features: (109, 16)
+[SUCCESS] Added 109 residues
+
+[270/335] >3ayhA
+[DEBUG] Using cached: 3AYH.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 134 residues
+[DEBUG] Extracted features: (134, 16)
+[SUCCESS] Added 134 residues
+
+[271/335] >4gedA
+[DEBUG] Using cached: 4GED.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 268 residues
+[DEBUG] Extracted features: (268, 16)
+[SUCCESS] Added 268 residues
+
+[272/335] >3ph0A
+[DEBUG] Using cached: 3PH0.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 60 residues
+[DEBUG] Extracted features: (60, 16)
+[SUCCESS] Added 60 residues
+
+[273/335] >5wy5B
+[DEBUG] Using cached: 5WY5.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 189 residues
+[DEBUG] Extracted features: (189, 16)
+[SUCCESS] Added 189 residues
+
+[274/335] >2mtaL
+[DEBUG] Using cached: 2MTA.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 125 residues
+[DEBUG] Extracted features: (125, 16)
+[SUCCESS] Added 124 residues
+
+[275/335] >2fp4B
+[DEBUG] Using cached: 2FP4.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 393 residues
+[DEBUG] Extracted features: (393, 16)
+[SUCCESS] Added 393 residues
+
+[276/335] >2omzA
+[DEBUG] Using cached: 2OMZ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 464 residues
+[DEBUG] Extracted features: (464, 16)
+[SUCCESS] Added 464 residues
+
+[277/335] >2v6xA
+[DEBUG] Using cached: 2V6X.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 82 residues
+[DEBUG] Extracted features: (82, 16)
+[SUCCESS] Added 80 residues
+
+[278/335] >4dfcA
+[DEBUG] Using cached: 4DFC.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 85 residues
+[DEBUG] Extracted features: (85, 16)
+[SUCCESS] Added 85 residues
+
+[279/335] >1ggpB
+[DEBUG] Using cached: 1GGP.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 254 residues
+[DEBUG] Extracted features: (254, 16)
+[SUCCESS] Added 254 residues
+
+[280/335] >1ay7B
+[DEBUG] Using cached: 1AY7.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 89 residues
+[DEBUG] Extracted features: (89, 16)
+[SUCCESS] Added 89 residues
+
+[281/335] >1kacA
+[DEBUG] Using cached: 1KAC.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 185 residues
+[DEBUG] Extracted features: (185, 16)
+[SUCCESS] Added 185 residues
+
+[282/335] >2c9xA
+[DEBUG] Using cached: 2C9X.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 373 residues
+[DEBUG] Extracted features: (373, 16)
+[SUCCESS] Added 373 residues
+
+[283/335] >3czuB
+[DEBUG] Using cached: 3CZU.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 130 residues
+[DEBUG] Extracted features: (130, 16)
+[SUCCESS] Added 130 residues
+
+[284/335] >2hrkA
+[DEBUG] Using cached: 2HRK.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 177 residues
+[DEBUG] Extracted features: (177, 16)
+[SUCCESS] Added 177 residues
+
+[285/335] >1ib1E
+[DEBUG] Using cached: 1IB1.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 179 residues
+[DEBUG] Extracted features: (179, 16)
+[SUCCESS] Added 178 residues
+
+[286/335] >2rd7C
+[DEBUG] Using cached: 2RD7.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 159 residues
+[DEBUG] Extracted features: (159, 16)
+[SUCCESS] Added 159 residues
+
+[287/335] >4e4wB
+[DEBUG] Using cached: 4E4W.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 213 residues
+[DEBUG] Extracted features: (213, 16)
+[SUCCESS] Added 213 residues
+
+[288/335] >1e4kA
+[DEBUG] Using cached: 1E4K.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 216 residues
+[DEBUG] Extracted features: (216, 16)
+[SUCCESS] Added 216 residues
+
+[289/335] >1zbxB
+[DEBUG] Using cached: 1ZBX.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 120 residues
+[DEBUG] Extracted features: (120, 16)
+[SUCCESS] Added 120 residues
+
+[290/335] >3viqB
+[DEBUG] Using cached: 3VIQ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 85 residues
+[DEBUG] Extracted features: (85, 16)
+[SUCCESS] Added 85 residues
+
+[291/335] >3r07C
+[DEBUG] Using cached: 3R07.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 88 residues
+[DEBUG] Extracted features: (88, 16)
+[SUCCESS] Added 88 residues
+
+[292/335] >4nqwA
+[DEBUG] Using cached: 4NQW.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 148 residues
+[DEBUG] Extracted features: (148, 16)
+[SUCCESS] Added 148 residues
+
+[293/335] >3begA
+[DEBUG] Using cached: 3BEG.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 350 residues
+[DEBUG] Extracted features: (350, 16)
+[SUCCESS] Added 348 residues
+
+[294/335] >2rd7A
+[DEBUG] Using cached: 2RD7.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 328 residues
+[DEBUG] Extracted features: (328, 16)
+[SUCCESS] Added 328 residues
+
+[295/335] >1zbdB
+[DEBUG] Using cached: 1ZBD.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 124 residues
+[DEBUG] Extracted features: (124, 16)
+[SUCCESS] Added 119 residues
+
+[296/335] >3mp7A
+[DEBUG] Using cached: 3MP7.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 387 residues
+[DEBUG] Extracted features: (387, 16)
+[SUCCESS] Added 387 residues
+
+[297/335] >3b08A
+[DEBUG] Using cached: 3B08.pdb
+/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/Bio/PDB/DSSP.py:199: UserWarning: Unknown or untrusted program in REMARK 3, trying all parsers to see if there is a match
+
+  warnings.warn(err)
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 151 residues
+[DEBUG] Extracted features: (151, 16)
+[SUCCESS] Added 151 residues
+
+[298/335] >1f34B
+[DEBUG] Using cached: 1F34.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 138 residues
+[DEBUG] Extracted features: (138, 16)
+[SUCCESS] Added 138 residues
+
+[299/335] >2wusR
+[DEBUG] Using cached: 2WUS.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 87 residues
+[DEBUG] Extracted features: (87, 16)
+[SUCCESS] Added 87 residues
+
+[300/335] >4bi8B
+[DEBUG] Using cached: 4BI8.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 163 residues
+[DEBUG] Extracted features: (163, 16)
+[SUCCESS] Added 163 residues
+
+[301/335] >3czuA
+[DEBUG] Using cached: 3CZU.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 175 residues
+[DEBUG] Extracted features: (175, 16)
+[SUCCESS] Added 175 residues
+
+[302/335] >1ak4D
+[DEBUG] Using cached: 1AK4.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 145 residues
+[DEBUG] Extracted features: (145, 16)
+[SUCCESS] Added 145 residues
+
+[303/335] >3r07A
+[DEBUG] Using cached: 3R07.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 255 residues
+[DEBUG] Extracted features: (255, 16)
+[SUCCESS] Added 255 residues
+
+[304/335] >2mtaH
+[DEBUG] Using cached: 2MTA.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 373 residues
+[DEBUG] Extracted features: (373, 16)
+[SUCCESS] Added 373 residues
+
+[305/335] >4hopB
+[DEBUG] Using cached: 4HOP.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 120 residues
+[DEBUG] Extracted features: (120, 16)
+[SUCCESS] Added 120 residues
+
+[306/335] >2oznA
+[DEBUG] Using cached: 2OZN.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 133 residues
+[DEBUG] Extracted features: (133, 16)
+[SUCCESS] Added 133 residues
+
+[307/335] >1zbxA
+[DEBUG] Using cached: 1ZBX.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 197 residues
+[DEBUG] Extracted features: (197, 16)
+[SUCCESS] Added 197 residues
+
+[308/335] >3viqA
+[DEBUG] Using cached: 3VIQ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 122 residues
+[DEBUG] Extracted features: (122, 16)
+[SUCCESS] Added 122 residues
+
+[309/335] >1glaF
+[DEBUG] Using cached: 1GLA.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 161 residues
+[DEBUG] Extracted features: (161, 16)
+[SUCCESS] Added 161 residues
+
+[310/335] >4cdgC
+[DEBUG] Using cached: 4CDG.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 122 residues
+[DEBUG] Extracted features: (122, 16)
+[SUCCESS] Added 122 residues
+
+[311/335] >1mg9A
+[DEBUG] Using cached: 1MG9.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 84 residues
+[DEBUG] Extracted features: (84, 16)
+[SUCCESS] Added 84 residues
+
+[312/335] >3dgpB
+[DEBUG] Using cached: 3DGP.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 63 residues
+[DEBUG] Extracted features: (63, 16)
+[SUCCESS] Added 63 residues
+
+[313/335] >4emjA
+[DEBUG] Using cached: 4EMJ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 406 residues
+[DEBUG] Extracted features: (406, 16)
+[SUCCESS] Added 406 residues
+
+[314/335] >1ml0A
+[DEBUG] Using cached: 1ML0.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 371 residues
+[DEBUG] Extracted features: (371, 16)
+[SUCCESS] Added 371 residues
+
+[315/335] >1gcqB
+[DEBUG] Using cached: 1GCQ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 57 residues
+[DEBUG] Extracted features: (57, 16)
+[SUCCESS] Added 57 residues
+
+[316/335] >1z3eA
+[DEBUG] Using cached: 1Z3E.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 119 residues
+[DEBUG] Extracted features: (119, 16)
+[SUCCESS] Added 119 residues
+
+[317/335] >1mg9B
+[DEBUG] Using cached: 1MG9.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 143 residues
+[DEBUG] Extracted features: (143, 16)
+[SUCCESS] Added 143 residues
+
+[318/335] >2fhzA
+[DEBUG] Using cached: 2FHZ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 106 residues
+[DEBUG] Extracted features: (106, 16)
+[SUCCESS] Added 106 residues
+
+[319/335] >2fcwA
+[DEBUG] Using cached: 2FCW.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 106 residues
+[DEBUG] Extracted features: (106, 16)
+[SUCCESS] Added 106 residues
+
+[320/335] >1tdqB
+[DEBUG] Using cached: 1TDQ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 126 residues
+[DEBUG] Extracted features: (126, 16)
+[SUCCESS] Added 126 residues
+
+[321/335] >3vrdB
+[DEBUG] Using cached: 3VRD.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 400 residues
+[DEBUG] Extracted features: (400, 16)
+[SUCCESS] Added 398 residues
+
+[322/335] >3di3A
+[DEBUG] Using cached: 3DI3.pdb
+/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/Bio/PDB/DSSP.py:199: UserWarning: Unknown or untrusted program in REMARK 3, trying all parsers to see if there is a match
+
+  warnings.warn(err)
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 118 residues
+[DEBUG] Extracted features: (118, 16)
+[SUCCESS] Added 118 residues
+
+[323/335] >3cpjG
+[DEBUG] Using cached: 3CPJ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 438 residues
+[DEBUG] Extracted features: (438, 16)
+[SUCCESS] Added 438 residues
+
+[324/335] >3fjuB
+[DEBUG] Using cached: 3FJU.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 65 residues
+[DEBUG] Extracted features: (65, 16)
+[SUCCESS] Added 65 residues
+
+[325/335] >1svdA
+[DEBUG] Using cached: 1SVD.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 445 residues
+[DEBUG] Extracted features: (445, 16)
+[SUCCESS] Added 445 residues
+
+[326/335] >4g6tB
+[DEBUG] Using cached: 4G6T.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 71 residues
+[DEBUG] Extracted features: (71, 16)
+[SUCCESS] Added 71 residues
+
+[327/335] >3vrdA
+[DEBUG] Using cached: 3VRD.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 174 residues
+[DEBUG] Extracted features: (174, 16)
+[SUCCESS] Added 174 residues
+
+[328/335] >3s97A
+[DEBUG] Using cached: 3S97.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 266 residues
+[DEBUG] Extracted features: (266, 16)
+[SUCCESS] Added 266 residues
+
+[329/335] >1itbA
+[DEBUG] Using cached: 1ITB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 153 residues
+[DEBUG] Extracted features: (153, 16)
+[SUCCESS] Added 153 residues
+
+[330/335] >1ak4A
+[DEBUG] Using cached: 1AK4.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 165 residues
+[DEBUG] Extracted features: (165, 16)
+[SUCCESS] Added 165 residues
+
+[331/335] >3bh7B
+[DEBUG] Using cached: 3BH7.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 314 residues
+[DEBUG] Extracted features: (314, 16)
+[SUCCESS] Added 314 residues
+
+[332/335] >3cx8A
+[DEBUG] Using cached: 3CX8.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 319 residues
+[DEBUG] Extracted features: (319, 16)
+[SUCCESS] Added 319 residues
+
+[333/335] >4e6nA
+[DEBUG] Using cached: 4E6N.pdb
+/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/Bio/PDB/DSSP.py:199: UserWarning: Unknown or untrusted program in REMARK 3, trying all parsers to see if there is a match
+
+  warnings.warn(err)
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 407 residues
+[DEBUG] Extracted features: (407, 16)
+[SUCCESS] Added 407 residues
+
+[334/335] >4m70B
+[DEBUG] Using cached: 4M70.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 91 residues
+[DEBUG] Extracted features: (91, 16)
+[SUCCESS] Added 91 residues
+
+[335/335] >3nybA
+[DEBUG] Using cached: 3NYB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 323 residues
+[DEBUG] Extracted features: (323, 16)
+[SUCCESS] Added 323 residues
+
+================================================================================
+[SUMMARY]
+================================================================================
+Total proteins: 335
+Successfully processed: 333
+Failed: 2
+Success rate: 99.4%
+Output: data/structural/Train_335_16D.csv
+Shape: (66061, 21)
+================================================================================
+
+
+================================================================================
+[START] Processing: data/fasta/Test_60.fa
+================================================================================
+
+[INFO] Total proteins to process: 60
+
+
+[1/60] >2v9tA
+[DEBUG] Using cached: 2V9T.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 107 residues
+[DEBUG] Extracted features: (107, 16)
+[SUCCESS] Added 107 residues
+
+[2/60] >4h3kB
+[DEBUG] Using cached: 4H3K.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 189 residues
+[DEBUG] Extracted features: (189, 16)
+[SUCCESS] Added 189 residues
+
+[3/60] >3uvjA
+[DEBUG] Using cached: 3UVJ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 191 residues
+[DEBUG] Extracted features: (191, 16)
+[SUCCESS] Added 191 residues
+
+[4/60] >4emjB
+[DEBUG] Using cached: 4EMJ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 106 residues
+[DEBUG] Extracted features: (106, 16)
+[SUCCESS] Added 106 residues
+
+[5/60] >4je3B
+[DEBUG] Using cached: 4JE3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 77 residues
+[DEBUG] Extracted features: (77, 16)
+[SUCCESS] Added 77 residues
+
+[6/60] >3cf4A
+[DEBUG] Using cached: 3CF4.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 766 residues
+[DEBUG] Extracted features: (766, 16)
+[SUCCESS] Added 766 residues
+
+[7/60] >4g6tA
+[DEBUG] Using cached: 4G6T.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 128 residues
+[DEBUG] Extracted features: (128, 16)
+[SUCCESS] Added 128 residues
+
+[8/60] >4nqwB
+[DEBUG] Using cached: 4NQW.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 73 residues
+[DEBUG] Extracted features: (73, 16)
+[SUCCESS] Added 73 residues
+
+[9/60] >3tu3A
+[DEBUG] Using cached: 3TU3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 119 residues
+[DEBUG] Extracted features: (119, 16)
+[SUCCESS] Added 119 residues
+
+[10/60] >1e96B
+[DEBUG] Using cached: 1E96.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 184 residues
+[DEBUG] Extracted features: (184, 16)
+[SUCCESS] Added 184 residues
+
+[11/60] >1v74A
+[DEBUG] Using cached: 1V74.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 107 residues
+[DEBUG] Extracted features: (107, 16)
+[SUCCESS] Added 107 residues
+
+[12/60] >3mcbA
+[DEBUG] Using cached: 3MCB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 54 residues
+[DEBUG] Extracted features: (54, 16)
+[SUCCESS] Added 54 residues
+
+[13/60] >1qa9A
+[DEBUG] Using cached: 1QA9.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 102 residues
+[DEBUG] Extracted features: (102, 16)
+[SUCCESS] Added 102 residues
+
+[14/60] >2qklA
+[DEBUG] Using cached: 2QKL.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 121 residues
+[DEBUG] Extracted features: (121, 16)
+[SUCCESS] Added 121 residues
+
+[15/60] >3zheB
+[DEBUG] Using cached: 3ZHE.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 390 residues
+[DEBUG] Extracted features: (390, 16)
+[SUCCESS] Added 390 residues
+
+[16/60] >1t6bY
+[DEBUG] Using cached: 1T6B.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 170 residues
+[DEBUG] Extracted features: (170, 16)
+[SUCCESS] Added 170 residues
+
+[17/60] >3f6qA
+[DEBUG] Using cached: 3F6Q.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 169 residues
+[DEBUG] Extracted features: (169, 16)
+[SUCCESS] Added 169 residues
+
+[18/60] >4m70H
+[DEBUG] Using cached: 4M70.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 111 residues
+[DEBUG] Extracted features: (111, 16)
+[SUCCESS] Added 111 residues
+
+[19/60] >2apoB
+[DEBUG] Using cached: 2APO.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 55 residues
+[DEBUG] Extracted features: (55, 16)
+[SUCCESS] Added 52 residues
+
+[20/60] >3s97C
+[DEBUG] Using cached: 3S97.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 197 residues
+[DEBUG] Extracted features: (197, 16)
+[SUCCESS] Added 197 residues
+
+[21/60] >1qa9B
+[DEBUG] Using cached: 1QA9.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 95 residues
+[DEBUG] Extracted features: (95, 16)
+[SUCCESS] Added 95 residues
+
+[22/60] >2y9wA
+[DEBUG] Using cached: 2Y9W.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 391 residues
+[DEBUG] Extracted features: (391, 16)
+[SUCCESS] Added 391 residues
+
+[23/60] >3fjuA
+[DEBUG] Using cached: 3FJU.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 307 residues
+[DEBUG] Extracted features: (307, 16)
+[SUCCESS] Added 307 residues
+
+[24/60] >1gl4A
+[DEBUG] Using cached: 1GL4.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 273 residues
+[DEBUG] Extracted features: (273, 16)
+[SUCCESS] Added 273 residues
+
+[25/60] >1ay7A
+[DEBUG] Using cached: 1AY7.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 96 residues
+[DEBUG] Extracted features: (96, 16)
+[SUCCESS] Added 96 residues
+
+[26/60] >2c0lA
+[DEBUG] Using cached: 2C0L.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 292 residues
+[DEBUG] Extracted features: (292, 16)
+[SUCCESS] Added 292 residues
+
+[27/60] >1wpxA
+[DEBUG] Using cached: 1WPX.pdb
+/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/Bio/PDB/DSSP.py:199: UserWarning: Unknown or untrusted program in REMARK 3, trying all parsers to see if there is a match
+
+  warnings.warn(err)
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 421 residues
+[DEBUG] Extracted features: (421, 16)
+[SUCCESS] Added 421 residues
+
+[28/60] >3vz9D
+[DEBUG] Using cached: 3VZ9.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 60 residues
+[DEBUG] Extracted features: (60, 16)
+[SUCCESS] Added 60 residues
+
+[29/60] >4hluA
+[DEBUG] Using cached: 4HLU.pdb
+/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/Bio/PDB/DSSP.py:199: UserWarning: Unknown or untrusted program in REMARK 3, trying all parsers to see if there is a match
+
+  warnings.warn(err)
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 265 residues
+[DEBUG] Extracted features: (265, 16)
+[SUCCESS] Added 265 residues
+
+[30/60] >1h32B
+[DEBUG] Using cached: 1H32.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 134 residues
+[DEBUG] Extracted features: (134, 16)
+[SUCCESS] Added 134 residues
+
+[31/60] >4e6nB
+[DEBUG] Using cached: 4E6N.pdb
+/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/Bio/PDB/DSSP.py:199: UserWarning: Unknown or untrusted program in REMARK 3, trying all parsers to see if there is a match
+
+  warnings.warn(err)
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 218 residues
+[DEBUG] Extracted features: (218, 16)
+[SUCCESS] Added 218 residues
+
+[32/60] >2c0lB
+[DEBUG] Using cached: 2C0L.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 122 residues
+[DEBUG] Extracted features: (122, 16)
+[SUCCESS] Added 122 residues
+
+[33/60] >2fhzB
+[DEBUG] Using cached: 2FHZ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 93 residues
+[DEBUG] Extracted features: (93, 16)
+[SUCCESS] Added 93 residues
+
+[34/60] >2ehbA
+[DEBUG] Using cached: 2EHB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 182 residues
+[DEBUG] Extracted features: (182, 16)
+[SUCCESS] Added 182 residues
+
+[35/60] >2g2uA
+[DEBUG] Using cached: 2G2U.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 265 residues
+[DEBUG] Extracted features: (265, 16)
+[SUCCESS] Added 265 residues
+
+[36/60] >3cbjA
+[DEBUG] Using cached: 3CBJ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 258 residues
+[DEBUG] Extracted features: (258, 16)
+[SUCCESS] Added 258 residues
+
+[37/60] >1glaG
+[DEBUG] Using cached: 1GLA.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 489 residues
+[DEBUG] Extracted features: (489, 16)
+[SUCCESS] Added 489 residues
+
+[38/60] >3shgA
+[DEBUG] Using cached: 3SHG.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 198 residues
+[DEBUG] Extracted features: (198, 16)
+[SUCCESS] Added 198 residues
+
+[39/60] >1ggpA
+[DEBUG] Using cached: 1GGP.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 234 residues
+[DEBUG] Extracted features: (234, 16)
+[SUCCESS] Added 234 residues
+
+[40/60] >4joiA
+[DEBUG] Using cached: 4JOI.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 141 residues
+[DEBUG] Extracted features: (141, 16)
+[SUCCESS] Added 141 residues
+
+[41/60] >1ta3A
+[DEBUG] Using cached: 1TA3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 274 residues
+[DEBUG] Extracted features: (274, 16)
+[SUCCESS] Added 274 residues
+
+[42/60] >2b42A
+[DEBUG] Using cached: 2B42.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 364 residues
+[DEBUG] Extracted features: (364, 16)
+[SUCCESS] Added 364 residues
+
+[43/60] >4kt3A
+[DEBUG] Using cached: 4KT3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 141 residues
+[DEBUG] Extracted features: (141, 16)
+[SUCCESS] Added 138 residues
+
+[44/60] >3q87A
+[DEBUG] Using cached: 3Q87.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 122 residues
+[DEBUG] Extracted features: (122, 16)
+[SUCCESS] Added 122 residues
+
+[45/60] >1jmoA
+[DEBUG] Using cached: 1JMO.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 427 residues
+[DEBUG] Extracted features: (427, 16)
+[SUCCESS] Added 425 residues
+
+[46/60] >3ocdB
+[DEBUG] Using cached: 3OCD.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 180 residues
+[DEBUG] Extracted features: (180, 16)
+[SUCCESS] Added 180 residues
+
+[47/60] >2d74A
+[DEBUG] Using cached: 2D74.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 403 residues
+[DEBUG] Extracted features: (403, 16)
+[SUCCESS] Added 403 residues
+
+[48/60] >4cdgA
+[DEBUG] Using cached: 4CDG.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 625 residues
+[DEBUG] Extracted features: (625, 16)
+[SUCCESS] Added 625 residues
+
+[49/60] >1b6cB
+[DEBUG] Using cached: 1B6C.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 326 residues
+[DEBUG] Extracted features: (326, 16)
+[SUCCESS] Added 326 residues
+
+[50/60] >2dvwA
+[DEBUG] Using cached: 2DVW.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 229 residues
+[DEBUG] Extracted features: (229, 16)
+[SUCCESS] Added 229 residues
+
+[51/60] >2ot3A
+[DEBUG] Using cached: 2OT3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 253 residues
+[DEBUG] Extracted features: (253, 16)
+[SUCCESS] Added 253 residues
+
+[52/60] >2yc2A
+[DEBUG] Using cached: 2YC2.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 132 residues
+[DEBUG] Extracted features: (132, 16)
+[SUCCESS] Added 132 residues
+
+[53/60] >2v4zB
+[DEBUG] Using cached: 2V4Z.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 122 residues
+[DEBUG] Extracted features: (122, 16)
+[SUCCESS] Added 122 residues
+
+[54/60] >1ewyC
+[DEBUG] Using cached: 1EWY.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 98 residues
+[DEBUG] Extracted features: (98, 16)
+[SUCCESS] Added 98 residues
+
+[55/60] >7ceiB
+[DEBUG] Using cached: 7CEI.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 127 residues
+[DEBUG] Extracted features: (127, 16)
+[SUCCESS] Added 127 residues
+
+[56/60] >1r8sE
+[DEBUG] Using cached: 1R8S.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 187 residues
+[DEBUG] Extracted features: (187, 16)
+[SUCCESS] Added 187 residues
+
+[57/60] >3fmoA
+[DEBUG] Using cached: 3FMO.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 421 residues
+[DEBUG] Extracted features: (421, 16)
+[SUCCESS] Added 421 residues
+
+[58/60] >3o3mB
+[DEBUG] Using cached: 3O3M.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 373 residues
+[DEBUG] Extracted features: (373, 16)
+[SUCCESS] Added 373 residues
+
+[59/60] >3cqcA
+[DEBUG] Using cached: 3CQC.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 247 residues
+[DEBUG] Extracted features: (247, 16)
+[SUCCESS] Added 247 residues
+
+[60/60] >4kbmB
+[DEBUG] Using cached: 4KBM.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 148 residues
+[DEBUG] Extracted features: (148, 16)
+[SUCCESS] Added 148 residues
+
+================================================================================
+[SUMMARY]
+================================================================================
+Total proteins: 60
+Successfully processed: 60
+Failed: 0
+Success rate: 100.0%
+Output: data/structural/Test_60_16D.csv
+Shape: (13141, 21)
+================================================================================
+
+
+================================================================================
+[START] Processing: data/fasta/Test_315.fa
+================================================================================
+
+[INFO] Total proteins to process: 315
+
+
+[1/315] >4YOCA
+[DEBUG] Using cached: 4YOC.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 882 residues
+[DEBUG] Extracted features: (882, 16)
+[SUCCESS] Added 882 residues
+
+[2/315] >5WMMA
+[DEBUG] Using cached: 5WMM.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 871 residues
+[DEBUG] Extracted features: (871, 16)
+[SUCCESS] Added 870 residues
+
+[3/315] >5E6UA
+[DEBUG] Using cached: 5E6U.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 583 residues
+[DEBUG] Extracted features: (583, 16)
+[SUCCESS] Added 583 residues
+
+[4/315] >4QJ3B
+[DEBUG] Using cached: 4QJ3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 756 residues
+[DEBUG] Extracted features: (756, 16)
+[SUCCESS] Added 756 residues
+
+[5/315] >4CGYA
+[DEBUG] Using cached: 4CGY.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 619 residues
+[DEBUG] Extracted features: (619, 16)
+[SUCCESS] Added 619 residues
+
+[6/315] >5K04A
+[DEBUG] Using cached: 5K04.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 732 residues
+[DEBUG] Extracted features: (732, 16)
+[SUCCESS] Added 732 residues
+
+[7/315] >4L79A
+[DEBUG] Using cached: 4L79.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 734 residues
+[DEBUG] Extracted features: (734, 16)
+[SUCCESS] Added 734 residues
+
+[8/315] >6C90A
+[DEBUG] Using cached: 6C90.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 694 residues
+[DEBUG] Extracted features: (694, 16)
+[SUCCESS] Added 694 residues
+
+[9/315] >4MH0E
+[DEBUG] Using cached: 4MH0.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 627 residues
+[DEBUG] Extracted features: (627, 16)
+[SUCCESS] Added 627 residues
+
+[10/315] >6X07A
+[DEBUG] Using cached: 6X07.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 613 residues
+[DEBUG] Extracted features: (613, 16)
+[SUCCESS] Added 613 residues
+
+[11/315] >4CI6B
+[DEBUG] Using cached: 4CI6.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 576 residues
+[DEBUG] Extracted features: (576, 16)
+[SUCCESS] Added 576 residues
+
+[12/315] >6I8GA
+[DEBUG] Using cached: 6I8G.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 618 residues
+[DEBUG] Extracted features: (618, 16)
+[SUCCESS] Added 618 residues
+
+[13/315] >4CJ0A
+[DEBUG] Using cached: 4CJ0.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 534 residues
+[DEBUG] Extracted features: (534, 16)
+[SUCCESS] Added 534 residues
+
+[14/315] >6OQ7A
+[DEBUG] Using cached: 6OQ7.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 541 residues
+[DEBUG] Extracted features: (541, 16)
+[SUCCESS] Added 541 residues
+
+[15/315] >4YOCC
+[DEBUG] Using cached: 4YOC.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 529 residues
+[DEBUG] Extracted features: (529, 16)
+[SUCCESS] Added 529 residues
+
+[16/315] >6L4OA
+[DEBUG] Using cached: 6L4O.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 429 residues
+[DEBUG] Extracted features: (429, 16)
+[SUCCESS] Added 429 residues
+
+[17/315] >5IMTA
+[DEBUG] Using cached: 5IMT.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 460 residues
+[DEBUG] Extracted features: (460, 16)
+[SUCCESS] Added 460 residues
+
+[18/315] >5C46E
+[DEBUG] Using cached: 5C46.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 469 residues
+[DEBUG] Extracted features: (469, 16)
+[SUCCESS] Added 469 residues
+
+[19/315] >6C0BA
+[DEBUG] Using cached: 6C0B.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 506 residues
+[DEBUG] Extracted features: (506, 16)
+[SUCCESS] Added 506 residues
+
+[20/315] >6E8EA
+[DEBUG] Using cached: 6E8E.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 468 residues
+[DEBUG] Extracted features: (468, 16)
+[SUCCESS] Added 468 residues
+
+[21/315] >5XBFA
+[DEBUG] Using cached: 5XBF.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 467 residues
+[DEBUG] Extracted features: (467, 16)
+[SUCCESS] Added 467 residues
+
+[22/315] >4US0S
+[DEBUG] Using cached: 4US0.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 454 residues
+[DEBUG] Extracted features: (454, 16)
+[SUCCESS] Added 454 residues
+
+[23/315] >4TX3B
+[DEBUG] Using cached: 4TX3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 457 residues
+[DEBUG] Extracted features: (457, 16)
+[SUCCESS] Added 457 residues
+
+[24/315] >5CM8A
+[DEBUG] Using cached: 5CM8.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 419 residues
+[DEBUG] Extracted features: (419, 16)
+[SUCCESS] Added 419 residues
+
+[25/315] >4UAFB
+[DEBUG] Using cached: 4UAF.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 425 residues
+[DEBUG] Extracted features: (425, 16)
+[SUCCESS] Added 425 residues
+
+[26/315] >5CECA
+[DEBUG] Using cached: 5CEC.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 401 residues
+[DEBUG] Extracted features: (401, 16)
+[SUCCESS] Added 401 residues
+
+[27/315] >5KP7A
+[DEBUG] Using cached: 5KP7.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 410 residues
+[DEBUG] Extracted features: (410, 16)
+[SUCCESS] Added 410 residues
+
+[28/315] >6AW3B
+[DEBUG] Using cached: 6AW3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 351 residues
+[DEBUG] Extracted features: (351, 16)
+[SUCCESS] Added 351 residues
+
+[29/315] >4ZGYA
+[DEBUG] Using cached: 4ZGY.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 383 residues
+[DEBUG] Extracted features: (383, 16)
+[SUCCESS] Added 383 residues
+
+[30/315] >6FCVB
+[DEBUG] Using cached: 6FCV.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 365 residues
+[DEBUG] Extracted features: (365, 16)
+[SUCCESS] Added 365 residues
+
+[31/315] >4TX3A
+[DEBUG] Using cached: 4TX3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 373 residues
+[DEBUG] Extracted features: (373, 16)
+[SUCCESS] Added 373 residues
+
+[32/315] >7BXFA
+[DEBUG] Using cached: 7BXF.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 369 residues
+[DEBUG] Extracted features: (369, 16)
+[SUCCESS] Added 369 residues
+
+[33/315] >4QAMA
+[DEBUG] Using cached: 4QAM.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 364 residues
+[DEBUG] Extracted features: (364, 16)
+[SUCCESS] Added 364 residues
+
+[34/315] >4N80A
+[DEBUG] Using cached: 4N80.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 399 residues
+[DEBUG] Extracted features: (399, 16)
+[SUCCESS] Added 399 residues
+
+[35/315] >4HT3B
+[DEBUG] Using cached: 4HT3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 393 residues
+[DEBUG] Extracted features: (393, 16)
+[SUCCESS] Added 393 residues
+
+[36/315] >6L1YA
+[DEBUG] Using cached: 6L1Y.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 341 residues
+[DEBUG] Extracted features: (341, 16)
+[SUCCESS] Added 341 residues
+
+[37/315] >5WXKA
+[DEBUG] Using cached: 5WXK.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 375 residues
+[DEBUG] Extracted features: (375, 16)
+[SUCCESS] Added 375 residues
+
+[38/315] >4YC7B
+[DEBUG] Using cached: 4YC7.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 291 residues
+[DEBUG] Extracted features: (291, 16)
+[SUCCESS] Added 291 residues
+
+[39/315] >6I4EA
+[DEBUG] Using cached: 6I4E.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 351 residues
+[DEBUG] Extracted features: (351, 16)
+[SUCCESS] Added 351 residues
+
+[40/315] >4XGAA
+[DEBUG] Using cached: 4XGA.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 347 residues
+[DEBUG] Extracted features: (347, 16)
+[SUCCESS] Added 347 residues
+
+[41/315] >5MU7A
+[DEBUG] Using cached: 5MU7.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 371 residues
+[DEBUG] Extracted features: (371, 16)
+[SUCCESS] Added 371 residues
+
+[42/315] >6KP3A
+[DEBUG] Using cached: 6KP3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 357 residues
+[DEBUG] Extracted features: (357, 16)
+[SUCCESS] Added 357 residues
+
+[43/315] >5CXBB
+[DEBUG] Using cached: 5CXB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 352 residues
+[DEBUG] Extracted features: (352, 16)
+[SUCCESS] Added 352 residues
+
+[44/315] >6X90B
+[DEBUG] Using cached: 6X90.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 344 residues
+[DEBUG] Extracted features: (344, 16)
+[SUCCESS] Added 344 residues
+
+[45/315] >6L59B
+[DEBUG] Using cached: 6L59.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 331 residues
+[DEBUG] Extracted features: (331, 16)
+[SUCCESS] Added 331 residues
+
+[46/315] >5XVEA
+[DEBUG] Using cached: 5XVE.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 331 residues
+[DEBUG] Extracted features: (331, 16)
+[SUCCESS] Added 331 residues
+
+[47/315] >5KYCB
+[DEBUG] Using cached: 5KYC.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 340 residues
+[DEBUG] Extracted features: (340, 16)
+[SUCCESS] Added 340 residues
+
+[48/315] >6RLLB
+[DEBUG] Using cached: 6RLL.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 303 residues
+[DEBUG] Extracted features: (303, 16)
+[SUCCESS] Added 303 residues
+
+[49/315] >6EI1A
+[DEBUG] Using cached: 6EI1.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 335 residues
+[DEBUG] Extracted features: (335, 16)
+[SUCCESS] Added 335 residues
+
+[50/315] >6JZYA
+[DEBUG] Using cached: 6JZY.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 342 residues
+[DEBUG] Extracted features: (342, 16)
+[SUCCESS] Added 342 residues
+
+[51/315] >6ZMDB
+[DEBUG] Using cached: 6ZMD.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 332 residues
+[DEBUG] Extracted features: (332, 16)
+[SUCCESS] Added 332 residues
+
+[52/315] >5CZDA
+[DEBUG] Using cached: 5CZD.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 301 residues
+[DEBUG] Extracted features: (301, 16)
+[SUCCESS] Added 301 residues
+
+[53/315] >4ZGNA
+[DEBUG] Using cached: 4ZGN.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 279 residues
+[DEBUG] Extracted features: (279, 16)
+[SUCCESS] Added 279 residues
+
+[54/315] >6FV0A
+[DEBUG] Using cached: 6FV0.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 270 residues
+[DEBUG] Extracted features: (270, 16)
+[SUCCESS] Added 270 residues
+
+[55/315] >4X33B
+[DEBUG] Using cached: 4X33.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 325 residues
+[DEBUG] Extracted features: (325, 16)
+[SUCCESS] Added 325 residues
+
+[56/315] >6CH3A
+[DEBUG] Using cached: 6CH3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 324 residues
+[DEBUG] Extracted features: (324, 16)
+[SUCCESS] Added 324 residues
+
+[57/315] >6KIPB
+[DEBUG] Using cached: 6KIP.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 272 residues
+[DEBUG] Extracted features: (272, 16)
+[SUCCESS] Added 272 residues
+
+[58/315] >6W2LA
+[DEBUG] Using cached: 6W2L.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 328 residues
+[DEBUG] Extracted features: (328, 16)
+[SUCCESS] Added 328 residues
+
+[59/315] >4M0WA
+[DEBUG] Using cached: 4M0W.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 317 residues
+[DEBUG] Extracted features: (317, 16)
+[SUCCESS] Added 317 residues
+
+[60/315] >4BMPA
+[DEBUG] Using cached: 4BMP.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 290 residues
+[DEBUG] Extracted features: (290, 16)
+[SUCCESS] Added 290 residues
+
+[61/315] >6G4JA
+[DEBUG] Using cached: 6G4J.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 273 residues
+[DEBUG] Extracted features: (273, 16)
+[SUCCESS] Added 273 residues
+
+[62/315] >5BZ0A
+[DEBUG] Using cached: 5BZ0.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 248 residues
+[DEBUG] Extracted features: (248, 16)
+[SUCCESS] Added 248 residues
+
+[63/315] >4XLGA
+[DEBUG] Using cached: 4XLG.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 260 residues
+[DEBUG] Extracted features: (260, 16)
+[SUCCESS] Added 260 residues
+
+[64/315] >5FFNA
+[DEBUG] Using cached: 5FFN.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 311 residues
+[DEBUG] Extracted features: (311, 16)
+[SUCCESS] Added 311 residues
+
+[65/315] >5MAWD
+[DEBUG] Using cached: 5MAW.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 260 residues
+[DEBUG] Extracted features: (260, 16)
+[SUCCESS] Added 260 residues
+
+[66/315] >6U3WB
+[DEBUG] Using cached: 6U3W.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 291 residues
+[DEBUG] Extracted features: (291, 16)
+[SUCCESS] Added 291 residues
+
+[67/315] >4RCAA
+[DEBUG] Using cached: 4RCA.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 300 residues
+[DEBUG] Extracted features: (300, 16)
+[SUCCESS] Added 300 residues
+
+[68/315] >5L2WB
+[DEBUG] Using cached: 5L2W.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 270 residues
+[DEBUG] Extracted features: (270, 16)
+[SUCCESS] Added 270 residues
+
+[69/315] >6ACIA
+[DEBUG] Using cached: 6ACI.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 304 residues
+[DEBUG] Extracted features: (304, 16)
+[SUCCESS] Added 304 residues
+
+[70/315] >6KIPA
+[DEBUG] Using cached: 6KIP.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 293 residues
+[DEBUG] Extracted features: (293, 16)
+[SUCCESS] Added 293 residues
+
+[71/315] >5YNMA
+[DEBUG] Using cached: 5YNM.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 291 residues
+[DEBUG] Extracted features: (291, 16)
+[SUCCESS] Added 290 residues
+
+[72/315] >6U3WA
+[DEBUG] Using cached: 6U3W.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 303 residues
+[DEBUG] Extracted features: (303, 16)
+[SUCCESS] Added 303 residues
+
+[73/315] >5IL2B
+[DEBUG] Using cached: 5IL2.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 285 residues
+[DEBUG] Extracted features: (285, 16)
+[SUCCESS] Added 284 residues
+
+[74/315] >6GHOB
+[DEBUG] Using cached: 6GHO.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 274 residues
+[DEBUG] Extracted features: (274, 16)
+[SUCCESS] Added 274 residues
+
+[75/315] >6RTWA
+[DEBUG] Using cached: 6RTW.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 277 residues
+[DEBUG] Extracted features: (277, 16)
+[SUCCESS] Added 277 residues
+
+[76/315] >6LKIA
+[DEBUG] Using cached: 6LKI.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 294 residues
+[DEBUG] Extracted features: (294, 16)
+[SUCCESS] Added 294 residues
+
+[77/315] >5H65A
+[DEBUG] Using cached: 5H65.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 289 residues
+[DEBUG] Extracted features: (289, 16)
+[SUCCESS] Added 289 residues
+
+[78/315] >5U8CA
+[DEBUG] Using cached: 5U8C.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 285 residues
+[DEBUG] Extracted features: (285, 16)
+[SUCCESS] Added 284 residues
+
+[79/315] >4X6RB
+[DEBUG] Using cached: 4X6R.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 290 residues
+[DEBUG] Extracted features: (290, 16)
+[SUCCESS] Added 290 residues
+
+[80/315] >5JQSA
+[DEBUG] Using cached: 5JQS.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 251 residues
+[DEBUG] Extracted features: (251, 16)
+[SUCCESS] Added 251 residues
+
+[81/315] >5VXMA
+[DEBUG] Using cached: 5VXM.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 243 residues
+[DEBUG] Extracted features: (243, 16)
+[SUCCESS] Added 243 residues
+
+[82/315] >5XLYA
+[DEBUG] Using cached: 5XLY.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 267 residues
+[DEBUG] Extracted features: (267, 16)
+[SUCCESS] Added 267 residues
+
+[83/315] >5ZWLG
+[DEBUG] Using cached: 5ZWL.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 254 residues
+[DEBUG] Extracted features: (254, 16)
+[SUCCESS] Added 254 residues
+
+[84/315] >6QTAA
+[DEBUG] Using cached: 6QTA.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 258 residues
+[DEBUG] Extracted features: (258, 16)
+[SUCCESS] Added 258 residues
+
+[85/315] >6VCLA
+[DEBUG] Using cached: 6VCL.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 275 residues
+[DEBUG] Extracted features: (275, 16)
+[SUCCESS] Added 275 residues
+
+[86/315] >6Y4LA
+[DEBUG] Using cached: 6Y4L.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 271 residues
+[DEBUG] Extracted features: (271, 16)
+[SUCCESS] Added 271 residues
+
+[87/315] >5OE7A
+[DEBUG] Using cached: 5OE7.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 266 residues
+[DEBUG] Extracted features: (266, 16)
+[SUCCESS] Added 266 residues
+
+[88/315] >4WEMA
+[DEBUG] Using cached: 4WEM.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 248 residues
+[DEBUG] Extracted features: (248, 16)
+[SUCCESS] Added 248 residues
+
+[89/315] >4HT3A
+[DEBUG] Using cached: 4HT3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 268 residues
+[DEBUG] Extracted features: (268, 16)
+[SUCCESS] Added 268 residues
+
+[90/315] >4RHZA
+[DEBUG] Using cached: 4RHZ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 259 residues
+[DEBUG] Extracted features: (259, 16)
+[SUCCESS] Added 259 residues
+
+[91/315] >6INEA
+[DEBUG] Using cached: 6INE.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 248 residues
+[DEBUG] Extracted features: (248, 16)
+[SUCCESS] Added 247 residues
+
+[92/315] >6IRDB
+[DEBUG] Using cached: 6IRD.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 254 residues
+[DEBUG] Extracted features: (254, 16)
+[SUCCESS] Added 254 residues
+
+[93/315] >6DFLA
+[DEBUG] Using cached: 6DFL.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 241 residues
+[DEBUG] Extracted features: (241, 16)
+[SUCCESS] Added 241 residues
+
+[94/315] >5TVQA
+[DEBUG] Using cached: 5TVQ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 253 residues
+[DEBUG] Extracted features: (253, 16)
+[SUCCESS] Added 253 residues
+
+[95/315] >4TTHA
+[DEBUG] Using cached: 4TTH.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 244 residues
+[DEBUG] Extracted features: (244, 16)
+[SUCCESS] Added 244 residues
+
+[96/315] >6JZYB
+[DEBUG] Using cached: 6JZY.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 218 residues
+[DEBUG] Extracted features: (218, 16)
+[SUCCESS] Added 218 residues
+
+[97/315] >6SWTA
+[DEBUG] Using cached: 6SWT.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 228 residues
+[DEBUG] Extracted features: (228, 16)
+[SUCCESS] Added 228 residues
+
+[98/315] >6WCWA
+[DEBUG] Using cached: 6WCW.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 247 residues
+[DEBUG] Extracted features: (247, 16)
+[SUCCESS] Added 247 residues
+
+[99/315] >6K9PB
+[DEBUG] Using cached: 6K9P.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 241 residues
+[DEBUG] Extracted features: (241, 16)
+[SUCCESS] Added 241 residues
+
+[100/315] >6M3IB
+[DEBUG] Using cached: 6M3I.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 234 residues
+[DEBUG] Extracted features: (234, 16)
+[SUCCESS] Added 234 residues
+
+[101/315] >5E8CA
+[DEBUG] Using cached: 5E8C.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 238 residues
+[DEBUG] Extracted features: (238, 16)
+[SUCCESS] Added 238 residues
+
+[102/315] >5JWOA
+[DEBUG] Using cached: 5JWO.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 217 residues
+[DEBUG] Extracted features: (217, 16)
+[SUCCESS] Added 217 residues
+
+[103/315] >4XGAB
+[DEBUG] Using cached: 4XGA.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 174 residues
+[DEBUG] Extracted features: (174, 16)
+[SUCCESS] Added 174 residues
+
+[104/315] >5NCMA
+[DEBUG] Using cached: 5NCM.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 183 residues
+[DEBUG] Extracted features: (183, 16)
+[SUCCESS] Added 183 residues
+
+[105/315] >4YK8B
+[DEBUG] Using cached: 4YK8.pdb
+/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/Bio/PDB/DSSP.py:199: UserWarning: Unknown or untrusted program in REMARK 3, trying all parsers to see if there is a match
+
+  warnings.warn(err)
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 194 residues
+[DEBUG] Extracted features: (194, 16)
+[SUCCESS] Added 194 residues
+
+[106/315] >6HULA
+[DEBUG] Using cached: 6HUL.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 241 residues
+[DEBUG] Extracted features: (241, 16)
+[SUCCESS] Added 241 residues
+
+[107/315] >6THLA
+[DEBUG] Using cached: 6THL.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 219 residues
+[DEBUG] Extracted features: (219, 16)
+[SUCCESS] Added 219 residues
+
+[108/315] >5F4EA
+[DEBUG] Using cached: 5F4E.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 233 residues
+[DEBUG] Extracted features: (233, 16)
+[SUCCESS] Added 233 residues
+
+[109/315] >6RMNB
+[DEBUG] Using cached: 6RMN.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 222 residues
+[DEBUG] Extracted features: (222, 16)
+[SUCCESS] Added 222 residues
+
+[110/315] >6SDVB
+[DEBUG] Using cached: 6SDV.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 214 residues
+[DEBUG] Extracted features: (214, 16)
+[SUCCESS] Added 214 residues
+
+[111/315] >4YN0B
+[DEBUG] Using cached: 4YN0.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 202 residues
+[DEBUG] Extracted features: (202, 16)
+[SUCCESS] Added 202 residues
+
+[112/315] >4CRWA
+[DEBUG] Using cached: 4CRW.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 226 residues
+[DEBUG] Extracted features: (226, 16)
+[SUCCESS] Added 226 residues
+
+[113/315] >4YXCB
+[DEBUG] Using cached: 4YXC.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 167 residues
+[DEBUG] Extracted features: (167, 16)
+[SUCCESS] Added 167 residues
+
+[114/315] >6ISCA
+[DEBUG] Using cached: 6ISC.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 219 residues
+[DEBUG] Extracted features: (219, 16)
+[SUCCESS] Added 219 residues
+
+[115/315] >6IMFA
+[DEBUG] Using cached: 6IMF.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 214 residues
+[DEBUG] Extracted features: (214, 16)
+[SUCCESS] Added 214 residues
+
+[116/315] >5DQSA
+[DEBUG] Using cached: 5DQS.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 210 residues
+[DEBUG] Extracted features: (210, 16)
+[SUCCESS] Added 210 residues
+
+[117/315] >5GPYA
+[DEBUG] Using cached: 5GPY.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 177 residues
+[DEBUG] Extracted features: (177, 16)
+[SUCCESS] Added 177 residues
+
+[118/315] >5JP1A
+[DEBUG] Using cached: 5JP1.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 199 residues
+[DEBUG] Extracted features: (199, 16)
+[SUCCESS] Added 199 residues
+
+[119/315] >4CGYB
+[DEBUG] Using cached: 4CGY.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 205 residues
+[DEBUG] Extracted features: (205, 16)
+[SUCCESS] Added 205 residues
+
+[120/315] >4BVXA
+[DEBUG] Using cached: 4BVX.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 203 residues
+[DEBUG] Extracted features: (203, 16)
+[SUCCESS] Added 203 residues
+
+[121/315] >4C2AA
+[DEBUG] Using cached: 4C2A.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 202 residues
+[DEBUG] Extracted features: (202, 16)
+[SUCCESS] Added 202 residues
+
+[122/315] >4WZ3B
+[DEBUG] Using cached: 4WZ3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 183 residues
+[DEBUG] Extracted features: (183, 16)
+[SUCCESS] Added 183 residues
+
+[123/315] >5F4EB
+[DEBUG] Using cached: 5F4E.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 209 residues
+[DEBUG] Extracted features: (209, 16)
+[SUCCESS] Added 209 residues
+
+[124/315] >6H2UA
+[DEBUG] Using cached: 6H2U.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 204 residues
+[DEBUG] Extracted features: (204, 16)
+[SUCCESS] Added 202 residues
+
+[125/315] >6W2LB
+[DEBUG] Using cached: 6W2L.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 195 residues
+[DEBUG] Extracted features: (195, 16)
+[SUCCESS] Added 195 residues
+
+[126/315] >5EE5A
+[DEBUG] Using cached: 5EE5.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 202 residues
+[DEBUG] Extracted features: (202, 16)
+[SUCCESS] Added 201 residues
+
+[127/315] >5FR1B
+[DEBUG] Using cached: 5FR1.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 167 residues
+[DEBUG] Extracted features: (167, 16)
+[SUCCESS] Added 165 residues
+
+[128/315] >6MM8D
+[DEBUG] Using cached: 6MM8.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 206 residues
+[DEBUG] Extracted features: (206, 16)
+[SUCCESS] Added 206 residues
+
+[129/315] >5C2JA
+[DEBUG] Using cached: 5C2J.pdb
+/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/Bio/PDB/DSSP.py:199: UserWarning: Unknown or untrusted program in REMARK 3, trying all parsers to see if there is a match
+
+  warnings.warn(err)
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 201 residues
+[DEBUG] Extracted features: (201, 16)
+[SUCCESS] Added 201 residues
+
+[130/315] >5EO9B
+[DEBUG] Using cached: 5EO9.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 205 residues
+[DEBUG] Extracted features: (205, 16)
+[SUCCESS] Added 205 residues
+
+[131/315] >5CM2Z
+[DEBUG] Using cached: 5CM2.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 184 residues
+[DEBUG] Extracted features: (184, 16)
+[SUCCESS] Added 184 residues
+
+[132/315] >6IF2A
+[DEBUG] Using cached: 6IF2.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 195 residues
+[DEBUG] Extracted features: (195, 16)
+[SUCCESS] Added 195 residues
+
+[133/315] >4QAMB
+[DEBUG] Using cached: 4QAM.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 180 residues
+[DEBUG] Extracted features: (180, 16)
+[SUCCESS] Added 180 residues
+
+[134/315] >4QLPB
+[DEBUG] Using cached: 4QLP.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 199 residues
+[DEBUG] Extracted features: (199, 16)
+[SUCCESS] Added 199 residues
+
+[135/315] >6L4PA
+[DEBUG] Using cached: 6L4P.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 195 residues
+[DEBUG] Extracted features: (195, 16)
+[SUCCESS] Added 195 residues
+
+[136/315] >5C50A
+[DEBUG] Using cached: 5C50.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 198 residues
+[DEBUG] Extracted features: (198, 16)
+[SUCCESS] Added 198 residues
+
+[137/315] >6G8RB
+[DEBUG] Using cached: 6G8R.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 164 residues
+[DEBUG] Extracted features: (164, 16)
+[SUCCESS] Added 164 residues
+
+[138/315] >4ZFRA
+[DEBUG] Using cached: 4ZFR.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 185 residues
+[DEBUG] Extracted features: (185, 16)
+[SUCCESS] Added 185 residues
+
+[139/315] >5OECA
+[DEBUG] Using cached: 5OEC.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 191 residues
+[DEBUG] Extracted features: (191, 16)
+[SUCCESS] Added 187 residues
+
+[140/315] >4U5YA
+[DEBUG] Using cached: 4U5Y.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 165 residues
+[DEBUG] Extracted features: (165, 16)
+[SUCCESS] Added 165 residues
+
+[141/315] >5C50B
+[DEBUG] Using cached: 5C50.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 185 residues
+[DEBUG] Extracted features: (185, 16)
+[SUCCESS] Added 185 residues
+
+[142/315] >6PNPA
+[DEBUG] Using cached: 6PNP.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 193 residues
+[DEBUG] Extracted features: (193, 16)
+[SUCCESS] Added 193 residues
+
+[143/315] >4KDLA
+[DEBUG] Using cached: 4KDL.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 174 residues
+[DEBUG] Extracted features: (174, 16)
+[SUCCESS] Added 174 residues
+
+[144/315] >5CHLB
+[DEBUG] Using cached: 5CHL.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 176 residues
+[DEBUG] Extracted features: (176, 16)
+[SUCCESS] Added 176 residues
+
+[145/315] >6NDUA
+[DEBUG] Using cached: 6NDU.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 170 residues
+[DEBUG] Extracted features: (170, 16)
+[SUCCESS] Added 170 residues
+
+[146/315] >6WTGA
+[DEBUG] Using cached: 6WTG.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 169 residues
+[DEBUG] Extracted features: (169, 16)
+[SUCCESS] Added 169 residues
+
+[147/315] >4WKZB
+[DEBUG] Using cached: 4WKZ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 184 residues
+[DEBUG] Extracted features: (184, 16)
+[SUCCESS] Added 184 residues
+
+[148/315] >4YN0A
+[DEBUG] Using cached: 4YN0.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 168 residues
+[DEBUG] Extracted features: (168, 16)
+[SUCCESS] Added 168 residues
+
+[149/315] >5B64A
+[DEBUG] Using cached: 5B64.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 180 residues
+[DEBUG] Extracted features: (180, 16)
+[SUCCESS] Added 180 residues
+
+[150/315] >6LBUA
+[DEBUG] Using cached: 6LBU.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 185 residues
+[DEBUG] Extracted features: (185, 16)
+[SUCCESS] Added 185 residues
+
+[151/315] >6PGVA
+[DEBUG] Using cached: 6PGV.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 152 residues
+[DEBUG] Extracted features: (152, 16)
+[SUCCESS] Added 152 residues
+
+[152/315] >4WW7B
+[DEBUG] Using cached: 4WW7.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 172 residues
+[DEBUG] Extracted features: (172, 16)
+[SUCCESS] Added 172 residues
+
+[153/315] >4YK8A
+[DEBUG] Using cached: 4YK8.pdb
+/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/Bio/PDB/DSSP.py:199: UserWarning: Unknown or untrusted program in REMARK 3, trying all parsers to see if there is a match
+
+  warnings.warn(err)
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 162 residues
+[DEBUG] Extracted features: (162, 16)
+[SUCCESS] Added 162 residues
+
+[154/315] >4ZQUB
+[DEBUG] Using cached: 4ZQU.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 174 residues
+[DEBUG] Extracted features: (174, 16)
+[SUCCESS] Added 174 residues
+
+[155/315] >6THLB
+[DEBUG] Using cached: 6THL.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 150 residues
+[DEBUG] Extracted features: (150, 16)
+[SUCCESS] Added 150 residues
+
+[156/315] >5K22A
+[DEBUG] Using cached: 5K22.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 156 residues
+[DEBUG] Extracted features: (156, 16)
+[SUCCESS] Added 156 residues
+
+[157/315] >4P3YB
+[DEBUG] Using cached: 4P3Y.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 181 residues
+[DEBUG] Extracted features: (181, 16)
+[SUCCESS] Added 181 residues
+
+[158/315] >7CN7A
+[DEBUG] Using cached: 7CN7.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 178 residues
+[DEBUG] Extracted features: (178, 16)
+[SUCCESS] Added 178 residues
+
+[159/315] >4QXAB
+[DEBUG] Using cached: 4QXA.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 147 residues
+[DEBUG] Extracted features: (147, 16)
+[SUCCESS] Added 147 residues
+
+[160/315] >5O33B
+[DEBUG] Using cached: 5O33.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 179 residues
+[DEBUG] Extracted features: (179, 16)
+[SUCCESS] Added 179 residues
+
+[161/315] >6W9SA
+[DEBUG] Using cached: 6W9S.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 178 residues
+[DEBUG] Extracted features: (178, 16)
+[SUCCESS] Added 178 residues
+
+[162/315] >6INEB
+[DEBUG] Using cached: 6INE.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 159 residues
+[DEBUG] Extracted features: (159, 16)
+[SUCCESS] Added 159 residues
+
+[163/315] >6L1YC
+[DEBUG] Using cached: 6L1Y.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 177 residues
+[DEBUG] Extracted features: (177, 16)
+[SUCCESS] Added 177 residues
+
+[164/315] >4QLPA
+[DEBUG] Using cached: 4QLP.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 175 residues
+[DEBUG] Extracted features: (175, 16)
+[SUCCESS] Added 175 residues
+
+[165/315] >5D5NA
+[DEBUG] Using cached: 5D5N.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 162 residues
+[DEBUG] Extracted features: (162, 16)
+[SUCCESS] Added 162 residues
+
+[166/315] >5OENB
+[DEBUG] Using cached: 5OEN.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 171 residues
+[DEBUG] Extracted features: (171, 16)
+[SUCCESS] Added 171 residues
+
+[167/315] >5W59A
+[DEBUG] Using cached: 5W59.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 146 residues
+[DEBUG] Extracted features: (146, 16)
+[SUCCESS] Added 146 residues
+
+[168/315] >5V5HA
+[DEBUG] Using cached: 5V5H.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 163 residues
+[DEBUG] Extracted features: (163, 16)
+[SUCCESS] Added 163 residues
+
+[169/315] >6IF3A
+[DEBUG] Using cached: 6IF3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 159 residues
+[DEBUG] Extracted features: (159, 16)
+[SUCCESS] Added 159 residues
+
+[170/315] >5DMRA
+[DEBUG] Using cached: 5DMR.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 139 residues
+[DEBUG] Extracted features: (139, 16)
+[SUCCESS] Added 139 residues
+
+[171/315] >4BVXB
+[DEBUG] Using cached: 4BVX.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 170 residues
+[DEBUG] Extracted features: (170, 16)
+[SUCCESS] Added 170 residues
+
+[172/315] >5E8CB
+[DEBUG] Using cached: 5E8C.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 168 residues
+[DEBUG] Extracted features: (168, 16)
+[SUCCESS] Added 168 residues
+
+[173/315] >5OENA
+[DEBUG] Using cached: 5OEN.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 165 residues
+[DEBUG] Extracted features: (165, 16)
+[SUCCESS] Added 165 residues
+
+[174/315] >6LKIB
+[DEBUG] Using cached: 6LKI.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 170 residues
+[DEBUG] Extracted features: (170, 16)
+[SUCCESS] Added 170 residues
+
+[175/315] >6MBAA
+[DEBUG] Using cached: 6MBA.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 130 residues
+[DEBUG] Extracted features: (130, 16)
+[SUCCESS] Added 130 residues
+
+[176/315] >6MAVA
+[DEBUG] Using cached: 6MAV.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 161 residues
+[DEBUG] Extracted features: (161, 16)
+[SUCCESS] Added 161 residues
+
+[177/315] >6PNPB
+[DEBUG] Using cached: 6PNP.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 132 residues
+[DEBUG] Extracted features: (132, 16)
+[SUCCESS] Added 132 residues
+
+[178/315] >6ZDTB
+[DEBUG] Using cached: 6ZDT.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 166 residues
+[DEBUG] Extracted features: (166, 16)
+[SUCCESS] Added 166 residues
+
+[179/315] >7AZBA
+[DEBUG] Using cached: 7AZB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 160 residues
+[DEBUG] Extracted features: (160, 16)
+[SUCCESS] Added 160 residues
+
+[180/315] >6FFAA
+[DEBUG] Using cached: 6FFA.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 156 residues
+[DEBUG] Extracted features: (156, 16)
+[SUCCESS] Added 156 residues
+
+[181/315] >3WSOB
+[DEBUG] Using cached: 3WSO.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 139 residues
+[DEBUG] Extracted features: (139, 16)
+[SUCCESS] Added 139 residues
+
+[182/315] >6HLVA
+[DEBUG] Using cached: 6HLV.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 127 residues
+[DEBUG] Extracted features: (127, 16)
+[SUCCESS] Added 127 residues
+
+[183/315] >5JQPB
+[DEBUG] Using cached: 5JQP.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 131 residues
+[DEBUG] Extracted features: (131, 16)
+[SUCCESS] Added 131 residues
+
+[184/315] >4ZV0A
+[DEBUG] Using cached: 4ZV0.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 137 residues
+[DEBUG] Extracted features: (137, 16)
+[SUCCESS] Added 137 residues
+
+[185/315] >6VCLB
+[DEBUG] Using cached: 6VCL.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 160 residues
+[DEBUG] Extracted features: (160, 16)
+[SUCCESS] Added 160 residues
+
+[186/315] >4ONMB
+[DEBUG] Using cached: 4ONM.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 149 residues
+[DEBUG] Extracted features: (149, 16)
+[SUCCESS] Added 149 residues
+
+[187/315] >4RLJA
+[DEBUG] Using cached: 4RLJ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 144 residues
+[DEBUG] Extracted features: (144, 16)
+[SUCCESS] Added 144 residues
+
+[188/315] >4XAXB
+[DEBUG] Using cached: 4XAX.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 158 residues
+[DEBUG] Extracted features: (158, 16)
+[SUCCESS] Added 158 residues
+
+[189/315] >6UX8A
+[DEBUG] Using cached: 6UX8.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 152 residues
+[DEBUG] Extracted features: (152, 16)
+[SUCCESS] Added 152 residues
+
+[190/315] >5K22B
+[DEBUG] Using cached: 5K22.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 149 residues
+[DEBUG] Extracted features: (149, 16)
+[SUCCESS] Added 149 residues
+
+[191/315] >5E0QB
+[DEBUG] Using cached: 5E0Q.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 152 residues
+[DEBUG] Extracted features: (152, 16)
+[SUCCESS] Added 152 residues
+
+[192/315] >5SZHA
+[DEBUG] Using cached: 5SZH.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 143 residues
+[DEBUG] Extracted features: (143, 16)
+[SUCCESS] Added 143 residues
+
+[193/315] >4UYQA
+[DEBUG] Using cached: 4UYQ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 143 residues
+[DEBUG] Extracted features: (143, 16)
+[SUCCESS] Added 143 residues
+
+[194/315] >4W6XA
+[DEBUG] Using cached: 4W6X.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 142 residues
+[DEBUG] Extracted features: (142, 16)
+[SUCCESS] Added 142 residues
+
+[195/315] >5DMBA
+[DEBUG] Using cached: 5DMB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 140 residues
+[DEBUG] Extracted features: (140, 16)
+[SUCCESS] Added 140 residues
+
+[196/315] >5M2OA
+[DEBUG] Using cached: 5M2O.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 137 residues
+[DEBUG] Extracted features: (137, 16)
+[SUCCESS] Added 137 residues
+
+[197/315] >5V03R
+[DEBUG] Using cached: 5V03.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 145 residues
+[DEBUG] Extracted features: (145, 16)
+[SUCCESS] Added 145 residues
+
+[198/315] >6DEXA
+[DEBUG] Using cached: 6DEX.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 130 residues
+[DEBUG] Extracted features: (130, 16)
+[SUCCESS] Added 130 residues
+
+[199/315] >6G4JB
+[DEBUG] Using cached: 6G4J.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 122 residues
+[DEBUG] Extracted features: (122, 16)
+[SUCCESS] Added 122 residues
+
+[200/315] >4RLJB
+[DEBUG] Using cached: 4RLJ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 147 residues
+[DEBUG] Extracted features: (147, 16)
+[SUCCESS] Added 147 residues
+
+[201/315] >6BCBA
+[DEBUG] Using cached: 6BCB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 145 residues
+[DEBUG] Extracted features: (145, 16)
+[SUCCESS] Added 145 residues
+
+[202/315] >5C2UA
+[DEBUG] Using cached: 5C2U.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 116 residues
+[DEBUG] Extracted features: (116, 16)
+[SUCCESS] Added 116 residues
+
+[203/315] >6ZIEA
+[DEBUG] Using cached: 6ZIE.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 123 residues
+[DEBUG] Extracted features: (123, 16)
+[SUCCESS] Added 123 residues
+
+[204/315] >4Y2OB
+[DEBUG] Using cached: 4Y2O.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 142 residues
+[DEBUG] Extracted features: (142, 16)
+[SUCCESS] Added 142 residues
+
+[205/315] >5VGBA
+[DEBUG] Using cached: 5VGB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 140 residues
+[DEBUG] Extracted features: (140, 16)
+[SUCCESS] Added 140 residues
+
+[206/315] >5NRMA
+[DEBUG] Using cached: 5NRM.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 141 residues
+[DEBUG] Extracted features: (141, 16)
+[SUCCESS] Added 140 residues
+
+[207/315] >6LBUB
+[DEBUG] Using cached: 6LBU.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 135 residues
+[DEBUG] Extracted features: (135, 16)
+[SUCCESS] Added 135 residues
+
+[208/315] >5YNMB
+[DEBUG] Using cached: 5YNM.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 120 residues
+[DEBUG] Extracted features: (120, 16)
+[SUCCESS] Added 120 residues
+
+[209/315] >5ZWLE
+[DEBUG] Using cached: 5ZWL.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 138 residues
+[DEBUG] Extracted features: (138, 16)
+[SUCCESS] Added 138 residues
+
+[210/315] >6KMQB
+[DEBUG] Using cached: 6KMQ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 116 residues
+[DEBUG] Extracted features: (116, 16)
+[SUCCESS] Added 116 residues
+
+[211/315] >4U5YD
+[DEBUG] Using cached: 4U5Y.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 115 residues
+[DEBUG] Extracted features: (115, 16)
+[SUCCESS] Added 115 residues
+
+[212/315] >4ZGYB
+[DEBUG] Using cached: 4ZGY.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 125 residues
+[DEBUG] Extracted features: (125, 16)
+[SUCCESS] Added 125 residues
+
+[213/315] >5F22B
+[DEBUG] Using cached: 5F22.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 115 residues
+[DEBUG] Extracted features: (115, 16)
+[SUCCESS] Added 115 residues
+
+[214/315] >3X37B
+[DEBUG] Using cached: 3X37.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 130 residues
+[DEBUG] Extracted features: (130, 16)
+[SUCCESS] Added 130 residues
+
+[215/315] >5D1MB
+[DEBUG] Using cached: 5D1M.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 110 residues
+[DEBUG] Extracted features: (110, 16)
+[SUCCESS] Added 110 residues
+
+[216/315] >5IWBA
+[DEBUG] Using cached: 5IWB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 109 residues
+[DEBUG] Extracted features: (109, 16)
+[SUCCESS] Added 109 residues
+
+[217/315] >5MAWE
+[DEBUG] Using cached: 5MAW.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 112 residues
+[DEBUG] Extracted features: (112, 16)
+[SUCCESS] Added 112 residues
+
+[218/315] >5XLYB
+[DEBUG] Using cached: 5XLY.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 121 residues
+[DEBUG] Extracted features: (121, 16)
+[SUCCESS] Added 121 residues
+
+[219/315] >5IWBB
+[DEBUG] Using cached: 5IWB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 117 residues
+[DEBUG] Extracted features: (117, 16)
+[SUCCESS] Added 117 residues
+
+[220/315] >5LDAA
+[DEBUG] Using cached: 5LDA.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 130 residues
+[DEBUG] Extracted features: (130, 16)
+[SUCCESS] Added 130 residues
+
+[221/315] >6MIBB
+[DEBUG] Using cached: 6MIB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 124 residues
+[DEBUG] Extracted features: (124, 16)
+[SUCCESS] Added 124 residues
+
+[222/315] >4CMMA
+[DEBUG] Using cached: 4CMM.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 117 residues
+[DEBUG] Extracted features: (117, 16)
+[SUCCESS] Added 117 residues
+
+[223/315] >4CMMB
+[DEBUG] Using cached: 4CMM.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 120 residues
+[DEBUG] Extracted features: (120, 16)
+[SUCCESS] Added 119 residues
+
+[224/315] >5IMMA
+[DEBUG] Using cached: 5IMM.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 120 residues
+[DEBUG] Extracted features: (120, 16)
+[SUCCESS] Added 120 residues
+
+[225/315] >4RHZB
+[DEBUG] Using cached: 4RHZ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 125 residues
+[DEBUG] Extracted features: (125, 16)
+[SUCCESS] Added 125 residues
+
+[226/315] >5B64B
+[DEBUG] Using cached: 5B64.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 116 residues
+[DEBUG] Extracted features: (116, 16)
+[SUCCESS] Added 116 residues
+
+[227/315] >4N80B
+[DEBUG] Using cached: 4N80.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 122 residues
+[DEBUG] Extracted features: (122, 16)
+[SUCCESS] Added 122 residues
+
+[228/315] >5XBFB
+[DEBUG] Using cached: 5XBF.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 119 residues
+[DEBUG] Extracted features: (119, 16)
+[SUCCESS] Added 119 residues
+
+[229/315] >4ZQUA
+[DEBUG] Using cached: 4ZQU.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 124 residues
+[DEBUG] Extracted features: (124, 16)
+[SUCCESS] Added 124 residues
+
+[230/315] >3X37A
+[DEBUG] Using cached: 3X37.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 113 residues
+[DEBUG] Extracted features: (113, 16)
+[SUCCESS] Added 113 residues
+
+[231/315] >4QJFB
+[DEBUG] Using cached: 4QJF.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 122 residues
+[DEBUG] Extracted features: (122, 16)
+[SUCCESS] Added 122 residues
+
+[232/315] >5WP3B
+[DEBUG] Using cached: 5WP3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 100 residues
+[DEBUG] Extracted features: (100, 16)
+[SUCCESS] Added 100 residues
+
+[233/315] >5ZZAP
+[DEBUG] Using cached: 5ZZA.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 119 residues
+[DEBUG] Extracted features: (119, 16)
+[SUCCESS] Added 119 residues
+
+[234/315] >6SM5A
+[DEBUG] Using cached: 6SM5.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 106 residues
+[DEBUG] Extracted features: (106, 16)
+[SUCCESS] Added 106 residues
+
+[235/315] >4BMPB
+[DEBUG] Using cached: 4BMP.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 117 residues
+[DEBUG] Extracted features: (117, 16)
+[SUCCESS] Added 117 residues
+
+[236/315] >6H1FB
+[DEBUG] Using cached: 6H1F.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 102 residues
+[DEBUG] Extracted features: (102, 16)
+[SUCCESS] Added 102 residues
+
+[237/315] >6KP3B
+[DEBUG] Using cached: 6KP3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 112 residues
+[DEBUG] Extracted features: (112, 16)
+[SUCCESS] Added 112 residues
+
+[238/315] >6H2UB
+[DEBUG] Using cached: 6H2U.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 118 residues
+[DEBUG] Extracted features: (118, 16)
+[SUCCESS] Added 118 residues
+
+[239/315] >6KMQA
+[DEBUG] Using cached: 6KMQ.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 91 residues
+[DEBUG] Extracted features: (91, 16)
+[SUCCESS] Added 91 residues
+
+[240/315] >5J26A
+[DEBUG] Using cached: 5J26.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 114 residues
+[DEBUG] Extracted features: (114, 16)
+[SUCCESS] Added 114 residues
+
+[241/315] >5L8LB
+[DEBUG] Using cached: 5L8L.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 109 residues
+[DEBUG] Extracted features: (109, 16)
+[SUCCESS] Added 109 residues
+
+[242/315] >6C7YB
+[DEBUG] Using cached: 6C7Y.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 117 residues
+[DEBUG] Extracted features: (117, 16)
+[SUCCESS] Added 117 residues
+
+[243/315] >6OD1B
+[DEBUG] Using cached: 6OD1.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 106 residues
+[DEBUG] Extracted features: (106, 16)
+[SUCCESS] Added 106 residues
+
+[244/315] >3WDGB
+[DEBUG] Using cached: 3WDG.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 110 residues
+[DEBUG] Extracted features: (110, 16)
+[SUCCESS] Added 110 residues
+
+[245/315] >4RS1A
+[DEBUG] Using cached: 4RS1.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 105 residues
+[DEBUG] Extracted features: (105, 16)
+[SUCCESS] Added 105 residues
+
+[246/315] >5JNOA
+[DEBUG] Using cached: 5JNO.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 97 residues
+[DEBUG] Extracted features: (97, 16)
+[SUCCESS] Added 97 residues
+
+[247/315] >5KNHI
+[DEBUG] Using cached: 5KNH.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 97 residues
+[DEBUG] Extracted features: (97, 16)
+[SUCCESS] Added 97 residues
+
+[248/315] >6R6MA
+[DEBUG] Using cached: 6R6M.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 110 residues
+[DEBUG] Extracted features: (110, 16)
+[SUCCESS] Added 110 residues
+
+[249/315] >6AW3A
+[DEBUG] Using cached: 6AW3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 108 residues
+[DEBUG] Extracted features: (108, 16)
+[SUCCESS] Added 108 residues
+
+[250/315] >5GPYB
+[DEBUG] Using cached: 5GPY.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 101 residues
+[DEBUG] Extracted features: (101, 16)
+[SUCCESS] Added 101 residues
+
+[251/315] >6QTAB
+[DEBUG] Using cached: 6QTA.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 101 residues
+[DEBUG] Extracted features: (101, 16)
+[SUCCESS] Added 101 residues
+
+[252/315] >7BXFC
+[DEBUG] Using cached: 7BXF.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 104 residues
+[DEBUG] Extracted features: (104, 16)
+[SUCCESS] Added 104 residues
+
+[253/315] >4PW9B
+[DEBUG] Using cached: 4PW9.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 83 residues
+[DEBUG] Extracted features: (83, 16)
+[SUCCESS] Added 83 residues
+
+[254/315] >5FQ2B
+[DEBUG] Using cached: 5FQ2.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 101 residues
+[DEBUG] Extracted features: (101, 16)
+[SUCCESS] Added 100 residues
+
+[255/315] >5NCMB
+[DEBUG] Using cached: 5NCM.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 90 residues
+[DEBUG] Extracted features: (90, 16)
+[SUCCESS] Added 90 residues
+
+[256/315] >4C4KT
+[DEBUG] Using cached: 4C4K.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 97 residues
+[DEBUG] Extracted features: (97, 16)
+[SUCCESS] Added 97 residues
+
+[257/315] >5V03B
+[DEBUG] Using cached: 5V03.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 86 residues
+[DEBUG] Extracted features: (86, 16)
+[SUCCESS] Added 86 residues
+
+[258/315] >6R6MB
+[DEBUG] Using cached: 6R6M.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 100 residues
+[DEBUG] Extracted features: (100, 16)
+[SUCCESS] Added 100 residues
+
+[259/315] >5JWOB
+[DEBUG] Using cached: 5JWO.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 88 residues
+[DEBUG] Extracted features: (88, 16)
+[SUCCESS] Added 88 residues
+
+[260/315] >7CD8A
+[DEBUG] Using cached: 7CD8.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 99 residues
+[DEBUG] Extracted features: (99, 16)
+[SUCCESS] Added 99 residues
+
+[261/315] >4Y5OA
+[DEBUG] Using cached: 4Y5O.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 78 residues
+[DEBUG] Extracted features: (78, 16)
+[SUCCESS] Added 78 residues
+
+[262/315] >7BU5A
+[DEBUG] Using cached: 7BU5.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 86 residues
+[DEBUG] Extracted features: (86, 16)
+[SUCCESS] Added 84 residues
+
+[263/315] >5E95B
+[DEBUG] Using cached: 5E95.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 92 residues
+[DEBUG] Extracted features: (92, 16)
+[SUCCESS] Added 92 residues
+
+[264/315] >6IXXI
+[DEBUG] Using cached: 6IXX.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 97 residues
+[DEBUG] Extracted features: (97, 16)
+[SUCCESS] Added 97 residues
+
+[265/315] >5M2OB
+[DEBUG] Using cached: 5M2O.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 74 residues
+[DEBUG] Extracted features: (74, 16)
+[SUCCESS] Added 74 residues
+
+[266/315] >6O6EE
+[DEBUG] Using cached: 6O6E.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 75 residues
+[DEBUG] Extracted features: (75, 16)
+[SUCCESS] Added 75 residues
+
+[267/315] >6WH1A
+[DEBUG] Using cached: 6WH1.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 95 residues
+[DEBUG] Extracted features: (95, 16)
+[SUCCESS] Added 95 residues
+
+[268/315] >4ZV0B
+[DEBUG] Using cached: 4ZV0.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 94 residues
+[DEBUG] Extracted features: (94, 16)
+[SUCCESS] Added 94 residues
+
+[269/315] >5KEVA
+[DEBUG] Using cached: 5KEV.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 90 residues
+[DEBUG] Extracted features: (90, 16)
+[SUCCESS] Added 90 residues
+
+[270/315] >6FUBB
+[DEBUG] Using cached: 6FUB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 93 residues
+[DEBUG] Extracted features: (93, 16)
+[SUCCESS] Added 93 residues
+
+[271/315] >6NDUB
+[DEBUG] Using cached: 6NDU.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 84 residues
+[DEBUG] Extracted features: (84, 16)
+[SUCCESS] Added 84 residues
+
+[272/315] >6ACIH
+[DEBUG] Using cached: 6ACI.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 87 residues
+[DEBUG] Extracted features: (87, 16)
+[SUCCESS] Added 87 residues
+
+[273/315] >6SWTB
+[DEBUG] Using cached: 6SWT.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 88 residues
+[DEBUG] Extracted features: (88, 16)
+[SUCCESS] Added 88 residues
+
+[274/315] >4MRTC
+[DEBUG] Using cached: 4MRT.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 77 residues
+[DEBUG] Extracted features: (77, 16)
+[SUCCESS] Added 77 residues
+
+[275/315] >4YIIA
+[DEBUG] Using cached: 4YII.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 72 residues
+[DEBUG] Extracted features: (72, 16)
+[SUCCESS] Added 72 residues
+
+[276/315] >5F22A
+[DEBUG] Using cached: 5F22.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 79 residues
+[DEBUG] Extracted features: (79, 16)
+[SUCCESS] Added 79 residues
+
+[277/315] >4UAFE
+[DEBUG] Using cached: 4UAF.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 72 residues
+[DEBUG] Extracted features: (72, 16)
+[SUCCESS] Added 72 residues
+
+[278/315] >5SVHA
+[DEBUG] Using cached: 5SVH.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 85 residues
+[DEBUG] Extracted features: (85, 16)
+[SUCCESS] Added 85 residues
+
+[279/315] >5VGBB
+[DEBUG] Using cached: 5VGB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 85 residues
+[DEBUG] Extracted features: (85, 16)
+[SUCCESS] Added 85 residues
+
+[280/315] >4UDMA
+[DEBUG] Using cached: 4UDM.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 84 residues
+[DEBUG] Extracted features: (84, 16)
+[SUCCESS] Added 84 residues
+
+[281/315] >5B5WU
+[DEBUG] Using cached: 5B5W.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 64 residues
+[DEBUG] Extracted features: (64, 16)
+[SUCCESS] Added 64 residues
+
+[282/315] >5CZDB
+[DEBUG] Using cached: 5CZD.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 77 residues
+[DEBUG] Extracted features: (77, 16)
+[SUCCESS] Added 77 residues
+
+[283/315] >6ODDA
+[DEBUG] Using cached: 6ODD.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 85 residues
+[DEBUG] Extracted features: (85, 16)
+[SUCCESS] Added 85 residues
+
+[284/315] >4K12B
+[DEBUG] Using cached: 4K12.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 82 residues
+[DEBUG] Extracted features: (82, 16)
+[SUCCESS] Added 82 residues
+
+[285/315] >5DMBD
+[DEBUG] Using cached: 5DMB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 72 residues
+[DEBUG] Extracted features: (72, 16)
+[SUCCESS] Added 72 residues
+
+[286/315] >5XEDA
+[DEBUG] Using cached: 5XED.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 82 residues
+[DEBUG] Extracted features: (82, 16)
+[SUCCESS] Added 82 residues
+
+[287/315] >4CJ0B
+[DEBUG] Using cached: 4CJ0.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 60 residues
+[DEBUG] Extracted features: (60, 16)
+[SUCCESS] Added 60 residues
+
+[288/315] >6EA3A
+[DEBUG] Using cached: 6EA3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 70 residues
+[DEBUG] Extracted features: (70, 16)
+[SUCCESS] Added 70 residues
+
+[289/315] >6FC0B
+[DEBUG] Using cached: 6FC0.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 77 residues
+[DEBUG] Extracted features: (77, 16)
+[SUCCESS] Added 77 residues
+
+[290/315] >6FUBA
+[DEBUG] Using cached: 6FUB.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 81 residues
+[DEBUG] Extracted features: (81, 16)
+[SUCCESS] Added 81 residues
+
+[291/315] >7D2SB
+[DEBUG] Using cached: 7D2S.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 70 residues
+[DEBUG] Extracted features: (70, 16)
+[SUCCESS] Added 70 residues
+
+[292/315] >4XLGB
+[DEBUG] Using cached: 4XLG.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 67 residues
+[DEBUG] Extracted features: (67, 16)
+[SUCCESS] Added 67 residues
+
+[293/315] >4ZRLB
+[DEBUG] Using cached: 4ZRL.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 64 residues
+[DEBUG] Extracted features: (64, 16)
+[SUCCESS] Added 64 residues
+
+[294/315] >5IMTD
+[DEBUG] Using cached: 5IMT.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 77 residues
+[DEBUG] Extracted features: (77, 16)
+[SUCCESS] Added 77 residues
+
+[295/315] >7CN7C
+[DEBUG] Using cached: 7CN7.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 75 residues
+[DEBUG] Extracted features: (75, 16)
+[SUCCESS] Added 75 residues
+
+[296/315] >5CHLA
+[DEBUG] Using cached: 5CHL.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 68 residues
+[DEBUG] Extracted features: (68, 16)
+[SUCCESS] Added 68 residues
+
+[297/315] >6ODDB
+[DEBUG] Using cached: 6ODD.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 74 residues
+[DEBUG] Extracted features: (74, 16)
+[SUCCESS] Added 74 residues
+
+[298/315] >6TRIB
+[DEBUG] Using cached: 6TRI.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 69 residues
+[DEBUG] Extracted features: (69, 16)
+[SUCCESS] Added 69 residues
+
+[299/315] >4YH8B
+[DEBUG] Using cached: 4YH8.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 55 residues
+[DEBUG] Extracted features: (55, 16)
+[SUCCESS] Added 55 residues
+
+[300/315] >5J4SB
+[DEBUG] Using cached: 5J4S.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 67 residues
+[DEBUG] Extracted features: (67, 16)
+[SUCCESS] Added 60 residues
+
+[301/315] >5ABUB
+[DEBUG] Using cached: 5ABU.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 58 residues
+[DEBUG] Extracted features: (58, 16)
+[SUCCESS] Added 58 residues
+
+[302/315] >5WXKB
+[DEBUG] Using cached: 5WXK.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 66 residues
+[DEBUG] Extracted features: (66, 16)
+[SUCCESS] Added 66 residues
+
+[303/315] >6BN1B
+[DEBUG] Using cached: 6BN1.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 70 residues
+[DEBUG] Extracted features: (70, 16)
+[SUCCESS] Added 70 residues
+
+[304/315] >6GR8B
+[DEBUG] Using cached: 6GR8.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 66 residues
+[DEBUG] Extracted features: (66, 16)
+[SUCCESS] Added 64 residues
+
+[305/315] >5LDAB
+[DEBUG] Using cached: 5LDA.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 57 residues
+[DEBUG] Extracted features: (57, 16)
+[SUCCESS] Added 57 residues
+
+[306/315] >5EU0B
+[DEBUG] Using cached: 5EU0.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 55 residues
+[DEBUG] Extracted features: (55, 16)
+[SUCCESS] Added 55 residues
+
+[307/315] >6KBRC
+[DEBUG] Using cached: 6KBR.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 55 residues
+[DEBUG] Extracted features: (55, 16)
+[SUCCESS] Added 55 residues
+
+[308/315] >4K12A
+[DEBUG] Using cached: 4K12.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 64 residues
+[DEBUG] Extracted features: (64, 16)
+[SUCCESS] Added 64 residues
+
+[309/315] >4X33A
+[DEBUG] Using cached: 4X33.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 60 residues
+[DEBUG] Extracted features: (60, 16)
+[SUCCESS] Added 60 residues
+
+[310/315] >7BU5B
+[DEBUG] Using cached: 7BU5.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 49 residues
+[DEBUG] Extracted features: (49, 16)
+[SUCCESS] Added 49 residues
+
+[311/315] >5AIEA
+[DEBUG] Using cached: 5AIE.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 54 residues
+[DEBUG] Extracted features: (54, 16)
+[SUCCESS] Added 54 residues
+
+[312/315] >5JNOB
+[DEBUG] Using cached: 5JNO.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 57 residues
+[DEBUG] Extracted features: (57, 16)
+[SUCCESS] Added 57 residues
+
+[313/315] >6BN1A
+[DEBUG] Using cached: 6BN1.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 54 residues
+[DEBUG] Extracted features: (54, 16)
+[SUCCESS] Added 54 residues
+
+[314/315] >5H65B
+[DEBUG] Using cached: 5H65.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 53 residues
+[DEBUG] Extracted features: (53, 16)
+[SUCCESS] Added 53 residues
+
+[315/315] >6FC3B
+[DEBUG] Using cached: 6FC3.pdb
+[DEBUG] DSSP calculated successfully
+[DEBUG] Processing 46 residues
+[DEBUG] Extracted features: (46, 16)
+[SUCCESS] Added 46 residues
+
+================================================================================
+[SUMMARY]
+================================================================================
+Total proteins: 315
+Successfully processed: 315
+Failed: 0
+Success rate: 100.0%
+Output: data/structural/Test_315_16D.csv
+Shape: (65331, 21)
+================================================================================
+

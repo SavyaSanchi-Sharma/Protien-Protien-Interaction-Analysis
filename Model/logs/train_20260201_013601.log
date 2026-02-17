@@ -1,0 +1,51 @@
+[2026-02-01 01:49:03] ================================================================================
+[2026-02-01 01:49:03] Starting Training Pipeline
+[2026-02-01 01:49:03] Device: cuda | Epochs: 100 | LR: 0.0001 | Batch Size: 1
+[2026-02-01 01:49:03] Loss: Numerically Stable Focal Loss (log_softmax + log1p)
+[2026-02-01 01:49:03] ================================================================================
+[2026-02-01 01:49:03] Checking normalization statistics...
+[2026-02-01 01:49:03] [NORM] Computing normalization from TRAIN: data/structural/Train_335_16D.csv...
+[2026-02-01 01:49:03] [NORM] Scalar feature means:
+[1.58528475e-03 3.02514911e-01 1.61996098e-01 3.83065133e-01
+ 3.60727639e-01 6.39272374e-01 1.58528475e-03 3.02514911e-01
+ 6.27577802e-04 1.72770177e+00]
+[2026-02-01 01:49:03] [NORM] Scalar feature stds:
+[0.00165957 0.21763387 0.76000904 0.19821883 0.17537791 0.1753779
+ 0.00165957 0.21763387 0.00098534 0.47664742]
+[2026-02-01 01:49:03] ✓ Saved normalization to data/struct_norm.npz
+
+[2026-02-01 01:49:03] Loading datasets...
+[NORM] Loaded scalar normalization from data/struct_norm.npz
+[NORM] Scalar means: [1.5852847e-03 3.0251491e-01 1.6199610e-01 3.8306513e-01 3.6072764e-01
+ 6.3927239e-01 1.5852847e-03 3.0251491e-01 6.2757783e-04 1.7277018e+00]
+[NORM] Scalar stds:  [0.00165957 0.21763387 0.76000905 0.19821884 0.1753779  0.1753779
+ 0.00165957 0.21763387 0.00098534 0.47664744]
+[INFO] Total valid groups: 333
+[INFO] Skipped groups missing ESM: 0
+
+[NORM] Loaded scalar normalization from data/struct_norm.npz
+[NORM] Scalar means: [1.5852847e-03 3.0251491e-01 1.6199610e-01 3.8306513e-01 3.6072764e-01
+ 6.3927239e-01 1.5852847e-03 3.0251491e-01 6.2757783e-04 1.7277018e+00]
+[NORM] Scalar stds:  [0.00165957 0.21763387 0.76000905 0.19821884 0.1753779  0.1753779
+ 0.00165957 0.21763387 0.00098534 0.47664744]
+[INFO] Total valid groups: 315
+[INFO] Skipped groups missing ESM: 0
+
+[2026-02-01 01:49:04] Train set size: 333 | Val set size: 315
+[2026-02-01 01:49:04] Computing class weights...
+Traceback (most recent call last):
+  File "/home/iiitdwd/ppi/Model/train.py", line 385, in <module>
+    main()
+  File "/home/iiitdwd/ppi/Model/train.py", line 204, in main
+    alpha_pos = compute_dataset_alpha(train_ds)
+  File "/home/iiitdwd/ppi/Model/train.py", line 66, in compute_dataset_alpha
+    y = dataset[i].y
+  File "/home/iiitdwd/ppi/Model/createdatset.py", line 121, in __getitem__
+    struct_raw = torch.tensor(g[STRUCT_COLS].values, dtype=torch.float32)
+  File "/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/pandas/core/frame.py", line 4119, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/home/iiitdwd/ppi/Model/.venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6264, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['PSSM_1', 'PSSM_2', 'PSSM_3', 'PSSM_4', 'PSSM_5', 'PSSM_6', 'PSSM_7', 'PSSM_8', 'PSSM_9', 'PSSM_10', 'PSSM_11', 'PSSM_12', 'PSSM_13', 'PSSM_14', 'PSSM_15', 'PSSM_16', 'PSSM_17', 'PSSM_18', 'PSSM_19', 'PSSM_20'] not in index"
