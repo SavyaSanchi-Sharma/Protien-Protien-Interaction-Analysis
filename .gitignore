@@ -1,0 +1,73 @@
+# ──────── Python ────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.Python
+
+# ──────── Virtual environments ────────
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# ──────── IDE / editor ────────
+.vscode/
+.idea/
+.codex
+.codex/
+*.swp
+*.swo
+.DS_Store
+
+# ──────── Large data (regenerable; keep code & manifests only) ────────
+data/pdbs/
+data/esm/
+data/protbert/
+data/structural/Train_split_train.csv
+data/structural/Train_split_val.csv
+data/structural/*.partial
+data/struct_norm.npz
+data/*.npz
+
+# Other downloaded / extracted dataset directories
+PDBtest164/
+dset186/
+dset72/
+results/
+
+# ──────── Per-model generated artefacts ────────
+# Checkpoints (large, regenerable; snapshots live in ../Model_snapshots/)
+*/checkpoints/*.pt
+*/checkpoints/*.pth
+
+# Training/eval outputs (regenerable from best.pt)
+*/training_log.json
+*/test_results.json
+
+# Tune outputs — keep best_hp.json under version control by default;
+# uncomment the next line if you'd rather not track them.
+# */best_hp.json
+
+# ──────── Runtime logs ────────
+logs/
+*.log
+
+# ──────── Packages / installers ────────
+*.deb
+*.rpm
+*.tar.gz
+*.zip
+
+# ──────── Reference / vendored binaries ────────
+cuda-keyring_*.deb
+esm_model_weights/
+protbert_model_weights/
+
+# ──────── Misc large reference files ────────
+*.pdf
+
+# ──────── Local snapshots (separate dir) ────────
+# Snapshots live at ../Model_snapshots — outside this repo, ignored implicitly.
