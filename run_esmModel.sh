@@ -1,7 +1,23 @@
 #!/usr/bin/env bash
-set -e
+set -euo pipefail
 cd "$(dirname "$0")"
 mkdir -p logs
-python esm_model/tune.py  2>&1 | tee logs/esm_model_tune.log
-python esm_model/train.py 2>&1 | tee logs/esm_model_train.log
-python esm_model/test.py  2>&1 | tee logs/esm_model_test.log
+
+LOG=logs/esm_model.log
+: > "$LOG"   # truncate so each pipeline run starts fresh
+
+# -u: unbuffered Python stdout/stderr (real-time terminal + log)
+# stdbuf -oL -eL: line-buffered tee (avoid pipe-buffer batching)
+# tee -a: append, so all four phases land in the same single log
+export PYTHONUNBUFFERED=1
+
+run() {
+  local phase=$1; shift
+  printf '\n========== [%s] %s ==========\n' "$phase" "$(date -Iseconds)" | tee -a "$LOG"
+  stdbuf -oL -eL python -u "$@" 2>&1 | stdbuf -oL -eL tee -a "$LOG"
+}
+
+run TUNE     esm_model/tune.py
+run TRAIN    esm_model/train.py
+run TEST     esm_model/test.py
+run ANALYZE  esm_model/analyze.py

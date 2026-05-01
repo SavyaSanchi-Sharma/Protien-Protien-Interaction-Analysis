@@ -23,6 +23,10 @@ FEATURE_NAMES = [
     "sin_omega", "cos_omega"
 ]
 
+# Cα and N atom coordinates per residue. Used by the data loader to build the
+# residue contact graph and edge geometry without re-parsing the PDB.
+COORD_NAMES = ["CA_x", "CA_y", "CA_z", "N_x", "N_y", "N_z"]
+
 MAX_ASA = {
     'A': 121, 'R': 265, 'N': 187, 'D': 187, 'C': 148,
     'Q': 214, 'E': 214, 'G': 97,  'H': 216, 'I': 195,
@@ -39,87 +43,63 @@ HYDRO_SCALES = [
     {'A':0.20,'R':-1.50,'N':-0.60,'D':-1.40,'C':1.00,'Q':-0.70,'E':-1.30,'G':0.00,'H':-0.10,'I':1.80,'L':1.50,'K':-1.50,'M':1.30,'F':1.40,'P':0.00,'S':-0.10,'T':0.40,'W':1.00,'Y':0.60,'V':1.50}
 ]
 
-# Download retry settings
 MAX_RETRIES = 3
-RETRY_DELAYS = [2, 5, 10]  # seconds
+RETRY_DELAYS = [2, 5, 10]
 
-# Find available DSSP binary at import time
-_DSSP_CANDIDATES = ["mkdssp", "dssp", "dssp3"]
-DSSP_BIN = next((b for b in _DSSP_CANDIDATES if shutil.which(b)), None)
+DSSP_BIN = next((b for b in ("mkdssp", "dssp", "dssp3") if shutil.which(b)), None)
 if DSSP_BIN is None:
     print("[WARN] No DSSP binary found. Install: sudo apt-get install dssp")
 else:
     print(f"[INFO] DSSP binary: {DSSP_BIN}")
 
-# Zero-feature fallback for a single bad residue
-_ZERO_FEAT = [0.0] * len(FEATURE_NAMES)
 
-
-# ─── helpers ──────────────────────────────────────────────────────────────────
-
-def _valid_file(path):
-    """Return True if a cached PDB file looks real (not a 404 page)."""
-    try:
-        if os.path.getsize(path) < 200:
-            return False
-        with open(path, "r", errors="ignore") as f:
-            head = f.read(300)
-        return any(t in head for t in ("ATOM", "HETATM", "HEADER", "REMARK"))
-    except Exception:
+def _valid_pdb_text(text):
+    """True if `text` (str) starts with a plausible PDB record."""
+    if len(text) < 200:
         return False
-
-
-def _valid_content(content):
-    """Return True if downloaded bytes look like a real PDB file."""
-    if len(content) < 200:
-        return False
-    head = content[:300].decode("utf-8", errors="ignore")
+    head = text[:300]
     return any(t in head for t in ("ATOM", "HETATM", "HEADER", "REMARK"))
 
 
-def _clean_pdb_for_dssp(path):
-    """Strip HETATM/ANISOU records so newer mkdssp doesn't choke on HOH/ligands.
+def _valid_file(path):
+    if not os.path.exists(path) or os.path.getsize(path) < 200:
+        return False
+    with open(path, "r", errors="ignore") as f:
+        return _valid_pdb_text(f.read(300))
 
-    Writes <stem>_clean.pdb next to the source and reuses it on subsequent runs
-    if it's newer than the source.
-    """
+
+def _valid_content(content):
+    return _valid_pdb_text(content[:300].decode("utf-8", errors="ignore"))
+
+
+def _clean_pdb_for_dssp(path):
+    """Strip HETATM/ANISOU so newer mkdssp doesn't choke on HOH/ligands.
+    Caches output as <stem>_clean.pdb; reused if newer than the source."""
     stem, ext = os.path.splitext(path)
     clean_path = f"{stem}_clean{ext or '.pdb'}"
     if os.path.exists(clean_path) and os.path.getmtime(clean_path) >= os.path.getmtime(path):
         return clean_path
     with open(path, "r", errors="ignore") as src, open(clean_path, "w") as dst:
         for line in src:
-            if line.startswith(("HETATM", "ANISOU")):
-                continue
-            dst.write(line)
+            if not line.startswith(("HETATM", "ANISOU")):
+                dst.write(line)
     return clean_path
 
 
 def _run_dssp(model, path):
     if DSSP_BIN is None:
         raise RuntimeError("No DSSP binary found. Install: sudo apt-get install dssp")
-    try:
-        dssp_path = _clean_pdb_for_dssp(path)
-    except Exception as e:
-        print(f"[WARN] PDB cleaning failed ({e}) — falling back to original")
-        dssp_path = path
-    return DSSP(model, dssp_path, dssp=DSSP_BIN)
+    return DSSP(model, _clean_pdb_for_dssp(path), dssp=DSSP_BIN)
 
-
-# ─── core functions ───────────────────────────────────────────────────────────
 
 def parse_header(header):
-    try:
-        raw = header.replace(">", "").strip().split()[0].upper()
-        if len(raw) >= 5:
-            return raw[:4], raw[4]
-        if len(raw) == 4:
-            return raw, None
-        print(f"[WARN] Invalid header format: {header}")
-        return None, None
-    except Exception as e:
-        print(f"[ERROR] parse_header failed for '{header}': {e}")
-        return None, None
+    raw = header.replace(">", "").strip().split()[0].upper()
+    if len(raw) >= 5:
+        return raw[:4], raw[4]
+    if len(raw) == 4:
+        return raw, None
+    print(f"[WARN] Invalid header format: {header}")
+    return None, None
 
 
 def download_structure(pdb_id):
@@ -162,162 +142,136 @@ def parse_structure(pdb_id, path):
 
 
 def select_best_chain(structure, seq):
-    try:
-        model = structure[0]
-        best, diff = None, 1e9
-        for c in model:
-            try:
-                s = "".join(seq1(r.resname) for r in c if "CA" in r)
-                if abs(len(s) - len(seq)) < diff:
-                    best, diff = c.id, abs(len(s) - len(seq))
-            except Exception as e:
-                print(f"[WARN] Chain {c.id} error: {e}")
-        if best is not None:
-            print(f"[DEBUG] Auto-selected chain: {best} (length diff: {diff})")
-        return best
-    except Exception as e:
-        print(f"[ERROR] select_best_chain: {e}")
-        return None
+    """Pick the chain whose CA-only sequence length is closest to `seq`."""
+    best, diff = None, 1e9
+    for c in structure[0]:
+        try:
+            s = "".join(seq1(r.resname) for r in c if "CA" in r)
+        except Exception as e:
+            print(f"[WARN] Chain {c.id} error: {e}")
+            continue
+        if abs(len(s) - len(seq)) < diff:
+            best, diff = c.id, abs(len(s) - len(seq))
+    if best is not None:
+        print(f"[DEBUG] Auto-selected chain: {best} (length diff: {diff})")
+    return best
 
 
 def extract_17D_features(structure, path, chain_id, fasta_seq):
+    model = structure[0]
     try:
-        model = structure[0]
-
-        try:
-            dssp = _run_dssp(model, path)
-        except Exception as e:
-            print(f"[ERROR] DSSP failed: {e}")
-            return None
-
-        try:
-            chain = model[chain_id]
-        except KeyError:
-            print(f"[ERROR] Chain '{chain_id}' not found. Available: {[c.id for c in model]}")
-            return None
-
-        residues = [r for r in chain if all(a in r for a in ("CA", "N", "C", "O"))]
-        if len(residues) < 3:
-            print(f"[ERROR] Too few residues: {len(residues)}")
-            return None
-
-        coverage = len(residues) / len(fasta_seq)
-        if coverage < 0.7:
-            print(f"[ERROR] Low coverage: {len(residues)}/{len(fasta_seq)} = {coverage*100:.1f}%")
-            return None
-
-        print(f"[DEBUG] Processing {len(residues)} residues (coverage {coverage*100:.1f}%)")
-
-        ca_coords = np.array([r["CA"].coord for r in residues], dtype=np.float32)
-        ca_tree = KDTree(ca_coords)
-
-        all_atoms = []
-        for r in residues:
-            for a in r.get_atoms():
-                if a.is_disordered():
-                    a = a.selected_child
-                all_atoms.append(a.coord)
-        atom_tree = KDTree(np.array(all_atoms, dtype=np.float32))
-
-        b = np.array([r["CA"].get_bfactor() for r in residues], dtype=np.float32)
-        b_range = b.max() - b.min()
-        flex = (b - b.min()) / b_range if b_range > 1e-6 else np.zeros_like(b)
-
-        dens = np.array([
-            len(atom_tree.query_ball_point(r["CA"].coord, 3.5)) / max(len(list(r.get_atoms())), 1)
-            for r in residues
-        ], dtype=np.float32)
-        d_range = dens.max() - dens.min()
-        dens = (dens - dens.min()) / d_range if d_range > 1e-6 else np.zeros_like(dens)
-
-        # Phi/psi from DSSP with cubic spline interpolation over missing values
-        phis = np.full(len(residues), np.nan)
-        psis = np.full(len(residues), np.nan)
-        for i, r in enumerate(residues):
-            k = (chain_id, r.id)
-            if k in dssp:
-                if dssp[k][4] != 360:
-                    phis[i] = np.radians(dssp[k][4])
-                if dssp[k][5] != 360:
-                    psis[i] = np.radians(dssp[k][5])
-
-        idx = np.arange(len(residues))
-        valid_phi = ~np.isnan(phis)
-        valid_psi = ~np.isnan(psis)
-        phis = CubicSpline(idx[valid_phi], phis[valid_phi])(idx) if valid_phi.sum() >= 3 else np.nan_to_num(phis)
-        psis = CubicSpline(idx[valid_psi], psis[valid_psi])(idx) if valid_psi.sum() >= 3 else np.nan_to_num(psis)
-
-        feats = []
-        bad = 0
-        for i, r in enumerate(residues):
-            try:
-                aa = seq1(r.resname)
-
-                try:
-                    rsa = float(np.clip(dssp[(chain_id, r.id)][3] / MAX_ASA.get(aa, 1.0), 0.0, 1.0))
-                except Exception:
-                    rsa = 0.0
-
-                hydro = float(np.mean([s.get(aa, 0.0) for s in HYDRO_SCALES]))
-                poly = [1.0, rsa, float(flex[i]), rsa * float(flex[i])]
-
-                if 0 < i < len(residues) - 1:
-                    try:
-                        bond = float(Vector.angle(
-                            residues[i-1]["C"].get_vector() - r["N"].get_vector(),
-                            residues[i+1]["O"].get_vector() - r["N"].get_vector()
-                        ))
-                    except Exception:
-                        bond = 0.0
-                else:
-                    bond = 0.0
-
-                try:
-                    omega = float(Vector.angle(
-                        r["N"].get_vector() - r["CA"].get_vector(),
-                        r["O"].get_vector() - r["C"].get_vector()
-                    ))
-                except Exception:
-                    omega = 0.0
-
-                ca = r["CA"].coord
-                ref = (r["CB"].coord - ca) if "CB" in r else (r["N"].coord - ca)
-                neigh = ca_tree.query_ball_point(ca, 8.0)
-                up = down = 0
-                for j in neigh:
-                    if j == i:
-                        continue
-                    if np.dot(ca_coords[j] - ca, ref) >= 0:
-                        up += 1
-                    else:
-                        down += 1
-                total = max(len(neigh) - 1, 1)
-
-                feats.append([
-                    rsa, float(flex[i]), hydro, float(dens[i]),
-                    up / total, down / total,
-                    *poly,
-                    bond,
-                    float(np.sin(phis[i])), float(np.cos(phis[i])),
-                    float(np.sin(psis[i])), float(np.cos(psis[i])),
-                    float(np.sin(omega)), float(np.cos(omega))
-                ])
-
-            except Exception as e:
-                print(f"[WARN] Residue {i} ({r.resname} {r.id}): {e} — using zeros")
-                feats.append(list(_ZERO_FEAT))
-                bad += 1
-
-        if bad:
-            print(f"[WARN] {bad}/{len(residues)} residues used zero fallback")
-
-        result = np.array(feats, dtype=np.float32)
-        print(f"[DEBUG] Features extracted: {result.shape}")
-        return result
-
+        dssp = _run_dssp(model, path)
     except Exception as e:
-        print(f"[ERROR] extract_17D_features: {e}")
+        print(f"[ERROR] DSSP failed: {e}")
         return None
+
+    if chain_id not in model:
+        print(f"[ERROR] Chain '{chain_id}' not found. Available: {[c.id for c in model]}")
+        return None
+    chain = model[chain_id]
+
+    residues = [r for r in chain if all(a in r for a in ("CA", "N", "C", "O"))]
+    if len(residues) < 3:
+        print(f"[ERROR] Too few residues: {len(residues)}")
+        return None
+
+    coverage = len(residues) / len(fasta_seq)
+    if coverage < 0.7:
+        print(f"[ERROR] Low coverage: {len(residues)}/{len(fasta_seq)} = {coverage*100:.1f}%")
+        return None
+
+    print(f"[DEBUG] Processing {len(residues)} residues (coverage {coverage*100:.1f}%)")
+
+    ca_coords = np.array([r["CA"].coord for r in residues], dtype=np.float32)
+    ca_tree = KDTree(ca_coords)
+
+    all_atoms = []
+    for r in residues:
+        for a in r.get_atoms():
+            if a.is_disordered():
+                a = a.selected_child
+            all_atoms.append(a.coord)
+    atom_tree = KDTree(np.array(all_atoms, dtype=np.float32))
+
+    b = np.array([r["CA"].get_bfactor() for r in residues], dtype=np.float32)
+    b_range = b.max() - b.min()
+    flex = (b - b.min()) / b_range if b_range > 1e-6 else np.zeros_like(b)
+
+    dens = np.array([
+        len(atom_tree.query_ball_point(r["CA"].coord, 3.5)) / max(len(list(r.get_atoms())), 1)
+        for r in residues
+    ], dtype=np.float32)
+    d_range = dens.max() - dens.min()
+    dens = (dens - dens.min()) / d_range if d_range > 1e-6 else np.zeros_like(dens)
+
+    # Phi/psi from DSSP with cubic-spline interpolation over missing values.
+    phis = np.full(len(residues), np.nan)
+    psis = np.full(len(residues), np.nan)
+    for i, r in enumerate(residues):
+        k = (chain_id, r.id)
+        if k in dssp:
+            if dssp[k][4] != 360:
+                phis[i] = np.radians(dssp[k][4])
+            if dssp[k][5] != 360:
+                psis[i] = np.radians(dssp[k][5])
+    idx = np.arange(len(residues))
+    valid_phi = ~np.isnan(phis)
+    valid_psi = ~np.isnan(psis)
+    phis = CubicSpline(idx[valid_phi], phis[valid_phi])(idx) if valid_phi.sum() >= 3 else np.nan_to_num(phis)
+    psis = CubicSpline(idx[valid_psi], psis[valid_psi])(idx) if valid_psi.sum() >= 3 else np.nan_to_num(psis)
+
+    feats = []
+    bad = 0
+    for i, r in enumerate(residues):
+        try:
+            aa = seq1(r.resname)
+            dssp_entry = dssp.get((chain_id, r.id)) if hasattr(dssp, "get") else None
+            asa = dssp_entry[3] if dssp_entry is not None else 0.0
+            rsa = float(np.clip(asa / MAX_ASA.get(aa, 1.0), 0.0, 1.0))
+            hydro = float(np.mean([s.get(aa, 0.0) for s in HYDRO_SCALES]))
+            poly = [1.0, rsa, float(flex[i]), rsa * float(flex[i])]
+
+            bond = 0.0
+            if 0 < i < len(residues) - 1:
+                bond = float(Vector.angle(
+                    residues[i-1]["C"].get_vector() - r["N"].get_vector(),
+                    residues[i+1]["O"].get_vector() - r["N"].get_vector(),
+                ))
+            omega = float(Vector.angle(
+                r["N"].get_vector() - r["CA"].get_vector(),
+                r["O"].get_vector() - r["C"].get_vector(),
+            ))
+
+            ca = r["CA"].coord
+            n_coord = r["N"].coord
+            ref = (r["CB"].coord - ca) if "CB" in r else (n_coord - ca)
+            neigh = ca_tree.query_ball_point(ca, 8.0)
+            up = sum(1 for j in neigh if j != i and np.dot(ca_coords[j] - ca, ref) >= 0)
+            down = max(len(neigh) - 1, 0) - up
+            total = max(len(neigh) - 1, 1)
+
+            feats.append([
+                rsa, float(flex[i]), hydro, float(dens[i]),
+                up / total, down / total,
+                *poly,
+                bond,
+                float(np.sin(phis[i])), float(np.cos(phis[i])),
+                float(np.sin(psis[i])), float(np.cos(psis[i])),
+                float(np.sin(omega)), float(np.cos(omega)),
+                float(ca[0]), float(ca[1]), float(ca[2]),
+                float(n_coord[0]), float(n_coord[1]), float(n_coord[2]),
+            ])
+        except Exception as e:
+            print(f"[WARN] Residue {i} ({r.resname} {r.id}): {e} — using zeros")
+            feats.append([0.0] * (len(FEATURE_NAMES) + len(COORD_NAMES)))
+            bad += 1
+
+    if bad:
+        print(f"[WARN] {bad}/{len(residues)} residues used zero fallback")
+
+    result = np.array(feats, dtype=np.float32)
+    print(f"[DEBUG] Features extracted: {result.shape}")
+    return result
 
 
 def build_dataset(fasta_file, out_csv, checkpoint_every=50):
@@ -325,17 +279,12 @@ def build_dataset(fasta_file, out_csv, checkpoint_every=50):
     print(f"[START] {fasta_file}")
     print(f"{'='*80}\n")
 
-    try:
-        with open(fasta_file) as f:
-            lines = [l.strip() for l in f if l.strip()]
-    except Exception as e:
-        print(f"[FATAL] Cannot read {fasta_file}: {e}")
-        return
+    with open(fasta_file) as f:
+        lines = [l.strip() for l in f if l.strip()]
 
     total_proteins = len(lines) // 3
     print(f"[INFO] Total proteins: {total_proteins}\n")
 
-    # Resume from checkpoint if available
     partial_path = out_csv + ".partial"
     rows = []
     done_keys = set()
@@ -348,7 +297,8 @@ def build_dataset(fasta_file, out_csv, checkpoint_every=50):
         except Exception as e:
             print(f"[WARN] Could not load checkpoint: {e} — starting fresh")
 
-    success_count = failed_count = resumed_count = 0
+    csv_columns = ["PDB", "Chain", "ResIdx", "AA", "Label"] + FEATURE_NAMES + COORD_NAMES
+    success = failed = resumed = 0
 
     for i in range(0, len(lines), 3):
         protein_num = i // 3 + 1
@@ -358,86 +308,64 @@ def build_dataset(fasta_file, out_csv, checkpoint_every=50):
 
             pdb, chain = parse_header(h)
             if pdb is None:
-                print(f"[SKIP] Header parsing failed")
-                failed_count += 1
-                continue
-
-            # Validate sequence and label alignment
+                failed += 1; continue
             if len(seq) != len(lab):
                 print(f"[SKIP] seq/label length mismatch ({len(seq)} vs {len(lab)})")
-                failed_count += 1
-                continue
+                failed += 1; continue
             if not all(c in "01" for c in lab):
                 print(f"[SKIP] Invalid label characters")
-                failed_count += 1
-                continue
+                failed += 1; continue
 
-            # Skip if already processed (resume support)
             key = (pdb.lower(), chain or "?")
             if key in done_keys:
                 print(f"[SKIP] Already done (resuming)")
-                resumed_count += 1
-                success_count += 1
-                continue
+                resumed += 1; success += 1; continue
 
             path = download_structure(pdb)
             if path is None:
-                failed_count += 1
-                continue
+                failed += 1; continue
 
             structure = parse_structure(pdb, path)
             if structure is None:
-                failed_count += 1
-                continue
+                failed += 1; continue
 
             if chain is None:
                 chain = select_best_chain(structure, seq)
                 if chain is None:
                     print(f"[SKIP] Chain selection failed")
-                    failed_count += 1
-                    continue
+                    failed += 1; continue
 
             feats = extract_17D_features(structure, path, chain, seq)
-            if feats is None:
+            if feats is None or feats.shape[1] != len(FEATURE_NAMES) + len(COORD_NAMES):
                 print(f"[SKIP] Feature extraction failed")
-                failed_count += 1
-                continue
-
-            if feats.shape[1] != len(FEATURE_NAMES):
-                print(f"[ERROR] Feature dim mismatch: {feats.shape[1]} != {len(FEATURE_NAMES)}")
-                failed_count += 1
-                continue
+                failed += 1; continue
 
             L = min(len(seq), len(feats))
             for j in range(L):
                 rows.append([pdb.lower(), chain, j+1, seq[j], int(lab[j])] + feats[j].tolist())
-
             print(f"[OK] {pdb}_{chain}: {L} residues")
-            success_count += 1
+            success += 1
 
-            # Periodic checkpoint so a crash doesn't lose hours of work
-            if success_count % checkpoint_every == 0:
-                df_ckpt = pd.DataFrame(rows, columns=["PDB", "Chain", "ResIdx", "AA", "Label"] + FEATURE_NAMES)
-                df_ckpt.to_csv(partial_path, index=False)
-                print(f"[CHECKPOINT] {success_count} proteins / {len(rows)} residues saved")
+            if success % checkpoint_every == 0:
+                pd.DataFrame(rows, columns=csv_columns).to_csv(partial_path, index=False)
+                print(f"[CHECKPOINT] {success} proteins / {len(rows)} residues saved")
 
         except Exception as e:
             print(f"[ERROR] Protein {protein_num}: {e}")
-            failed_count += 1
+            failed += 1
 
     os.makedirs(os.path.dirname(out_csv) or ".", exist_ok=True)
-    df = pd.DataFrame(rows, columns=["PDB", "Chain", "ResIdx", "AA", "Label"] + FEATURE_NAMES)
+    df = pd.DataFrame(rows, columns=csv_columns)
     df.to_csv(out_csv, index=False)
-
     if os.path.exists(partial_path):
         os.unlink(partial_path)
 
     print(f"\n{'='*80}")
     print(f"[SUMMARY] {fasta_file}")
     print(f"  Total:       {total_proteins}")
-    print(f"  Succeeded:   {success_count}  (resumed: {resumed_count})")
-    print(f"  Failed:      {failed_count}")
-    print(f"  Success rate:{success_count/total_proteins*100:.1f}%")
+    print(f"  Succeeded:   {success}  (resumed: {resumed})")
+    print(f"  Failed:      {failed}")
+    print(f"  Success rate:{success/total_proteins*100:.1f}%")
     print(f"  Output:      {out_csv}  {df.shape}")
     print(f"{'='*80}\n")
 

@@ -1,6 +1,12 @@
-import os, sys, json, argparse, warnings
+import os
+import sys
+import json
+import argparse
+import warnings
 warnings.filterwarnings("ignore", message=".*Plan failed with a cudnnException.*")
-import numpy as np
+
+from itertools import chain
+
 import torch
 import torch.optim as optim
 from torch_geometric.loader import DataLoader
@@ -11,66 +17,81 @@ import optuna
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA_ROOT = os.path.join(ROOT, "..")
 sys.path.insert(0, ROOT)
+sys.path.insert(0, DATA_ROOT)
 
-from createdatset import PPISDataset
-from model.esm_projection import ESMProjection
-from model.fusion import GatedFusion
+from imbalance_optim import Lion
+from createdatset import PPISDataset, EDGE_ATTR_DIM, NUM_PLM_LAYERS, PLM_DIM
+from model.esm_projection import MultiLayerProjection
+from model.fusion import CrossAttentionFusion
 from model.gcn import GCNEncoder
 from model.tcn import BiTCN
 from model.classifier import Classifier
-from train import (TRAIN_FULL_CSV, TRAIN_CSV, VAL_CSV, ESM_DIR, PDB_DIR,
+from train import (TRAIN_FULL_CSV, TRAIN_CSV, VAL_CSV, ESM_DIR,
+                   NUM_WORKERS, PIN_MEMORY,
                    ensure_train_val_split, ensure_normalization,
                    hybrid_focal_cost_loss, find_mcc_threshold,
                    compute_dataset_alpha, set_seed)
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+LOADER_KWARGS = dict(
+    num_workers=NUM_WORKERS,
+    pin_memory=PIN_MEMORY,
+    persistent_workers=NUM_WORKERS > 0,
+)
 
 
 def build(trial):
     hp = {
-        "lr":             trial.suggest_float("lr", 1e-5, 5e-4, log=True),
-        "weight_decay":   trial.suggest_float("weight_decay", 1e-6, 1e-3, log=True),
+        "lr":             trial.suggest_float("lr", 1e-6, 3e-5, log=True),
+        "weight_decay":   trial.suggest_float("weight_decay", 1e-5, 1e-2, log=True),
         "focal_gamma":    trial.suggest_float("focal_gamma", 1.0, 3.0),
-        "proj_dropout":   trial.suggest_float("proj_dropout", 0.05, 0.4),
-        "fusion_dropout": trial.suggest_float("fusion_dropout", 0.0, 0.3),
+        "proj_dropout":   trial.suggest_float("proj_dropout", 0.1, 0.4),
+        "fusion_dropout": trial.suggest_float("fusion_dropout", 0.05, 0.3),
+        "fusion_heads":   trial.suggest_categorical("fusion_heads", [2, 4, 8]),
         "gcn_layers":     trial.suggest_int("gcn_layers", 4, 10),
         "gcn_alpha":      trial.suggest_float("gcn_alpha", 0.1, 0.7),
         "gcn_dropout":    trial.suggest_float("gcn_dropout", 0.05, 0.3),
         "tcn_dropout":    trial.suggest_float("tcn_dropout", 0.05, 0.3),
-        "clf_dropout":    trial.suggest_float("clf_dropout", 0.1, 0.5),
+        "clf_dropout":    trial.suggest_float("clf_dropout", 0.2, 0.5),
         "lambda_mcc":     trial.suggest_float("lambda_mcc", 0.0, 2.0),
-        "batch_size":     trial.suggest_categorical("batch_size", [1, 2, 4, 8, 16]),
+        "batch_size":     trial.suggest_categorical("batch_size", [1, 2, 4]),
     }
-    proj   = ESMProjection(2560, 512, 256, hp["proj_dropout"]).to(DEVICE)
-    fusion = GatedFusion(256, 17, 256, hp["fusion_dropout"]).to(DEVICE)
-    gcn    = GCNEncoder(256, 256, hp["gcn_layers"], hp["gcn_alpha"], hp["gcn_dropout"]).to(DEVICE)
-    tcn    = BiTCN(256, [64, 128, 256, 512], hp["tcn_dropout"]).to(DEVICE)
-    clf    = Classifier(1024, hp["clf_dropout"]).to(DEVICE)
-    return hp, proj, fusion, gcn, tcn, clf
+    modules = [
+        MultiLayerProjection(NUM_PLM_LAYERS, PLM_DIM, 1024, 256,
+                             hp["proj_dropout"]).to(DEVICE),
+        CrossAttentionFusion(d_esm=256, d_struct=17, d_out=256,
+                             n_heads=hp["fusion_heads"],
+                             dropout=hp["fusion_dropout"]).to(DEVICE),
+        GCNEncoder(256, 256, hp["gcn_layers"], hp["gcn_alpha"], hp["gcn_dropout"],
+                   edge_dim=EDGE_ATTR_DIM).to(DEVICE),
+        BiTCN(256, [64, 128, 256, 512], hp["tcn_dropout"]).to(DEVICE),
+        Classifier(1024, hp["clf_dropout"]).to(DEVICE),
+    ]
+    return hp, modules
 
 
 def step(modules, data, alpha_pos, gamma, lambda_mcc):
     proj, fusion, gcn, tcn, clf = modules
-    esm    = data.x[:, :2560]
-    struct = data.x[:, 2560:]
-    h0 = proj(esm)
-    h  = fusion(h0, struct)
-    h  = gcn(h, data.edge_index, edge_weight=data.edge_weight)
-    padded, mask = to_dense_batch(h, data.batch)
-    lengths = mask.sum(dim=1)
-    h = tcn(padded, lengths=lengths)[mask]
+    plm_proj = proj(data.emb)
+    plm_dense, mask = to_dense_batch(plm_proj, data.batch)
+    struct_dense, _ = to_dense_batch(data.x, data.batch)
+    fused = fusion(plm_dense, struct_dense, mask=mask)
+    h = fused[mask]
+    h = gcn(h, data.edge_index, edge_weight=data.edge_weight, edge_attr=data.edge_attr)
+    padded, mask2 = to_dense_batch(h, data.batch)
+    h = tcn(padded, lengths=mask2.sum(dim=1))[mask2]
     logits = clf(h)
     y = data.y.long().view(-1)
-    loss = hybrid_focal_cost_loss(logits, y, alpha_pos, gamma=gamma, lambda_mcc=lambda_mcc)
-    return logits, y, loss
+    return logits, y, hybrid_focal_cost_loss(logits, y, alpha_pos,
+                                             gamma=gamma, lambda_mcc=lambda_mcc)
 
 
 def objective(trial, train_ds, val_ds, alpha_pos, max_epochs):
-    hp, *modules = build(trial)
-    train_loader = DataLoader(train_ds, batch_size=hp["batch_size"], shuffle=True)
-    val_loader   = DataLoader(val_ds,   batch_size=hp["batch_size"], shuffle=False)
-    params = [p for m in modules for p in m.parameters()]
-    optimizer = optim.AdamW(params, lr=hp["lr"], weight_decay=hp["weight_decay"])
+    hp, modules = build(trial)
+    train_loader = DataLoader(train_ds, batch_size=hp["batch_size"], shuffle=True,  **LOADER_KWARGS)
+    val_loader   = DataLoader(val_ds,   batch_size=hp["batch_size"], shuffle=False, **LOADER_KWARGS)
+    params = list(chain.from_iterable(m.parameters() for m in modules))
+    optimizer = Lion(params, lr=hp["lr"], weight_decay=hp["weight_decay"])
     scaler = GradScaler("cuda")
 
     best_mcc = -1.0
@@ -80,21 +101,24 @@ def objective(trial, train_ds, val_ds, alpha_pos, max_epochs):
             data = data.to(DEVICE)
             optimizer.zero_grad(set_to_none=True)
             with autocast(device_type="cuda"):
-                _, _, loss = step(modules, data, alpha_pos, hp["focal_gamma"], hp["lambda_mcc"])
+                _, _, loss = step(modules, data, alpha_pos,
+                                  hp["focal_gamma"], hp["lambda_mcc"])
             scaler.scale(loss).backward()
             scaler.unscale_(optimizer)
             torch.nn.utils.clip_grad_norm_(params, 1.0)
-            scaler.step(optimizer); scaler.update()
+            scaler.step(optimizer)
+            scaler.update()
 
         for m in modules: m.eval()
         probs_all, labels_all = [], []
         with torch.no_grad(), autocast(device_type="cuda"):
             for data in val_loader:
                 data = data.to(DEVICE)
-                logits, y, _ = step(modules, data, alpha_pos, hp["focal_gamma"], hp["lambda_mcc"])
+                logits, y, _ = step(modules, data, alpha_pos,
+                                    hp["focal_gamma"], hp["lambda_mcc"])
                 probs_all.append(torch.softmax(logits, dim=1)[:, 1].cpu())
                 labels_all.append(y.cpu())
-        probs = torch.cat(probs_all).numpy()
+        probs  = torch.cat(probs_all).numpy()
         labels = torch.cat(labels_all).numpy()
         _, mcc_opt = find_mcc_threshold(probs, labels)
         best_mcc = max(best_mcc, mcc_opt)
@@ -106,9 +130,9 @@ def objective(trial, train_ds, val_ds, alpha_pos, max_epochs):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--trials", type=int, default=20)
-    ap.add_argument("--epochs", type=int, default=15)
-    ap.add_argument("--seed", type=int, default=42)
+    ap.add_argument("--trials",  type=int, default=20)
+    ap.add_argument("--epochs",  type=int, default=15)
+    ap.add_argument("--seed",    type=int, default=42)
     ap.add_argument("--sampler", choices=["tpe", "random"], default="tpe")
     ap.add_argument("--no-prune", action="store_true")
     args = ap.parse_args()
@@ -116,8 +140,8 @@ def main():
     set_seed(args.seed)
     ensure_train_val_split(TRAIN_FULL_CSV, TRAIN_CSV, VAL_CSV)
     ensure_normalization(TRAIN_CSV)
-    train_ds = PPISDataset(TRAIN_CSV, ESM_DIR, PDB_DIR)
-    val_ds   = PPISDataset(VAL_CSV,   ESM_DIR, PDB_DIR)
+    train_ds = PPISDataset(TRAIN_CSV, ESM_DIR)
+    val_ds   = PPISDataset(VAL_CSV,   ESM_DIR)
     alpha_pos = compute_dataset_alpha(train_ds)
 
     sampler = (optuna.samplers.RandomSampler(seed=args.seed)
@@ -135,7 +159,8 @@ def main():
     print("Best params:", study.best_trial.params)
     out = os.path.join(ROOT, "best_hp.json")
     with open(out, "w") as f:
-        json.dump({"value": study.best_trial.value, "params": study.best_trial.params}, f, indent=2)
+        json.dump({"value": study.best_trial.value, "params": study.best_trial.params},
+                  f, indent=2)
     print(f"Saved -> {out}")
 
 

@@ -1,30 +1,35 @@
-import os, sys, json, argparse
+import os
+import sys
+import json
+import argparse
+
 import numpy as np
 import torch
 from torch_geometric.loader import DataLoader
 from torch_geometric.utils import to_dense_batch
 from torch.amp import autocast
-from sklearn.metrics import (roc_auc_score, average_precision_score,
-                              f1_score, matthews_corrcoef,
-                              precision_recall_curve, accuracy_score,
-                              precision_score, recall_score)
+from sklearn.metrics import (
+    roc_auc_score, average_precision_score, f1_score, matthews_corrcoef,
+    precision_recall_curve, accuracy_score, precision_score, recall_score,
+)
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA_ROOT = os.path.join(ROOT, "..")
 sys.path.insert(0, ROOT)
 
-from createdatset import PPISDataset
-from model.protbert_projection import ProtBertProjection
-from model.fusion import GatedFusion
+from createdatset import PPISDataset, EDGE_ATTR_DIM, NUM_PLM_LAYERS, PLM_DIM
+from model.protbert_projection import MultiLayerProjection
+from model.fusion import CrossAttentionFusion
 from model.gcn import GCNEncoder
 from model.tcn import BiTCN
 from model.classifier import Classifier
 from train import DEFAULT_HP, HP_PATH, set_seed
 
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-PROTBERT_DIR = os.path.join(DATA_ROOT, "data", "protbert")
-PDB_DIR      = os.path.join(DATA_ROOT, "data", "pdbs")
+DEVICE       = "cuda" if torch.cuda.is_available() else "cpu"
+PROTBERT_DIR = os.path.join(DATA_ROOT, "data", "protbert_multi")
 CKPT         = os.path.join(ROOT, "checkpoints", "best.pt")
+NUM_WORKERS = int(os.environ.get("PPI_NUM_WORKERS", "4"))
+TEST_BATCH_SIZE = int(os.environ.get("PPI_TEST_BATCH_SIZE", "4"))
 TEST_CSVS = {
     "Test_60":  os.path.join(DATA_ROOT, "data", "structural", "Test_60_17D.csv"),
     "Test_315": os.path.join(DATA_ROOT, "data", "structural", "Test_315_17D.csv"),
@@ -35,14 +40,19 @@ def get_hp():
     hp = dict(DEFAULT_HP)
     if os.path.exists(HP_PATH):
         with open(HP_PATH) as f:
-            hp.update({k: v for k, v in json.load(f).get("params", {}).items() if k in DEFAULT_HP})
+            tuned = json.load(f).get("params", {})
+        hp.update({k: v for k, v in tuned.items() if k in DEFAULT_HP})
     return hp
 
 
 def load_models(ckpt, hp):
-    proj   = ProtBertProjection(1024, 512, 256, hp["proj_dropout"]).to(DEVICE)
-    fusion = GatedFusion(256, 17, 256, hp["fusion_dropout"]).to(DEVICE)
-    gcn    = GCNEncoder(256, 256, hp["gcn_layers"], hp["gcn_alpha"], hp["gcn_dropout"]).to(DEVICE)
+    proj   = MultiLayerProjection(NUM_PLM_LAYERS, PLM_DIM, 512, 256,
+                                  hp["proj_dropout"]).to(DEVICE)
+    fusion = CrossAttentionFusion(d_esm=256, d_struct=17, d_out=256,
+                                  n_heads=hp.get("fusion_heads", 4),
+                                  dropout=hp["fusion_dropout"]).to(DEVICE)
+    gcn    = GCNEncoder(256, 256, hp["gcn_layers"], hp["gcn_alpha"], hp["gcn_dropout"],
+                        edge_dim=EDGE_ATTR_DIM).to(DEVICE)
     tcn    = BiTCN(256, [64, 128, 256, 512], hp["tcn_dropout"]).to(DEVICE)
     clf    = Classifier(1024, hp["clf_dropout"]).to(DEVICE)
     proj.load_state_dict(ckpt["proj"])
@@ -61,14 +71,14 @@ def run_eval(loader, proj, fusion, gcn, tcn, clf):
     with autocast(device_type="cuda"):
         for data in loader:
             data = data.to(DEVICE)
-            pb     = data.x[:, :1024]
-            struct = data.x[:, 1024:]
-            h0 = proj(pb)
-            h  = fusion(h0, struct)
-            h  = gcn(h, data.edge_index, edge_weight=data.edge_weight)
-            padded, mask = to_dense_batch(h, data.batch)
-            lengths = mask.sum(dim=1)
-            h = tcn(padded, lengths=lengths)[mask]
+            plm_proj = proj(data.emb)
+            plm_dense, mask = to_dense_batch(plm_proj, data.batch)
+            struct_dense, _ = to_dense_batch(data.x, data.batch)
+            fused = fusion(plm_dense, struct_dense, mask=mask)
+            h = fused[mask]
+            h = gcn(h, data.edge_index, edge_weight=data.edge_weight, edge_attr=data.edge_attr)
+            padded, mask2 = to_dense_batch(h, data.batch)
+            h = tcn(padded, lengths=mask2.sum(dim=1))[mask2]
             logits = clf(h)
             probs_all.append(torch.softmax(logits, dim=1)[:, 1].cpu())
             labels_all.append(data.y.long().view(-1).cpu())
@@ -106,9 +116,13 @@ def main():
     results = {}
     for name, csv_path in TEST_CSVS.items():
         if not os.path.exists(csv_path):
-            print(f"[SKIP] {name}: {csv_path} not found"); continue
-        ds = PPISDataset(csv_path, PROTBERT_DIR, PDB_DIR)
-        loader = DataLoader(ds, batch_size=1, shuffle=False)
+            print(f"[SKIP] {name}: {csv_path} not found")
+            continue
+        ds = PPISDataset(csv_path, PROTBERT_DIR)
+        loader = DataLoader(ds, batch_size=TEST_BATCH_SIZE, shuffle=False,
+                            num_workers=NUM_WORKERS,
+                            pin_memory=DEVICE == "cuda",
+                            persistent_workers=NUM_WORKERS > 0)
         probs, labels = run_eval(loader, proj, fusion, gcn, tcn, clf)
 
         m_saved = metrics(probs, labels, saved_thresh)

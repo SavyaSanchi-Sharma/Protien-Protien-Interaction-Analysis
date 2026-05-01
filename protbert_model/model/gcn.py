@@ -1,3 +1,4 @@
+import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch_geometric.nn import GCNConv
@@ -17,7 +18,8 @@ class DeepGCNLayer(nn.Module):
         return out
 
 class GCNEncoder(nn.Module):
-    def __init__(self, in_dim, hidden=256, num_layers=6, alpha=0.1, dropout=0.2):
+    def __init__(self, in_dim, hidden=256, num_layers=6, alpha=0.1, dropout=0.2,
+                 edge_dim=None):
         super().__init__()
         self.alpha = alpha
 
@@ -32,7 +34,18 @@ class GCNEncoder(nn.Module):
             DeepGCNLayer(hidden, dropout=dropout) for _ in range(num_layers)
         ])
 
-    def forward(self, x, edge_index, edge_weight=None):
+        self.edge_proj = None
+        if edge_dim is not None:
+            self.edge_proj = nn.Sequential(
+                nn.Linear(edge_dim, edge_dim),
+                nn.GELU(),
+                nn.Linear(edge_dim, 1),
+            )
+
+    def forward(self, x, edge_index, edge_weight=None, edge_attr=None):
+        if edge_attr is not None and self.edge_proj is not None:
+            score = torch.sigmoid(self.edge_proj(edge_attr).squeeze(-1))
+            edge_weight = score if edge_weight is None else edge_weight * score
         x = self.input(x)
         h0 = x
         for layer in self.layers:

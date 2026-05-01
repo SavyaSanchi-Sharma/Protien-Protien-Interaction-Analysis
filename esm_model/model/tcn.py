@@ -4,19 +4,13 @@ import torch.nn.functional as F
 
 
 def flip_per_sequence(x, lengths):
-    """Reverse each sequence in a padded batch independently.
-
-    x:       (B, L_max, C) zero-padded
-    lengths: (B,) int — number of valid positions per sequence
-
-    For sequence i, positions 0..lengths[i]-1 are flipped; positions
-    lengths[i]..L_max-1 stay as zeros (so the conv padding behaviour matches
-    the per-protein single-sequence call exactly).
-    """
+    # Padded zeros stay in place; only the valid prefix of each sequence is
+    # reversed, so dilated convs see the same boundary behaviour as a
+    # single-protein call.
     B, L_max, C = x.shape
-    pos = torch.arange(L_max, device=x.device).unsqueeze(0)         # (1, L_max)
-    L = lengths.unsqueeze(1)                                         # (B, 1)
-    flip_idx = torch.where(pos < L, L - 1 - pos, pos)                # (B, L_max)
+    pos = torch.arange(L_max, device=x.device).unsqueeze(0)
+    L = lengths.unsqueeze(1)
+    flip_idx = torch.where(pos < L, L - 1 - pos, pos)
     flip_idx = flip_idx.unsqueeze(-1).expand(B, L_max, C)
     return torch.gather(x, 1, flip_idx)
 
@@ -85,9 +79,8 @@ class BiTCN(nn.Module):
         self.norm = nn.LayerNorm(channels[-1] * 2)
 
     def forward(self, x, lengths=None):
-        # x: (B, L, C). If lengths is given, re-zero padded positions after
-        # every block so contamination from one protein's padding can't leak
-        # into another protein's boundary residues via dilated kernels.
+        # When batched, re-zero padded positions in every block so dilated
+        # kernels can't leak one protein's padding into another's boundary.
         if lengths is None:
             xf = self.f(x)
             xb = self.b(torch.flip(x, dims=[1]))

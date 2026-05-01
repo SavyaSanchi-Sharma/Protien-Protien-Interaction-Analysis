@@ -13,19 +13,25 @@ env/
 .env/
 ENV/
 
-# ──────── IDE / editor ────────
+# ──────── IDE / editor / tooling ────────
 .vscode/
 .idea/
 .codex
 .codex/
+.claude/
 *.swp
 *.swo
 .DS_Store
 
 # ──────── Large data (regenerable; keep code & manifests only) ────────
+# PDB structures and PLM embeddings — regenerate via dataprep.sh
 data/pdbs/
 data/esm/
 data/protbert/
+data/esm_multi/
+data/protbert_multi/
+
+# Derived training-time artefacts in data/structural/
 data/structural/Train_split_train.csv
 data/structural/Train_split_val.csv
 data/structural/*.partial
@@ -39,17 +45,17 @@ dset72/
 results/
 
 # ──────── Per-model generated artefacts ────────
-# Checkpoints (large, regenerable; snapshots live in ../Model_snapshots/)
-*/checkpoints/*.pt
-*/checkpoints/*.pth
+# Match anywhere in the tree (covers active models + vintage/).
+**/checkpoints/
+**/analysis/
 
-# Training/eval outputs (regenerable from best.pt)
-*/training_log.json
-*/test_results.json
+# Per-run training/eval outputs (regenerable from best.pt + test.py)
+**/training_log.json
+**/test_results.json
 
-# Tune outputs — keep best_hp.json under version control by default;
-# uncomment the next line if you'd rather not track them.
-# */best_hp.json
+# Tune outputs — best_hp.json IS tracked by default for reproducibility.
+# Uncomment the next line if you'd rather not version-control them.
+# **/best_hp.json
 
 # ──────── Runtime logs ────────
 logs/
