@@ -8,10 +8,12 @@ from scipy.spatial import KDTree
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA_ROOT = os.path.join(ROOT, "..")
 
-SCALAR_COLS = ['RSA', 'ResFlex', 'Hydrophobicity', 'PackingDensity', 'HSE_up', 'HSE_down', 'Poly_RSA', 'Poly_Flex', 'Poly_interaction', 'BondAngle']
-CONST_COLS = ["Poly_bias"]
+SCALAR_COLS = ['RSA', 'ResFlex', 'Hydrophobicity', 'PackingDensity', 'HSE_up', 'HSE_down',
+               'ResidueDepth', 'SurfaceCurvature', 'ElecPotential', 'LocalPlanarity',
+               'Poly_interaction',
+               'BondAngle']
 ANGLE_COLS = ["sin_phi", "cos_phi", "sin_psi", "cos_psi", "sin_omega", "cos_omega"]
-STRUCT_COLS = SCALAR_COLS + CONST_COLS + ANGLE_COLS
+STRUCT_COLS = SCALAR_COLS + ANGLE_COLS
 COORD_COLS = ["CA_x", "CA_y", "CA_z", "N_x", "N_y", "N_z"]
 NORM_PATH = os.path.join(DATA_ROOT, "data", "struct_norm.npz")
 
@@ -93,10 +95,10 @@ def _build_edges_for_chain(coords_ca, coords_n, L, cutoff):
 class PPISDataset(Dataset):
     def __init__(self, csv_path, esm_dir, cutoff=14.0, norm_path=None):
         self.df = pd.read_csv(csv_path)
-        missing_coord_cols = [c for c in COORD_COLS if c not in self.df.columns]
-        if missing_coord_cols:
+        missing_cols = [c for c in STRUCT_COLS + COORD_COLS if c not in self.df.columns]
+        if missing_cols:
             raise RuntimeError(
-                f"{csv_path} is missing coordinate columns {missing_coord_cols}. "
+                f"{csv_path} is missing columns {missing_cols}. "
                 f"Re-run dataprep/dataprep.py to regenerate the structural CSV."
             )
         self.esm_dir = esm_dir
@@ -110,6 +112,11 @@ class PPISDataset(Dataset):
                 f"Run train.py first — it computes normalization from the training set."
             )
         stats = np.load(norm_path)
+        if stats["scalar_mean"].shape[0] != len(SCALAR_COLS):
+            raise RuntimeError(
+                f"Stale {norm_path}: expected {len(SCALAR_COLS)} scalar entries, "
+                f"got {stats['scalar_mean'].shape[0]}. Delete it and re-run train.py."
+            )
         self.scalar_mean = torch.from_numpy(stats["scalar_mean"]).float()
         self.scalar_std = torch.from_numpy(stats["scalar_std"]).float()
         print(f"[NORM] Loaded normalization from {norm_path}")
@@ -147,6 +154,7 @@ class PPISDataset(Dataset):
                 "edge_index": edge_index,
                 "edge_weight": edge_weight,
                 "edge_attr": edge_attr,
+                "pos": torch.from_numpy(coords_ca).contiguous(),
             })
 
         print(f"[INFO] Total valid groups: {len(self._cache)}")
@@ -183,22 +191,22 @@ class PPISDataset(Dataset):
         L = min(L_csv, L_plm)
 
         if L < L_csv:
-            # Truncating struct also requires filtering edges that reference
-            # residues beyond L — preserves the original min(...) semantics.
             mask = (c["edge_index"][0] < L) & (c["edge_index"][1] < L)
             edge_index = c["edge_index"][:, mask].contiguous()
             edge_weight = c["edge_weight"][mask].contiguous()
             edge_attr = c["edge_attr"][mask].contiguous()
             struct = struct_full[:L].contiguous()
             labels = labels_full[:L]
+            pos = c["pos"][:L].contiguous()
         else:
             edge_index = c["edge_index"]
             edge_weight = c["edge_weight"]
             edge_attr = c["edge_attr"]
             struct = struct_full
             labels = labels_full
+            pos = c["pos"]
 
         emb = plm[:L].contiguous()
-        return Data(x=struct, emb=emb,
+        return Data(x=struct, emb=emb, pos=pos,
                     edge_index=edge_index, edge_weight=edge_weight,
                     edge_attr=edge_attr, y=labels)

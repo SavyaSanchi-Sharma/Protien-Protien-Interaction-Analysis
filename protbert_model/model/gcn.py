@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch_geometric.nn import GCNConv
 
+
 class DeepGCNLayer(nn.Module):
     def __init__(self, hidden, dropout=0.2):
         super().__init__()
@@ -16,6 +17,7 @@ class DeepGCNLayer(nn.Module):
         out = self.norm(out)
         out = self.dropout(out)
         return out
+
 
 class GCNEncoder(nn.Module):
     def __init__(self, in_dim, hidden=256, num_layers=6, alpha=0.1, dropout=0.2,

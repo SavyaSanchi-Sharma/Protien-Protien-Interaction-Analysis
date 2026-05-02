@@ -49,8 +49,9 @@ DEFAULT_HP = {
     "lambda_mcc": 0.5,
     "proj_dropout": 0.2,
     "fusion_dropout": 0.01,
+    "fusion_heads": 4,
     "gcn_layers": 6,
-    "gcn_alpha": 0.2,
+    "gcn_alpha": 0.3,
     "gcn_dropout": 0.1,
     "tcn_dropout": 0.1,
     "clf_dropout": 0.3,
@@ -222,7 +223,7 @@ def build_modules(hp):
     return [
         MultiLayerProjection(NUM_PLM_LAYERS, PLM_DIM, 1024, 256,
                              hp["proj_dropout"]).to(DEVICE),
-        CrossAttentionFusion(d_esm=256, d_struct=17, d_out=256,
+        CrossAttentionFusion(d_esm=256, d_struct=18, d_out=256,
                              n_heads=hp.get("fusion_heads", 4),
                              dropout=hp["fusion_dropout"]).to(DEVICE),
         GCNEncoder(256, 256, hp["gcn_layers"], hp["gcn_alpha"], hp["gcn_dropout"],
@@ -251,7 +252,7 @@ def main():
 
     hp = load_hp()
     log_info("=" * 80)
-    log_info(f"esm_model: ESM-2 3B multi-layer ({NUM_PLM_LAYERS}×{PLM_DIM}D) + 17D struct | CA fusion | GCN + BiTCN")
+    log_info(f"esm_model: ESM-2 3B multi-layer ({NUM_PLM_LAYERS}×{PLM_DIM}D) + 17D struct | geo-biased fusion | EGNN + BiTCN")
     log_info(f"Device: {DEVICE} | Epochs: {EPOCHS} | LR: {hp['lr']} | Batch: {hp['batch_size']}")
     log_info(f"HP: {hp}")
     log_info("=" * 80)

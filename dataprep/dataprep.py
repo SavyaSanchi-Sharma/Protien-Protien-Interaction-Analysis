@@ -7,7 +7,7 @@ import pandas as pd
 from Bio.PDB import PDBParser, DSSP
 from Bio.PDB.vectors import Vector
 from Bio.SeqUtils import seq1
-from scipy.spatial import KDTree
+from scipy.spatial import KDTree, ConvexHull
 from scipy.interpolate import CubicSpline
 
 PDB_DIR = "data/pdbs"
@@ -17,15 +17,16 @@ np.random.seed(42)
 FEATURE_NAMES = [
     "RSA", "ResFlex", "Hydrophobicity", "PackingDensity",
     "HSE_up", "HSE_down",
-    "Poly_bias", "Poly_RSA", "Poly_Flex", "Poly_interaction",
+    "ResidueDepth", "SurfaceCurvature", "ElecPotential", "LocalPlanarity",
+    "Poly_interaction",
     "BondAngle",
     "sin_phi", "cos_phi", "sin_psi", "cos_psi",
     "sin_omega", "cos_omega"
 ]
 
-# Cα and N atom coordinates per residue. Used by the data loader to build the
-# residue contact graph and edge geometry without re-parsing the PDB.
 COORD_NAMES = ["CA_x", "CA_y", "CA_z", "N_x", "N_y", "N_z"]
+
+CHARGE_TABLE = {"R": 1.0, "K": 1.0, "D": -1.0, "E": -1.0, "H": 0.5}
 
 MAX_ASA = {
     'A': 121, 'R': 265, 'N': 187, 'D': 187, 'C': 148,
@@ -204,6 +205,60 @@ def extract_17D_features(structure, path, chain_id, fasta_seq):
     d_range = dens.max() - dens.min()
     dens = (dens - dens.min()) / d_range if d_range > 1e-6 else np.zeros_like(dens)
 
+    all_atoms_arr = np.array(all_atoms, dtype=np.float32)
+    try:
+        hull = ConvexHull(all_atoms_arr)
+        hull_tree = KDTree(all_atoms_arr[hull.vertices])
+        depth_raw = np.array([hull_tree.query(ca, k=1)[0] for ca in ca_coords], dtype=np.float32)
+    except Exception as e:
+        print(f"[WARN] ConvexHull failed ({e}); ResidueDepth set to zeros")
+        depth_raw = np.zeros(len(residues), dtype=np.float32)
+    dr = depth_raw.max() - depth_raw.min()
+    depth = (depth_raw - depth_raw.min()) / dr if dr > 1e-6 else np.zeros_like(depth_raw)
+
+    aa_codes = []
+    for r in residues:
+        try:
+            aa_codes.append(seq1(r.resname))
+        except Exception:
+            aa_codes.append("X")
+
+    K = min(12, len(residues) - 1)
+    curvature = np.zeros(len(residues), dtype=np.float32)
+    planarity = np.zeros(len(residues), dtype=np.float32)
+    if K >= 3:
+        for i, r in enumerate(residues):
+            ca = ca_coords[i]
+            _, idx = ca_tree.query(ca, k=K + 1)
+            idx = idx[idx != i][:K]
+            if len(idx) < 3:
+                continue
+            neigh = ca_coords[idx]
+            ref = (r["CB"].coord - ca) if "CB" in r else (r["N"].coord - ca)
+            ref_n = float(np.linalg.norm(ref))
+            if ref_n > 1e-6:
+                curvature[i] = float(np.dot(neigh.mean(axis=0) - ca, ref / ref_n))
+            centered = neigh - neigh.mean(axis=0)
+            cov = centered.T @ centered / len(neigh)
+            eigvals = np.linalg.eigvalsh(cov)
+            s = float(eigvals.sum())
+            if s > 1e-9:
+                planarity[i] = float(eigvals[0] / s)
+
+    elec = np.zeros(len(residues), dtype=np.float32)
+    for i in range(len(residues)):
+        ca = ca_coords[i]
+        p = 0.0
+        for j in ca_tree.query_ball_point(ca, 12.0):
+            if j == i:
+                continue
+            q = CHARGE_TABLE.get(aa_codes[j], 0.0)
+            if q == 0.0:
+                continue
+            d = float(np.linalg.norm(ca_coords[j] - ca))
+            p += q / max(d, 1.0)
+        elec[i] = p
+
     # Phi/psi from DSSP with cubic-spline interpolation over missing values.
     phis = np.full(len(residues), np.nan)
     psis = np.full(len(residues), np.nan)
@@ -224,12 +279,13 @@ def extract_17D_features(structure, path, chain_id, fasta_seq):
     bad = 0
     for i, r in enumerate(residues):
         try:
-            aa = seq1(r.resname)
-            dssp_entry = dssp.get((chain_id, r.id)) if hasattr(dssp, "get") else None
-            asa = dssp_entry[3] if dssp_entry is not None else 0.0
-            rsa = float(np.clip(asa / MAX_ASA.get(aa, 1.0), 0.0, 1.0))
+            aa = aa_codes[i]
+            try:
+                dssp_entry = dssp[(chain_id, r.id)]
+            except (KeyError, TypeError):
+                dssp_entry = None
+            rsa = float(np.clip(dssp_entry[3], 0.0, 1.0)) if dssp_entry is not None else 0.0
             hydro = float(np.mean([s.get(aa, 0.0) for s in HYDRO_SCALES]))
-            poly = [1.0, rsa, float(flex[i]), rsa * float(flex[i])]
 
             bond = 0.0
             if 0 < i < len(residues) - 1:
@@ -253,7 +309,8 @@ def extract_17D_features(structure, path, chain_id, fasta_seq):
             feats.append([
                 rsa, float(flex[i]), hydro, float(dens[i]),
                 up / total, down / total,
-                *poly,
+                float(depth[i]), float(curvature[i]), float(elec[i]), float(planarity[i]),
+                rsa * float(flex[i]),
                 bond,
                 float(np.sin(phis[i])), float(np.cos(phis[i])),
                 float(np.sin(psis[i])), float(np.cos(psis[i])),

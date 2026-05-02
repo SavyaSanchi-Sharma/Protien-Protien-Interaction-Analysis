@@ -3,7 +3,7 @@ from torch import nn
 
 
 class CrossAttentionFusion(nn.Module):
-    def __init__(self, d_esm=256, d_struct=17, d_out=256, n_heads=4,
+    def __init__(self, d_esm=256, d_struct=15, d_out=256, n_heads=4,
                  dropout=0.2, ffn_mult=2):
         super().__init__()
         self.struct_up = nn.Linear(d_struct, d_out)
@@ -38,10 +38,8 @@ class CrossAttentionFusion(nn.Module):
         self.ln_out = nn.LayerNorm(d_out)
         self.drop = nn.Dropout(dropout)
 
-    def forward(self, plm, struct, mask=None):
+    def forward(self, plm, struct, mask=None, pos=None):
         struct_h = self.struct_up(struct)
-        # MHA's key_padding_mask treats True as "ignore"; PyG's to_dense_batch
-        # mask uses True for valid residues. Invert before passing in.
         kpm = ~mask if mask is not None else None
 
         s2e, _ = self.s2e_attn(struct_h, plm, plm,

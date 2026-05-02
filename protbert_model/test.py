@@ -48,7 +48,7 @@ def get_hp():
 def load_models(ckpt, hp):
     proj   = MultiLayerProjection(NUM_PLM_LAYERS, PLM_DIM, 512, 256,
                                   hp["proj_dropout"]).to(DEVICE)
-    fusion = CrossAttentionFusion(d_esm=256, d_struct=17, d_out=256,
+    fusion = CrossAttentionFusion(d_esm=256, d_struct=18, d_out=256,
                                   n_heads=hp.get("fusion_heads", 4),
                                   dropout=hp["fusion_dropout"]).to(DEVICE)
     gcn    = GCNEncoder(256, 256, hp["gcn_layers"], hp["gcn_alpha"], hp["gcn_dropout"],
